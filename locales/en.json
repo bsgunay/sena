@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Velora — Pleated Blinds & Insect Screens",
+    "description": "Insect screen and pleated blind systems manufactured in Turkey. Information for trade dealers across Europe."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "workshop": "Workshop",
+    "about": "About",
+    "contact": "Contact",
+    "lang_label": "Language"
+  },
+  "brand": {
+    "name": "Velora",
+    "tagline": "Pleated Blinds & Insect Screens"
+  },
+  "home": {
+    "hero_eyebrow": "Made in Turkey, delivered across Europe",
+    "hero_title": "One folding system, one uninterrupted flow of air.",
+    "hero_subtitle": "We manufacture insect screen and pleated blind systems in our own workshop and supply trade dealers across Europe.",
+    "hero_cta": "View products",
+    "hero_cta_secondary": "Get in touch",
+    "intro_title": "A production partner for dealers",
+    "intro_text": "This site is not a sales platform. It's here to introduce our products, our manufacturing process and our company to trade dealers across Europe. Orders and pricing are handled directly through personal contact.",
+    "highlights": [
+      {
+        "title": "Made in our own workshop",
+        "text": "Cutting, assembly and final inspection all take place in-house — we don't outsource production to third parties."
+      },
+      {
+        "title": "Delivery across Europe",
+        "text": "We ship regularly and traceably to our dealers, with options for consolidated pallet shipments."
+      },
+      {
+        "title": "Technical support for dealers",
+        "text": "We provide our dealers with technical documentation and direct support on measuring, installation and product selection."
+      }
+    ],
+    "products_teaser_title": "Our product range",
+    "products_teaser_text": "From insect screen systems to pleated blinds — a wide range suited to different mounting types.",
+    "products_teaser_cta": "View all products",
+    "cta_title": "For dealer partnerships",
+    "cta_text": "Contact us for product information, sample requests or dealer terms.",
+    "cta_button": "Get in touch"
+  },
+  "products": {
+    "title": "Products",
+    "intro": "All our products are made to order and to measure, in our own workshop. The details below cover general product features; contact us for technical drawings and sample requests.",
+    "category_sineklik": "Insect Screen Systems",
+    "category_plise": "Pleated Blind Systems",
+    "specs_label": "Features",
+    "items": [
+      {
+        "category": "sineklik",
+        "name": "Pleated Insect Screen",
+        "description": "Accordion-folded insect screen for doors and windows, moving horizontally or vertically and retracting into its cassette when not in use.",
+        "specs": ["Aluminium frame and cassette profile", "Pleated fibreglass mesh", "Made to measure", "Suited to hinged and sliding doors"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Sliding Insect Screen",
+        "description": "Insect screen that slides horizontally along a track, suited to wide door and balcony openings.",
+        "specs": ["Available as single or double panel", "Aluminium profile", "Brush seal for weathertightness", "Suited to large openings"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Hinged Insect Screen",
+        "description": "Classic single-panel insect screen that opens and closes like a door.",
+        "specs": ["Self-closing hinge", "Aluminium frame", "Fits standard window and door sizes"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Magnetic Insect Screen",
+        "description": "Insect screen fitted with a magnetic closure strip, easy to attach and remove.",
+        "specs": ["Magnetic closure strip", "Light, flexible frame", "Suited to rentals and simple installation"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Roller Insect Screen",
+        "description": "Insect screen that retracts into a small cassette when not in use, moving horizontally or vertically.",
+        "specs": ["Spring-loaded roller mechanism", "Slim cassette profile", "Suited to window and door applications"]
+      },
+      {
+        "category": "plise",
+        "name": "Single Pleated Blind",
+        "description": "Single-layer pleated fabric blind for windows, moving up or down.",
+        "specs": ["Wide range of fabrics and colours", "Chain or cord control", "Made to measure"]
+      },
+      {
+        "category": "plise",
+        "name": "Duo (Day & Night) Pleated Blind",
+        "description": "Two-layer pleated blind combining a sheer and a blackout fabric for flexible light control.",
+        "specs": ["Two independent fabric layers", "Layers move separately", "Balances privacy and daylight"]
+      },
+      {
+        "category": "plise",
+        "name": "Pleated Blind for Folding Glass Walls",
+        "description": "Pleated blind solution fitted to folding glass wall systems using dedicated mounting hardware.",
+        "specs": ["Dedicated hardware for folding glass wall profiles", "Wind and sun protection", "Made to measure"]
+      }
+    ]
+  },
+  "workshop": {
+    "title": "Workshop & Manufacturing",
+    "intro": "All our products are made in our own workshop. From cutting to assembly, every step is handled by our own team.",
+    "steps": [
+      { "title": "Profile cutting", "text": "Aluminium profiles are cut precisely to order dimensions at our cutting stations." },
+      { "title": "Joining & assembly", "text": "Cut pieces are corner-joined and assembled into a complete frame." },
+      { "title": "Fitting the fabric or mesh", "text": "Pleated fabric or insect mesh is tensioned into the cassette using dedicated machinery." },
+      { "title": "Quality control", "text": "Every product is checked before shipping for smooth mechanism operation and surface quality." },
+      { "title": "Packing & shipping", "text": "Products are packed to withstand transport and prepared for shipment." }
+    ],
+    "gallery_note": "Workshop photos will be added to this section shortly."
+  },
+  "about": {
+    "title": "About Us",
+    "intro_paragraphs": [
+      "Velora is a Turkish manufacturer specialising in insect screen and pleated blind systems.",
+      "We manufacture exclusively in our own workshop — cutting, assembly, quality control and packing are all handled by our own team.",
+      "Through regular deliveries to trade dealers across Europe, we make sure our products reach the end customer reliably."
+    ],
+    "values_title": "What we value",
+    "values": [
+      { "title": "In-house manufacturing", "text": "We rely on controlled processes in our own workshop rather than third-party contract manufacturing." },
+      { "title": "Dealer relationships", "text": "We build long-term, trust-based business relationships with our dealers." },
+      { "title": "Material quality", "text": "We prioritise durability in the aluminium profiles and fabrics we choose." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "For dealer terms, sample requests or questions about our products, feel free to get in touch.",
+    "address_label": "Address",
+    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turkey",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Message on WhatsApp",
+    "form_note": "Note: the address shown is provisional and will be updated at a later stage."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Insect Screen and Pleated Blind Systems — Introduction for European Dealers"
+  }
+}

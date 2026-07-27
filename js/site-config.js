@@ -18,6 +18,7 @@ const SITE_CONFIG = {
   // sonra aşağıya bir satır ekleyin. Başka hiçbir yeri değiştirmenize gerek yok.
   supportedLangs: [
     { code: "tr", label: "Türkçe" },
+    { code: "en", label: "English" },
     { code: "de", label: "Deutsch" },
     { code: "nl", label: "Nederlands" },
     { code: "fr", label: "Français" },
