@@ -136,24 +136,13 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   gap: 1.5rem;
 }
 .brand {
-  display: flex; align-items: center; gap: 0.65rem;
-  font-family: var(--font-display); font-weight: 700; font-size: 1.15rem;
+  display: flex; align-items: center;
   text-decoration: none; color: var(--ink);
 }
-.brand-mark {
-  width: 34px; height: 34px; flex: none;
-  background: var(--teal-deep);
-  border-radius: var(--radius);
-  position: relative;
-  overflow: hidden;
-}
-.brand-mark::before {
-  content: "";
-  position: absolute; inset: 0;
-  background: repeating-linear-gradient(
-    115deg, var(--brass-soft) 0 4px, transparent 4px 9px
-  );
-  opacity: 0.85;
+.brand-logo {
+  height: 34px;
+  width: auto;
+  display: block;
 }
 
 .main-nav { display: flex; align-items: center; gap: 1.75rem; }
