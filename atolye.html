@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atölye</title>
+<meta name="description" content="">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="workshop">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span data-i18n="brand.name">[Firma Adı]</span>
+    </a>
+    <nav class="main-nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Anasayfa</a></li>
+        <li><a href="urunler.html" data-i18n="nav.products">Ürünler</a></li>
+        <li><a href="atolye.html" aria-current="page" data-i18n="nav.workshop">Atölye</a></li>
+        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+      </ul>
+      <div class="lang-select-wrap">
+        <label for="lang-select" data-i18n="nav.lang_label" class="visually-hidden">Dil</label>
+        <select id="lang-select" aria-label="Dil seçimi"></select>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat">☰</button>
+  </div>
+</header>
+
+<main>
+  <section style="padding-bottom:1rem;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="nav.workshop">Atölye</p>
+        <h1 data-i18n="workshop.title">Atölye ve Üretim</h1>
+        <p data-i18n="workshop.intro">Tüm ürünlerimiz kendi atölyemizde üretilir.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="fold-divider" role="presentation"></div>
+
+  <section>
+    <div class="wrap">
+      <div class="steps" id="steps-list"></div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2 data-i18n="nav.workshop">Atölye</h2>
+      <div class="gallery-grid" id="gallery-grid"></div>
+      <p class="gallery-note" data-i18n="workshop.gallery_note">Atölye fotoğrafları yakında bu alanda yer alacaktır.</p>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="home.cta_title">Bayilik ve İş Birliği İçin</h2>
+        <p data-i18n="home.cta_text">Ürünlerimiz hakkında detaylı bilgi...</p>
+      </div>
+      <a href="iletisim.html" class="btn btn-outline" data-i18n="home.cta_button">İletişime Geç</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="footer-brand" data-i18n="brand.name">[Firma Adı]</p>
+      <p data-i18n="footer.tagline">Sineklik ve Plise Perde Sistemleri</p>
+    </div>
+    <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">[Firma Adı]</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+
+  const galleryImages = [
+    "images/workshop/atolye-1.svg",
+    "images/workshop/atolye-2.svg",
+    "images/workshop/atolye-3.svg",
+    "images/workshop/atolye-4.svg",
+    "images/workshop/atolye-5.svg",
+    "images/workshop/atolye-6.svg"
+  ];
+
+  window.renderDynamicContent = function (data) {
+    const stepsEl = document.getElementById("steps-list");
+    stepsEl.innerHTML = "";
+    (data.workshop.steps || []).forEach((s) => {
+      const div = document.createElement("div");
+      div.className = "step";
+      div.innerHTML = `<span class="num"></span><div><h3>${s.title}</h3><p>${s.text}</p></div>`;
+      stepsEl.appendChild(div);
+    });
+
+    const galEl = document.getElementById("gallery-grid");
+    galEl.innerHTML = "";
+    galleryImages.forEach((src) => {
+      const div = document.createElement("div");
+      div.className = "thumb";
+      div.innerHTML = `<img src="${src}" alt="">`;
+      galEl.appendChild(div);
+    });
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "[Nom de l'entreprise] — Systèmes de moustiquaires et de stores plissés",
+    "description": "Systèmes de moustiquaires et de stores plissés fabriqués en Turquie. Informations destinées aux revendeurs professionnels en Europe."
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "workshop": "Atelier",
+    "about": "À propos",
+    "contact": "Contact",
+    "lang_label": "Langue"
+  },
+  "brand": {
+    "name": "[Nom de l'entreprise]",
+    "tagline": "Systèmes de moustiquaires et de stores plissés"
+  },
+  "home": {
+    "hero_eyebrow": "Fabriqué en Turquie, livré dans toute l'Europe",
+    "hero_title": "Un système plissé, un flux d'air ininterrompu.",
+    "hero_subtitle": "Nous fabriquons des systèmes de moustiquaires et de stores plissés dans notre propre atelier et livrons des revendeurs professionnels dans toute l'Europe.",
+    "hero_cta": "Voir les produits",
+    "hero_cta_secondary": "Nous contacter",
+    "intro_title": "Partenaire de production pour les revendeurs",
+    "intro_text": "Ce site n'est pas une plateforme de vente : il présente nos produits, notre processus de fabrication et notre entreprise aux revendeurs professionnels en Europe. Les commandes et les tarifs sont traités directement par contact personnel.",
+    "highlights": [
+      {
+        "title": "Fabrication dans notre propre atelier",
+        "text": "La découpe, l'assemblage et le contrôle final sont entièrement réalisés dans notre atelier, sans sous-traitance externe."
+      },
+      {
+        "title": "Livraison dans toute l'Europe",
+        "text": "Nous livrons régulièrement nos revendeurs, avec un suivi des expéditions et des options d'envoi groupé par palette."
+      },
+      {
+        "title": "Support technique aux revendeurs",
+        "text": "Nous fournissons à nos revendeurs une documentation technique ainsi qu'un accompagnement direct pour la prise de mesures, la pose et le choix des produits."
+      }
+    ],
+    "products_teaser_title": "Notre gamme de produits",
+    "products_teaser_text": "Des systèmes de moustiquaires aux stores plissés, une large gamme adaptée à différents types de pose.",
+    "products_teaser_cta": "Voir tous les produits",
+    "cta_title": "Pour un partenariat commercial",
+    "cta_text": "Contactez-nous pour toute information produit, demande d'échantillon ou condition de revente.",
+    "cta_button": "Nous contacter"
+  },
+  "products": {
+    "title": "Produits",
+    "intro": "Tous nos produits sont fabriqués sur mesure, à la commande, dans notre propre atelier. Les informations ci-dessous présentent les caractéristiques générales ; pour les plans techniques et les demandes d'échantillons, n'hésitez pas à nous contacter.",
+    "category_sineklik": "Systèmes de moustiquaires",
+    "category_plise": "Systèmes de stores plissés",
+    "specs_label": "Caractéristiques",
+    "items": [
+      {
+        "category": "sineklik",
+        "name": "Moustiquaire plissée",
+        "description": "Moustiquaire pliée en accordéon pour portes et fenêtres, à déplacement horizontal ou vertical, se rangeant dans sa cassette lorsqu'elle n'est pas utilisée.",
+        "specs": ["Cadre et cassette en aluminium", "Toile plissée en fibre de verre", "Fabrication sur mesure", "Adaptée aux portes battantes et coulissantes"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Moustiquaire coulissante",
+        "description": "Moustiquaire se déplaçant horizontalement sur rail, adaptée aux grandes ouvertures de porte et de balcon.",
+        "specs": ["Disponible en un ou deux vantaux", "Profilé aluminium", "Joint brosse pour l'étanchéité", "Adaptée aux grandes ouvertures"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Moustiquaire à charnière",
+        "description": "Moustiquaire classique à un vantail, s'ouvrant et se fermant comme une porte.",
+        "specs": ["Charnière à fermeture automatique", "Cadre en aluminium", "Adaptée aux dimensions standard de fenêtres et portes"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Moustiquaire magnétique",
+        "description": "Moustiquaire montée avec une bande de fermeture magnétique, facile à poser et à retirer.",
+        "specs": ["Bande de fermeture magnétique", "Cadre léger et souple", "Adaptée à la location et à une pose simple"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Moustiquaire enroulable",
+        "description": "Moustiquaire s'enroulant dans une petite cassette lorsqu'elle n'est pas utilisée, à déplacement horizontal ou vertical.",
+        "specs": ["Mécanisme d'enroulement à ressort", "Cassette fine", "Adaptée aux fenêtres et aux portes"]
+      },
+      {
+        "category": "plise",
+        "name": "Store plissé simple",
+        "description": "Store en tissu plissé à une couche, se déplaçant vers le haut ou vers le bas pour les fenêtres.",
+        "specs": ["Large choix de tissus et de coloris", "Commande par chaînette ou cordon", "Fabrication sur mesure"]
+      },
+      {
+        "category": "plise",
+        "name": "Store plissé double (Day & Night)",
+        "description": "Store plissé à double couche, associant un tissu transparent et un tissu opaque pour un contrôle flexible de la lumière.",
+        "specs": ["Deux couches de tissu indépendantes", "Couches à déplacement séparé", "Équilibre entre intimité et luminosité"]
+      },
+      {
+        "category": "plise",
+        "name": "Store plissé pour baie vitrée pliante",
+        "description": "Solution de store plissé adaptée aux systèmes de baies vitrées pliantes grâce à des accessoires de pose spécifiques.",
+        "specs": ["Accessoires spécifiques aux profilés de baie pliante", "Protection contre le vent et le soleil", "Fabrication sur mesure"]
+      }
+    ]
+  },
+  "workshop": {
+    "title": "Atelier et fabrication",
+    "intro": "Tous nos produits sont fabriqués dans notre propre atelier. De la découpe à l'assemblage, chaque étape est réalisée par notre propre équipe.",
+    "steps": [
+      { "title": "Découpe des profilés", "text": "Les profilés en aluminium sont découpés avec précision selon les dimensions de la commande." },
+      { "title": "Assemblage", "text": "Les pièces découpées sont assemblées aux angles pour former le cadre." },
+      { "title": "Pose du tissu ou de la toile", "text": "Le tissu plissé ou la toile moustiquaire est tendu dans la cassette à l'aide de machines spécifiques." },
+      { "title": "Contrôle qualité", "text": "Chaque produit est vérifié avant expédition, tant sur le fonctionnement du mécanisme que sur la qualité des surfaces." },
+      { "title": "Emballage et expédition", "text": "Les produits sont emballés de façon à éviter tout dommage pendant le transport, puis préparés pour l'expédition." }
+    ],
+    "gallery_note": "Les photos de l'atelier seront prochainement ajoutées ici."
+  },
+  "about": {
+    "title": "À propos",
+    "intro_paragraphs": [
+      "[Nom de l'entreprise] est un fabricant turc spécialisé dans les systèmes de moustiquaires et de stores plissés.",
+      "Nous fabriquons exclusivement dans notre propre atelier : découpe, assemblage, contrôle qualité et emballage sont entièrement gérés par notre équipe.",
+      "Grâce à des livraisons régulières auprès de revendeurs professionnels dans toute l'Europe, nous garantissons que nos produits arrivent de manière fiable jusqu'à l'utilisateur final."
+    ],
+    "values_title": "Ce à quoi nous tenons",
+    "values": [
+      { "title": "Fabrication propre", "text": "Nous nous appuyons sur des processus maîtrisés dans notre propre atelier plutôt que sur la sous-traitance." },
+      { "title": "Relation avec les revendeurs", "text": "Nous construisons des relations commerciales durables et fondées sur la confiance avec nos revendeurs." },
+      { "title": "Qualité des matériaux", "text": "Nous privilégions la durabilité dans le choix des profilés en aluminium et des tissus." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Pour toute question sur nos conditions de revente, une demande d'échantillon ou nos produits, n'hésitez pas à nous contacter.",
+    "address_label": "Adresse",
+    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turquie",
+    "email_label": "E-mail",
+    "phone_label": "Téléphone",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Écrire sur WhatsApp",
+    "form_note": "Remarque : l'adresse indiquée est provisoire et sera mise à jour ultérieurement."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "tagline": "Systèmes de moustiquaires et de stores plissés — Présentation destinée aux revendeurs européens"
+  }
+}

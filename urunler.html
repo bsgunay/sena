@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ürünler</title>
+<meta name="description" content="">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="products">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span data-i18n="brand.name">[Firma Adı]</span>
+    </a>
+    <nav class="main-nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Anasayfa</a></li>
+        <li><a href="urunler.html" aria-current="page" data-i18n="nav.products">Ürünler</a></li>
+        <li><a href="atolye.html" data-i18n="nav.workshop">Atölye</a></li>
+        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+      </ul>
+      <div class="lang-select-wrap">
+        <label for="lang-select" data-i18n="nav.lang_label" class="visually-hidden">Dil</label>
+        <select id="lang-select" aria-label="Dil seçimi"></select>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat">☰</button>
+  </div>
+</header>
+
+<main>
+  <section style="padding-bottom:1rem;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="nav.products">Ürünler</p>
+        <h1 data-i18n="products.title">Ürünler</h1>
+        <p data-i18n="products.intro">Tüm ürünlerimiz kendi atölyemizde...</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="fold-divider accent" role="presentation"></div>
+
+  <section>
+    <div class="wrap">
+      <div class="product-cat">
+        <div class="product-cat-title">
+          <h2 data-i18n="products.category_sineklik">Sineklik Sistemleri</h2>
+          <span id="sineklik-count"></span>
+        </div>
+        <div class="product-grid" id="sineklik-grid"></div>
+      </div>
+
+      <div class="product-cat">
+        <div class="product-cat-title">
+          <h2 data-i18n="products.category_plise">Plise Perde Sistemleri</h2>
+          <span id="plise-count"></span>
+        </div>
+        <div class="product-grid" id="plise-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="home.cta_title">Bayilik ve İş Birliği İçin</h2>
+        <p data-i18n="home.cta_text">Ürünlerimiz hakkında detaylı bilgi...</p>
+      </div>
+      <a href="iletisim.html" class="btn btn-outline" data-i18n="home.cta_button">İletişime Geç</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="footer-brand" data-i18n="brand.name">[Firma Adı]</p>
+      <p data-i18n="footer.tagline">Sineklik ve Plise Perde Sistemleri</p>
+    </div>
+    <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">[Firma Adı]</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+
+  const productImages = {
+    "Plise Sineklik": "images/products/plise-sineklik.svg",
+    "Sürme Sineklik": "images/products/surme-sineklik.svg",
+    "Menteşeli Sineklik": "images/products/mentese-sineklik.svg",
+    "Manyetik Sineklik": "images/products/manyetik-sineklik.svg",
+    "Rulo Sineklik": "images/products/rulo-sineklik.svg",
+    "Tekli Plise Perde": "images/products/tekli-plise-perde.svg",
+    "İkili (Day & Night) Plise Perde": "images/products/ikili-plise-perde.svg",
+    "Cam Balkon Plise Perde": "images/products/cam-balkon-plise.svg"
+  };
+  // Görsel eşlemesi Türkçe ürün adına göre yapıldı; dil değişse de dosya sırasına göre eşlenir.
+  const imageOrder = [
+    "images/products/plise-sineklik.svg",
+    "images/products/surme-sineklik.svg",
+    "images/products/mentese-sineklik.svg",
+    "images/products/manyetik-sineklik.svg",
+    "images/products/rulo-sineklik.svg",
+    "images/products/tekli-plise-perde.svg",
+    "images/products/ikili-plise-perde.svg",
+    "images/products/cam-balkon-plise.svg"
+  ];
+
+  function renderGrid(container, items, specsLabel) {
+    container.innerHTML = "";
+    items.forEach((p) => {
+      const card = document.createElement("div");
+      card.className = "product-card";
+      const specs = (p.specs || []).map((s) => `<li>${s}</li>`).join("");
+      card.innerHTML = `
+        <div class="thumb"><img src="${p._img}" alt=""></div>
+        <div class="body">
+          <h3>${p.name}</h3>
+          <p>${p.description}</p>
+          <p class="specs-label">${specsLabel}</p>
+          <ul class="specs-list">${specs}</ul>
+        </div>`;
+      container.appendChild(card);
+    });
+  }
+
+  window.renderDynamicContent = function (data) {
+    const items = data.products.items || [];
+    items.forEach((p, i) => { p._img = imageOrder[i] || "images/hero.svg"; });
+
+    const sineklik = items.filter((p) => p.category === "sineklik");
+    const plise = items.filter((p) => p.category === "plise");
+
+    renderGrid(document.getElementById("sineklik-grid"), sineklik, data.products.specs_label);
+    renderGrid(document.getElementById("plise-grid"), plise, data.products.specs_label);
+  };
+</script>
+</body>
+</html>

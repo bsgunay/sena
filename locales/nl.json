@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "[Bedrijfsnaam] — Hordeur- en Plissésystemen",
+    "description": "In Turkije vervaardigde hordeur- en plissésystemen. Informatie voor vakhandelaren in heel Europa."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Producten",
+    "workshop": "Werkplaats",
+    "about": "Over ons",
+    "contact": "Contact",
+    "lang_label": "Taal"
+  },
+  "brand": {
+    "name": "[Bedrijfsnaam]",
+    "tagline": "Hordeur- en Plissésystemen"
+  },
+  "home": {
+    "hero_eyebrow": "Gemaakt in Turkije, geleverd in heel Europa",
+    "hero_title": "Eén vouwbaar systeem, een ononderbroken luchtstroom.",
+    "hero_subtitle": "Wij vervaardigen hordeur- en plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
+    "hero_cta": "Bekijk producten",
+    "hero_cta_secondary": "Neem contact op",
+    "intro_title": "Productiepartner voor vakhandelaren",
+    "intro_text": "Deze website is geen verkoopplatform, maar dient om onze producten, ons productieproces en ons bedrijf voor te stellen aan vakhandelaren in Europa. Bestellingen en prijzen worden rechtstreeks via persoonlijk contact geregeld.",
+    "highlights": [
+      {
+        "title": "Vervaardigd in eigen werkplaats",
+        "text": "Snijden, montage en eindcontrole vinden volledig in onze eigen werkplaats plaats — zonder externe uitbesteding."
+      },
+      {
+        "title": "Levering in heel Europa",
+        "text": "Wij leveren regelmatig en traceerbaar aan onze vakhandelaren, met opties voor palletgewijze verzending."
+      },
+      {
+        "title": "Technische ondersteuning voor handelaren",
+        "text": "Wij bieden onze handelaren technische documentatie en directe ondersteuning bij het opmeten, monteren en kiezen van producten."
+      }
+    ],
+    "products_teaser_title": "Ons productassortiment",
+    "products_teaser_text": "Van hordeursystemen tot plissés — een breed assortiment voor verschillende montagetypes.",
+    "products_teaser_cta": "Bekijk alle producten",
+    "cta_title": "Voor handelspartnerschappen",
+    "cta_text": "Neem contact met ons op voor productinformatie, monsteraanvragen of voorwaarden voor vakhandelaren.",
+    "cta_button": "Neem contact op"
+  },
+  "products": {
+    "title": "Producten",
+    "intro": "Al onze producten worden op bestelling en op maat vervaardigd in onze eigen werkplaats. Onderstaande informatie betreft algemene productkenmerken; neem voor technische tekeningen en monsteraanvragen gerust contact met ons op.",
+    "category_sineklik": "Hordeursystemen",
+    "category_plise": "Plissésystemen",
+    "specs_label": "Kenmerken",
+    "items": [
+      {
+        "category": "sineklik",
+        "name": "Plissé-hordeur",
+        "description": "Accordeon-gevouwen hordeursysteem voor deuren en ramen, horizontaal of verticaal beweegbaar, dat bij niet-gebruik wegklapt in de cassette.",
+        "specs": ["Aluminium kader en cassetteprofiel", "Geplisseerd glasvezelgaas", "Maatwerk", "Geschikt voor scharnierende en schuivende deuren"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Schuifhordeur",
+        "description": "Horizontaal over een railsysteem schuivend hordeur, geschikt voor brede deur- en balkonopeningen.",
+        "specs": ["Verkrijgbaar met één of twee panelen", "Aluminium profiel", "Borsteldichting", "Geschikt voor grote openingen"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Scharnierende hordeur",
+        "description": "Klassiek hordeursysteem met één paneel dat open- en dichtgaat zoals een deur.",
+        "specs": ["Zelfsluitend scharnier", "Aluminium kader", "Geschikt voor standaard raam- en deurmaten"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Magnetische hordeur",
+        "description": "Met een magnetische sluitstrip gemonteerd hordeur, eenvoudig te plaatsen en te verwijderen.",
+        "specs": ["Magnetische sluitstrip", "Licht en flexibel frame", "Geschikt voor huurwoningen en eenvoudige montage"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Oprolbare hordeur",
+        "description": "Hordeur dat bij niet-gebruik oprolt in een kleine cassette, horizontaal of verticaal beweegbaar.",
+        "specs": ["Veerbelast oprolmechanisme", "Smal cassetteprofiel", "Geschikt voor raam- en deurtoepassingen"]
+      },
+      {
+        "category": "plise",
+        "name": "Enkel plissegordijn",
+        "description": "Eénlaags geplisseerd stoffen raambekleding, verticaal beweegbaar naar boven of beneden.",
+        "specs": ["Ruime keuze aan stoffen en kleuren", "Ketting- of koordbediening", "Maatwerk"]
+      },
+      {
+        "category": "plise",
+        "name": "Dubbel plissegordijn (Day & Night)",
+        "description": "Dubbellaags plissegordijn met transparante en lichtdichte stof, voor flexibele lichtregeling.",
+        "specs": ["Twee onafhankelijke stoflagen", "Afzonderlijk beweegbare lagen", "Balans tussen privacy en lichtinval"]
+      },
+      {
+        "category": "plise",
+        "name": "Plissé voor vouwwanden",
+        "description": "Plisséoplossing die met speciale montagebeslag wordt aangepast aan glazen vouwwandsystemen.",
+        "specs": ["Speciaal beslag voor vouwwandprofielen", "Wind- en zonwering", "Maatwerk"]
+      }
+    ]
+  },
+  "workshop": {
+    "title": "Werkplaats en productie",
+    "intro": "Al onze producten worden vervaardigd in onze eigen werkplaats. Van snijden tot montage wordt elke stap door ons eigen team uitgevoerd.",
+    "steps": [
+      { "title": "Profielen zagen", "text": "Aluminium profielen worden op precisiezaagstations exact op bestelmaat gezaagd." },
+      { "title": "Lassen en montage", "text": "De gezaagde onderdelen worden aan de hoeken verbonden en tot een kader gemonteerd." },
+      { "title": "Stof- en gaasplaatsing", "text": "Plissé-stof of hordeurgaas wordt met speciale machines strak in de cassette geplaatst." },
+      { "title": "Kwaliteitscontrole", "text": "Elk product wordt voor verzending gecontroleerd op werking van het mechanisme en oppervlaktekwaliteit." },
+      { "title": "Verpakking en verzending", "text": "De producten worden transportveilig verpakt en klaargemaakt voor verzending." }
+    ],
+    "gallery_note": "Werkplaatsfoto's worden binnenkort op deze plek toegevoegd."
+  },
+  "about": {
+    "title": "Over ons",
+    "intro_paragraphs": [
+      "[Bedrijfsnaam] is een Turkse fabrikant, gespecialiseerd in hordeur- en plissésystemen.",
+      "Wij produceren uitsluitend in onze eigen werkplaats — snijden, montage, kwaliteitscontrole en verpakking worden volledig door ons eigen team uitgevoerd.",
+      "Door regelmatige leveringen aan vakhandelaren in heel Europa zorgen wij ervoor dat onze producten betrouwbaar bij de eindgebruiker terechtkomen."
+    ],
+    "values_title": "Waar wij waarde aan hechten",
+    "values": [
+      { "title": "Eigen productie", "text": "Wij vertrouwen op gecontroleerde processen in onze eigen werkplaats in plaats van externe uitbesteding." },
+      { "title": "Relatie met handelaren", "text": "Wij bouwen langdurige, op vertrouwen gebaseerde handelsrelaties op met onze vakhandelaren." },
+      { "title": "Materiaalkwaliteit", "text": "Bij de keuze van aluminium profielen en stoffen staat duurzaamheid voorop." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Voor handelsvoorwaarden, monsteraanvragen of vragen over onze producten kunt u contact met ons opnemen.",
+    "address_label": "Adres",
+    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turkije",
+    "email_label": "E-mail",
+    "phone_label": "Telefoon",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Stuur bericht via WhatsApp",
+    "form_note": "Let op: het adres is voorlopig en wordt op een later moment bijgewerkt."
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "tagline": "Hordeur- en Plissésystemen — Kennismaking voor vakhandelaren in Europa"
+  }
+}

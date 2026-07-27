@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "[Firma Adı] — Sineklik ve Plise Perde Sistemleri",
+    "description": "Türkiye üretimi sineklik ve plise perde sistemleri. Avrupa geneli bayilere toptan tanıtım ve üretim bilgisi."
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "products": "Ürünler",
+    "workshop": "Atölye",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "lang_label": "Dil"
+  },
+  "brand": {
+    "name": "[Firma Adı]",
+    "tagline": "Sineklik ve Plise Perde Sistemleri"
+  },
+  "home": {
+    "hero_eyebrow": "Türkiye'de Üretim, Avrupa'ya Sevkiyat",
+    "hero_title": "Katlanır bir sistem, kesintisiz bir hava akışı.",
+    "hero_subtitle": "Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
+    "hero_cta": "Ürünleri İncele",
+    "hero_cta_secondary": "Bize Ulaşın",
+    "intro_title": "Bayiler İçin Üretim Ortağı",
+    "intro_text": "Bu site bir satış platformu değil; ürünlerimizi, üretim sürecimizi ve firmamızı Avrupa'daki bayi ve mağaza sahiplerine tanıtmak için hazırlandı. Sipariş ve fiyatlandırma süreçleri doğrudan iletişim üzerinden yürütülür.",
+    "highlights": [
+      {
+        "title": "Kendi Atölyemizde Üretim",
+        "text": "Kesim, kaynak ve montaj aşamalarının tamamı kendi tesisimizde gerçekleşir; dışarıdan fason üretim kullanılmaz."
+      },
+      {
+        "title": "Avrupa Geneline Sevkiyat",
+        "text": "Bayilerimize düzenli ve takip edilebilir sevkiyat sağlıyoruz; palet bazlı toplu gönderim seçenekleri mevcuttur."
+      },
+      {
+        "title": "Bayiye Özel Teknik Destek",
+        "text": "Ölçü alma, montaj ve ürün seçimi konusunda bayilerimize teknik dokümantasyon ve doğrudan destek sunuyoruz."
+      }
+    ],
+    "products_teaser_title": "Ürün Ailemiz",
+    "products_teaser_text": "Sineklik sistemlerinden plise perdelere, farklı montaj tiplerine uygun geniş bir ürün yelpazesi.",
+    "products_teaser_cta": "Tüm Ürünleri Gör",
+    "cta_title": "Bayilik ve İş Birliği İçin",
+    "cta_text": "Ürünlerimiz hakkında detaylı bilgi, numune talebi veya bayilik koşulları için bizimle iletişime geçin.",
+    "cta_button": "İletişime Geç"
+  },
+  "products": {
+    "title": "Ürünler",
+    "intro": "Tüm ürünlerimiz kendi atölyemizde, sipariş üzerine ve ölçüye göre üretilir. Aşağıdaki bilgiler genel ürün özellikleridir; teknik çizim ve numune talepleri için bizimle iletişime geçebilirsiniz.",
+    "category_sineklik": "Sineklik Sistemleri",
+    "category_plise": "Plise Perde Sistemleri",
+    "specs_label": "Özellikler",
+    "items": [
+      {
+        "category": "sineklik",
+        "name": "Plise Sineklik",
+        "description": "Akordeon şeklinde katlanan, kapı ve pencerelerde yatay veya dikey hareket eden, kullanılmadığında kaseti içinde toplanan sineklik sistemi.",
+        "specs": ["Alüminyum kasa ve kaset profili", "Fiberglas plise file", "Ölçüye göre üretim", "Menteşeli ve sürme kapı uygulamalarına uygun"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Sürme Sineklik",
+        "description": "Ray sistemi üzerinde yatay olarak kayan, geniş kapı ve balkon açıklıkları için uygun sineklik sistemi.",
+        "specs": ["Tek veya çift kanatlı seçenek", "Alüminyum profil", "Fırçalı conta ile sızdırmazlık", "Geniş açıklıklara uygun"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Menteşeli Sineklik",
+        "description": "Kapı gibi açılıp kapanan, tek kanatlı klasik sineklik sistemi.",
+        "specs": ["Otomatik kapanma menteşesi", "Alüminyum kasa", "Standart pencere ve kapı ölçülerine uygun"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Manyetik Sineklik",
+        "description": "Manyetik kapanma şeridi ile monte edilen, kolay takılıp çıkarılabilen pratik sineklik sistemi.",
+        "specs": ["Manyetik kapanma bandı", "Hafif ve esnek çerçeve", "Kiracı ve kolay montaj için uygun"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Rulo Sineklik",
+        "description": "Kullanılmadığında küçük bir kasete sarılan, dikey veya yatay hareket eden sineklik sistemi.",
+        "specs": ["Yaylı sarma mekanizması", "İnce profil kaset", "Pencere ve kapı uygulamaları için uygun"]
+      },
+      {
+        "category": "plise",
+        "name": "Tekli Plise Perde",
+        "description": "Tek kat akordeon dokuma kumaştan oluşan, yukarı veya aşağı doğru hareket eden pencere perde sistemi.",
+        "specs": ["Geniş kumaş ve renk seçenekleri", "Zincirli veya kordonlu kontrol", "Ölçüye göre üretim"]
+      },
+      {
+        "category": "plise",
+        "name": "İkili (Day & Night) Plise Perde",
+        "description": "Şeffaf ve opak iki kumaşın bir arada kullanıldığı, ışık kontrolüne imkan veren çift katlı plise perde sistemi.",
+        "specs": ["İki farklı kumaş katmanı", "Bağımsız hareket eden katlar", "Gizlilik ve ışık dengesi"]
+      },
+      {
+        "category": "plise",
+        "name": "Cam Balkon Plise Perde",
+        "description": "Cam balkon sistemleriyle uyumlu, özel montaj aparatlarıyla uygulanan plise perde çözümü.",
+        "specs": ["Cam balkon profiline özel aparat", "Rüzgâr ve güneş kontrolü", "Ölçüye göre üretim"]
+      }
+    ]
+  },
+  "workshop": {
+    "title": "Atölye ve Üretim",
+    "intro": "Tüm ürünlerimiz kendi atölyemizde üretilir. Kesimden montaja kadar her aşama kendi ekibimiz tarafından yürütülür.",
+    "steps": [
+      { "title": "Profil Kesimi", "text": "Alüminyum profiller, sipariş ölçülerine göre hassas kesim istasyonlarında hazırlanır." },
+      { "title": "Kaynak ve Montaj", "text": "Kesilen parçalar köşe kaynağı ve montaj aşamalarından geçerek kasa haline getirilir." },
+      { "title": "Kumaş ve File Uygulaması", "text": "Plise kumaş veya sineklik filesi, kasete özel makinelerle gerdirilerek yerleştirilir." },
+      { "title": "Kalite Kontrol", "text": "Her ürün sevkiyat öncesinde hareket mekanizması ve yüzey kalitesi açısından kontrol edilir." },
+      { "title": "Paketleme ve Sevkiyat", "text": "Ürünler nakliye sırasında hasar görmeyecek şekilde paketlenip sevkiyata hazırlanır." }
+    ],
+    "gallery_note": "Atölye fotoğrafları yakında bu alanda yer alacaktır."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "intro_paragraphs": [
+      "[Firma Adı], sineklik ve plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
+      "Üretimimizin tamamını kendi atölyemizde gerçekleştiriyor; kesim, kaynak, montaj ve paketleme süreçlerini kendi ekibimizle yönetiyoruz.",
+      "Avrupa genelindeki bayi ve mağazalara düzenli sevkiyat yaparak, ürünlerimizin son kullanıcıya güvenilir bir şekilde ulaşmasını sağlıyoruz."
+    ],
+    "values_title": "Neye Önem Veriyoruz",
+    "values": [
+      { "title": "Kendi Üretimimiz", "text": "Fason üretime değil, kendi atölyemizdeki kontrollü süreçlere güveniyoruz." },
+      { "title": "Bayi İlişkisi", "text": "Bayilerimizle uzun vadeli, karşılıklı güvene dayalı iş ilişkileri kuruyoruz." },
+      { "title": "Malzeme Kalitesi", "text": "Alüminyum profil ve kumaş seçimlerinde dayanıklılığı ön planda tutuyoruz." }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "intro": "Bayilik koşulları, numune talebi veya ürünlerimiz hakkında sorularınız için bize ulaşabilirsiniz.",
+    "address_label": "Adres",
+    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Türkiye",
+    "email_label": "E-posta",
+    "phone_label": "Telefon",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "WhatsApp'tan Yaz",
+    "form_note": "Not: Adres bilgisi geçici olup ilerleyen süreçte güncellenecektir."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Sineklik ve Plise Perde Sistemleri — Avrupa'ya Toptan Tanıtım"
+  }
+}

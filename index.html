@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anasayfa</title>
+<meta name="description" content="">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span data-i18n="brand.name">[Firma Adı]</span>
+    </a>
+    <nav class="main-nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="index.html" aria-current="page" data-i18n="nav.home">Anasayfa</a></li>
+        <li><a href="urunler.html" data-i18n="nav.products">Ürünler</a></li>
+        <li><a href="atolye.html" data-i18n="nav.workshop">Atölye</a></li>
+        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+      </ul>
+      <div class="lang-select-wrap">
+        <label for="lang-select" data-i18n="nav.lang_label" class="visually-hidden">Dil</label>
+        <select id="lang-select" aria-label="Dil seçimi"></select>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow" data-i18n="home.hero_eyebrow">Türkiye'de Üretim, Avrupa'ya Sevkiyat</p>
+        <h1 data-i18n="home.hero_title">Katlanır bir sistem, kesintisiz bir hava akışı.</h1>
+        <p data-i18n="home.hero_subtitle">Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.</p>
+        <div class="hero-actions">
+          <a href="urunler.html" class="btn btn-primary" data-i18n="home.hero_cta">Ürünleri İncele</a>
+          <a href="iletisim.html" class="btn btn-outline" data-i18n="home.hero_cta_secondary">Bize Ulaşın</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/hero.svg" alt="" data-i18n-attr="alt:brand.tagline">
+      </div>
+    </div>
+  </section>
+
+  <div class="fold-divider" role="presentation"></div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="home.intro_title">Bayiler İçin Üretim Ortağı</h2>
+        <p data-i18n="home.intro_text">Bu site bir satış platformu değil...</p>
+      </div>
+      <div class="grid-3" id="highlights-grid"></div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="home.products_teaser_title">Ürün Ailemiz</h2>
+        <p data-i18n="home.products_teaser_text">Sineklik sistemlerinden plise perdelere...</p>
+      </div>
+      <div class="grid-3" id="teaser-grid"></div>
+      <div style="margin-top:2rem;">
+        <a href="urunler.html" class="btn btn-outline" data-i18n="home.products_teaser_cta">Tüm Ürünleri Gör</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="home.cta_title">Bayilik ve İş Birliği İçin</h2>
+        <p data-i18n="home.cta_text">Ürünlerimiz hakkında detaylı bilgi...</p>
+      </div>
+      <a href="iletisim.html" class="btn btn-outline" data-i18n="home.cta_button">İletişime Geç</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="footer-brand" data-i18n="brand.name">[Firma Adı]</p>
+      <p data-i18n="footer.tagline">Sineklik ve Plise Perde Sistemleri</p>
+    </div>
+    <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">[Firma Adı]</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+
+  const teaserImages = [
+    "images/products/plise-sineklik.svg",
+    "images/products/surme-sineklik.svg",
+    "images/products/tekli-plise-perde.svg"
+  ];
+
+  window.renderDynamicContent = function (data) {
+    const hGrid = document.getElementById("highlights-grid");
+    hGrid.innerHTML = "";
+    (data.home.highlights || []).forEach((h) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `<h3>${h.title}</h3><p>${h.text}</p>`;
+      hGrid.appendChild(card);
+    });
+
+    const tGrid = document.getElementById("teaser-grid");
+    tGrid.innerHTML = "";
+    (data.products.items || []).slice(0, 3).forEach((p, i) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="thumb" style="aspect-ratio:16/11;margin:-1.6rem -1.6rem 1rem;border-bottom:1px solid var(--line);overflow:hidden;">
+          <img src="${teaserImages[i] || 'images/hero.svg'}" alt="" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3>${p.name}</h3>
+        <p>${p.description}</p>`;
+      tGrid.appendChild(card);
+    });
+  };
+</script>
+</body>
+</html>

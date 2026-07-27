@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "[Firmenname] — Fliegengitter- und Plissee-Systeme",
+    "description": "In der Türkei hergestellte Fliegengitter- und Plissee-Systeme. Informationen für Fachhändler in ganz Europa."
+  },
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "workshop": "Werkstatt",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "lang_label": "Sprache"
+  },
+  "brand": {
+    "name": "[Firmenname]",
+    "tagline": "Fliegengitter- und Plissee-Systeme"
+  },
+  "home": {
+    "hero_eyebrow": "Hergestellt in der Türkei, geliefert in ganz Europa",
+    "hero_title": "Ein faltbares System für ununterbrochenen Luftstrom.",
+    "hero_subtitle": "Wir fertigen Fliegengitter- und Plissee-Systeme in unserer eigenen Werkstatt und beliefern Fachhändler in ganz Europa.",
+    "hero_cta": "Produkte ansehen",
+    "hero_cta_secondary": "Kontakt aufnehmen",
+    "intro_title": "Produktionspartner für Fachhändler",
+    "intro_text": "Diese Website ist keine Verkaufsplattform, sondern dient dazu, unsere Produkte, unseren Fertigungsprozess und unser Unternehmen Fachhändlern in Europa vorzustellen. Bestellungen und Preise werden direkt über den persönlichen Kontakt geklärt.",
+    "highlights": [
+      {
+        "title": "Fertigung in eigener Werkstatt",
+        "text": "Zuschnitt, Montage und Endkontrolle finden vollständig in unserem eigenen Betrieb statt — ohne externe Lohnfertigung."
+      },
+      {
+        "title": "Lieferung in ganz Europa",
+        "text": "Wir beliefern unsere Fachhändler regelmäßig und nachvollziehbar, mit Optionen für palettenweise Sammelversand."
+      },
+      {
+        "title": "Technische Unterstützung für Händler",
+        "text": "Wir stellen unseren Händlern technische Unterlagen sowie direkte Unterstützung bei Maßaufnahme, Montage und Produktwahl zur Verfügung."
+      }
+    ],
+    "products_teaser_title": "Unser Produktprogramm",
+    "products_teaser_text": "Von Fliegengittersystemen bis zu Plissees — ein breites Sortiment für unterschiedliche Montagearten.",
+    "products_teaser_cta": "Alle Produkte ansehen",
+    "cta_title": "Für Händlerpartnerschaften",
+    "cta_text": "Kontaktieren Sie uns für Produktinformationen, Musteranfragen oder Konditionen für Fachhändler.",
+    "cta_button": "Kontakt aufnehmen"
+  },
+  "products": {
+    "title": "Produkte",
+    "intro": "Alle unsere Produkte werden in unserer eigenen Werkstatt auftragsbezogen nach Maß gefertigt. Die folgenden Angaben sind allgemeine Produktmerkmale; für technische Zeichnungen und Musteranfragen kontaktieren Sie uns gerne.",
+    "category_sineklik": "Fliegengitter-Systeme",
+    "category_plise": "Plissee-Systeme",
+    "specs_label": "Merkmale",
+    "items": [
+      {
+        "category": "sineklik",
+        "name": "Plissee-Fliegengitter",
+        "description": "Ziehharmonikaförmig faltbares Fliegengitter für Türen und Fenster, horizontal oder vertikal beweglich, das sich bei Nichtgebrauch in der Kassette verstaut.",
+        "specs": ["Rahmen und Kassette aus Aluminium", "Fiberglas-Plissee-Gewebe", "Maßanfertigung", "Geeignet für Dreh- und Schiebetüren"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Schiebe-Fliegengitter",
+        "description": "Auf Schienen horizontal laufendes Fliegengitter, geeignet für große Tür- und Balkonöffnungen.",
+        "specs": ["Ein- oder zweiflügelig erhältlich", "Aluminiumprofil", "Bürstendichtung", "Für große Öffnungen geeignet"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Dreh-Fliegengitter",
+        "description": "Klassisches einflügeliges Fliegengitter, das sich wie eine Tür öffnen und schließen lässt.",
+        "specs": ["Selbstschließendes Scharnier", "Aluminiumrahmen", "Geeignet für Standard-Fenster- und Türmaße"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Magnet-Fliegengitter",
+        "description": "Mit Magnetstreifen montiertes, leicht anzubringendes und wieder abnehmbares Fliegengitter.",
+        "specs": ["Magnetischer Verschlussstreifen", "Leichter, flexibler Rahmen", "Ideal für Mietwohnungen und einfache Montage"]
+      },
+      {
+        "category": "sineklik",
+        "name": "Roll-Fliegengitter",
+        "description": "Fliegengitter, das sich bei Nichtgebrauch in eine kleine Kassette einrollt, horizontal oder vertikal beweglich.",
+        "specs": ["Federzug-Aufrollmechanismus", "Schlanke Kassette", "Geeignet für Fenster- und Türanwendungen"]
+      },
+      {
+        "category": "plise",
+        "name": "Einfach-Plissee",
+        "description": "Einlagiges Plissee aus gefaltetem Stoff, das sich für Fenster nach oben oder unten bewegen lässt.",
+        "specs": ["Große Auswahl an Stoffen und Farben", "Kettenzug oder Kordelzug", "Maßanfertigung"]
+      },
+      {
+        "category": "plise",
+        "name": "Duo-Plissee (Day & Night)",
+        "description": "Doppellagiges Plissee mit transparentem und blickdichtem Stoff, das eine flexible Lichtsteuerung ermöglicht.",
+        "specs": ["Zwei unabhängige Stofflagen", "Getrennt bewegliche Lagen", "Balance aus Sichtschutz und Lichteinfall"]
+      },
+      {
+        "category": "plise",
+        "name": "Plissee für Glasfaltwände",
+        "description": "Plissee-Lösung, die mit speziellen Montagebeschlägen an Glasfaltwand-Systeme angepasst wird.",
+        "specs": ["Spezialbeschlag für Glasfaltwand-Profile", "Wind- und Sonnenschutz", "Maßanfertigung"]
+      }
+    ]
+  },
+  "workshop": {
+    "title": "Werkstatt und Fertigung",
+    "intro": "Alle unsere Produkte werden in unserer eigenen Werkstatt hergestellt. Vom Zuschnitt bis zur Montage übernimmt unser eigenes Team jeden Schritt.",
+    "steps": [
+      { "title": "Profilzuschnitt", "text": "Aluminiumprofile werden an Präzisionssägen exakt nach Bestellmaß zugeschnitten." },
+      { "title": "Verbindung und Montage", "text": "Die zugeschnittenen Teile werden an den Ecken verbunden und zum Rahmen montiert." },
+      { "title": "Stoff- und Gewebeeinzug", "text": "Plisseestoff oder Fliegengittergewebe wird mit speziellen Maschinen straff in die Kassette eingezogen." },
+      { "title": "Qualitätskontrolle", "text": "Jedes Produkt wird vor dem Versand auf Funktion des Mechanismus und Oberflächenqualität geprüft." },
+      { "title": "Verpackung und Versand", "text": "Die Produkte werden transportsicher verpackt und für den Versand vorbereitet." }
+    ],
+    "gallery_note": "Werkstattfotos werden in Kürze an dieser Stelle ergänzt."
+  },
+  "about": {
+    "title": "Über uns",
+    "intro_paragraphs": [
+      "[Firmenname] ist ein türkischer Hersteller, spezialisiert auf Fliegengitter- und Plissee-Systeme.",
+      "Wir fertigen ausschließlich in unserer eigenen Werkstatt — Zuschnitt, Montage, Qualitätskontrolle und Verpackung liegen vollständig in der Hand unseres eigenen Teams.",
+      "Durch regelmäßige Lieferungen an Fachhändler in ganz Europa stellen wir sicher, dass unsere Produkte zuverlässig beim Endkunden ankommen."
+    ],
+    "values_title": "Worauf wir Wert legen",
+    "values": [
+      { "title": "Eigene Fertigung", "text": "Wir verlassen uns auf kontrollierte Prozesse in unserer eigenen Werkstatt statt auf externe Lohnfertigung." },
+      { "title": "Partnerschaft mit Händlern", "text": "Wir bauen langfristige, vertrauensbasierte Geschäftsbeziehungen mit unseren Fachhändlern auf." },
+      { "title": "Materialqualität", "text": "Bei Aluminiumprofilen und Stoffen legen wir besonderen Wert auf Langlebigkeit." }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Für Händlerkonditionen, Musteranfragen oder Fragen zu unseren Produkten stehen wir Ihnen gerne zur Verfügung.",
+    "address_label": "Adresse",
+    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Türkei",
+    "email_label": "E-Mail",
+    "phone_label": "Telefon",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Über WhatsApp schreiben",
+    "form_note": "Hinweis: Die Adressangabe ist vorläufig und wird zu einem späteren Zeitpunkt aktualisiert."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Fliegengitter- und Plissee-Systeme — Vorstellung für Fachhändler in Europa"
+  }
+}
