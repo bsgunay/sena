@@ -94,8 +94,28 @@
     });
   }
 
+  /* Bir dilde EKSİK olan anahtar için kaynak dile (Türkçe) düş.
+     Yoksa yeni bir bölüm eklenip henüz çevrilmediğinde sayfa BOŞ görünür —
+     ziyaretçi bunu "site bozuk" diye okur. Türkçe görünmesi "henüz çevrilmemiş"
+     demektir; bu, boşluktan her zaman iyidir. Çeviri gelince kendiliğinden
+     devreye girer, burada bir şey değiştirmek gerekmez. */
+  function yedekle(hedef, kaynak) {
+    if (!kaynak || typeof kaynak !== 'object') return hedef;
+    const c = Array.isArray(kaynak) ? [] : {};
+    for (const k of Object.keys(kaynak)) c[k] = kaynak[k];
+    for (const k of Object.keys(hedef || {})) {
+      const h = hedef[k], y = kaynak[k];
+      c[k] = (h && typeof h === 'object' && y && typeof y === 'object') ? yedekle(h, y) : h;
+    }
+    return c;
+  }
+
   async function setLanguage(lang) {
-    const data = await fetchLocale(lang);
+    let data = await fetchLocale(lang);
+    const kaynakDil = SITE_CONFIG.defaultLang;
+    if (lang !== kaynakDil) {
+      try { data = yedekle(data, await fetchLocale(kaynakDil)); } catch (e) { /* kaynak dil yoksa olduğu gibi devam */ }
+    }
     document.documentElement.setAttribute("lang", lang);
     localStorage.setItem("site_lang", lang);
     applyStaticTranslations(data);

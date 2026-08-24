@@ -43,7 +43,7 @@
     <div class="wrap hero-copy">
       <p class="eyebrow" data-i18n="home.hero_eyebrow">Türkiye'de Üretim, Avrupa'ya Sevkiyat</p>
       <h1 data-i18n="home.hero_title">Katlanır bir sistem, kesintisiz bir hava akışı.</h1>
-      <p data-i18n="home.hero_subtitle">Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.</p>
+      <p data-i18n="home.hero_subtitle">Plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.</p>
       <div class="hero-actions">
         <a href="urunler.html" class="btn btn-primary" data-i18n="home.hero_cta">Ürünleri İncele</a>
         <a href="iletisim.html" class="btn btn-outline" data-i18n="home.hero_cta_secondary">Bize Ulaşın</a>
@@ -67,7 +67,7 @@
     <div class="wrap">
       <div class="section-head">
         <h2 data-i18n="home.products_teaser_title">Ürün Ailemiz</h2>
-        <p data-i18n="home.products_teaser_text">Sineklik sistemlerinden plise perdelere...</p>
+        <p data-i18n="home.products_teaser_text">Farklı montaj tiplerine uygun plise perde sistemleri...</p>
       </div>
       <div class="grid-3" id="teaser-grid"></div>
       <div style="margin-top:2rem;">
@@ -91,23 +91,19 @@
   <div class="wrap">
     <div>
       <p class="footer-brand" data-i18n="brand.name">Velora</p>
-      <p data-i18n="footer.tagline">Sineklik ve Plise Perde Sistemleri</p>
+      <p data-i18n="footer.tagline">Plise Perde Sistemleri</p>
     </div>
     <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">Velora</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
   </div>
 </footer>
 
 <script src="js/site-config.js"></script>
+<script src="js/urun-verisi.js"></script>
+<script src="js/urun-katmani.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
 <script>
   document.getElementById("footer-year").textContent = new Date().getFullYear();
-
-  const teaserImages = [
-    "images/products/plise-sineklik.svg",
-    "images/products/surme-sineklik.svg",
-    "images/products/tekli-plise-perde.svg"
-  ];
 
   window.renderDynamicContent = function (data) {
     const hGrid = document.getElementById("highlights-grid");
@@ -119,18 +115,27 @@
       hGrid.appendChild(card);
     });
 
+    /* Ürün tanıtımı da ÜRETİLMİŞ VERİDEN geliyor — eskiden `products.items`in
+       ilk üçü + sabit bir görsel dizisi kullanılıyordu; ürün eklenip
+       çıkarıldığında ad ile görsel birbirine karışıyordu. */
+    const U = window.VeloraUrun;
     const tGrid = document.getElementById("teaser-grid");
     tGrid.innerHTML = "";
-    (data.products.items || []).slice(0, 3).forEach((p, i) => {
-      const card = document.createElement("div");
-      card.className = "card";
-      card.innerHTML = `
+    if (!U) return;
+    U.modeller().slice(0, 3).forEach((m) => {
+      const kapak = U.kapakGorseli(m.id);
+      const a = document.createElement("a");
+      a.className = "card card-link";
+      a.href = "urun.html?model=" + encodeURIComponent(m.id);
+      a.innerHTML = `
         <div class="thumb" style="aspect-ratio:16/11;margin:-1.6rem -1.6rem 1rem;border-bottom:1px solid var(--line);overflow:hidden;">
-          <img src="${teaserImages[i] || 'images/hero.svg'}" alt="" style="width:100%;height:100%;object-fit:cover;">
+          ${kapak ? `<img src="${kapak}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;">` : ""}
         </div>
-        <h3>${p.name}</h3>
-        <p>${p.description}</p>`;
-      tGrid.appendChild(card);
+        <h3></h3>
+        <p></p>`;
+      a.querySelector("h3").textContent = U.ad.model(data, m.id);
+      a.querySelector("p").textContent  = U.ad.ozet(data, m.id);
+      tGrid.appendChild(a);
     });
   };
 </script>

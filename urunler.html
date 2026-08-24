@@ -52,14 +52,6 @@
     <div class="wrap">
       <div class="product-cat">
         <div class="product-cat-title">
-          <h2 data-i18n="products.category_sineklik">Sineklik Sistemleri</h2>
-          <span id="sineklik-count"></span>
-        </div>
-        <div class="product-grid" id="sineklik-grid"></div>
-      </div>
-
-      <div class="product-cat">
-        <div class="product-cat-title">
           <h2 data-i18n="products.category_plise">Plise Perde Sistemleri</h2>
           <span id="plise-count"></span>
         </div>
@@ -83,67 +75,63 @@
   <div class="wrap">
     <div>
       <p class="footer-brand" data-i18n="brand.name">Velora</p>
-      <p data-i18n="footer.tagline">Sineklik ve Plise Perde Sistemleri</p>
+      <p data-i18n="footer.tagline">Plise Perde Sistemleri</p>
     </div>
     <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">Velora</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
   </div>
 </footer>
 
 <script src="js/site-config.js"></script>
+<script src="js/urun-verisi.js"></script>
+<script src="js/urun-katmani.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
 <script>
   document.getElementById("footer-year").textContent = new Date().getFullYear();
 
-  const productImages = {
-    "Plise Sineklik": "images/products/plise-sineklik.svg",
-    "Sürme Sineklik": "images/products/surme-sineklik.svg",
-    "Menteşeli Sineklik": "images/products/mentese-sineklik.svg",
-    "Manyetik Sineklik": "images/products/manyetik-sineklik.svg",
-    "Rulo Sineklik": "images/products/rulo-sineklik.svg",
-    "Tekli Plise Perde": "images/products/tekli-plise-perde.svg",
-    "İkili (Day & Night) Plise Perde": "images/products/ikili-plise-perde.svg",
-    "Cam Balkon Plise Perde": "images/products/cam-balkon-plise.svg"
-  };
-  // Görsel eşlemesi Türkçe ürün adına göre yapıldı; dil değişse de dosya sırasına göre eşlenir.
-  const imageOrder = [
-    "images/products/plise-sineklik.svg",
-    "images/products/surme-sineklik.svg",
-    "images/products/mentese-sineklik.svg",
-    "images/products/manyetik-sineklik.svg",
-    "images/products/rulo-sineklik.svg",
-    "images/products/tekli-plise-perde.svg",
-    "images/products/ikili-plise-perde.svg",
-    "images/products/cam-balkon-plise.svg"
-  ];
+  /* Kartlar ÜRETİLMİŞ VERİDEN kuruluyor (window.VELORA_URUNLER).
+     Eski sürümde görseller `imageOrder` dizisiyle SIRAYA göre eşleniyordu;
+     listeden bir ürün çıkınca kalan her ürün yanlış görsele kayıyordu.
+     Artık eşleme model `id`'si üzerinden — sıradan bağımsız. */
+  window.renderDynamicContent = function (t) {
+    const U = window.VeloraUrun;
+    if (!U) return;
 
-  function renderGrid(container, items, specsLabel) {
-    container.innerHTML = "";
-    items.forEach((p) => {
-      const card = document.createElement("div");
-      card.className = "product-card";
-      const specs = (p.specs || []).map((s) => `<li>${s}</li>`).join("");
-      card.innerHTML = `
-        <div class="thumb"><img src="${p._img}" alt=""></div>
+    const kap = document.getElementById("plise-grid");
+    kap.innerHTML = "";
+
+    const modeller = U.modeller();
+    document.getElementById("plise-count").textContent =
+      modeller.length + " " + U.ad.ui(t, "model_count", "model");
+
+    for (const m of modeller) {
+      const kapak   = U.kapakGorseli(m.id);
+      const kumasN  = U.kumaslar(m.id).length;
+      const cerceveN = U.veri.cerceveler.length;
+      const ad      = U.ad.model(t, m.id);
+
+      const a = document.createElement("a");
+      a.className = "product-card product-card-link";
+      a.href = "urun.html?model=" + encodeURIComponent(m.id);
+      a.innerHTML = `
+        <div class="thumb">${kapak ? `<img src="${kapak}" alt="" loading="lazy">` : ""}</div>
         <div class="body">
-          <h3>${p.name}</h3>
-          <p>${p.description}</p>
-          <p class="specs-label">${specsLabel}</p>
-          <ul class="specs-list">${specs}</ul>
+          <h3></h3>
+          <p class="model-ozet"></p>
+          <p class="model-sayilar">
+            <span class="say"></span>
+            <span class="say"></span>
+          </p>
+          <span class="card-cta"></span>
         </div>`;
-      container.appendChild(card);
-    });
-  }
-
-  window.renderDynamicContent = function (data) {
-    const items = data.products.items || [];
-    items.forEach((p, i) => { p._img = imageOrder[i] || "images/hero.svg"; });
-
-    const sineklik = items.filter((p) => p.category === "sineklik");
-    const plise = items.filter((p) => p.category === "plise");
-
-    renderGrid(document.getElementById("sineklik-grid"), sineklik, data.products.specs_label);
-    renderGrid(document.getElementById("plise-grid"), plise, data.products.specs_label);
+      a.querySelector("h3").textContent = ad;
+      a.querySelector(".model-ozet").textContent = U.ad.ozet(t, m.id);
+      const sayilar = a.querySelectorAll(".say");
+      sayilar[0].textContent = kumasN + " " + U.ad.ui(t, "fabric_count", "kumaş");
+      sayilar[1].textContent = cerceveN + " " + U.ad.ui(t, "frame_count", "çerçeve rengi");
+      a.querySelector(".card-cta").textContent = U.ad.ui(t, "detail_cta", "Seçenekleri gör");
+      kap.appendChild(a);
+    }
   };
 </script>
 </body>

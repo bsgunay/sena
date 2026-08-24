@@ -179,16 +179,26 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   padding: 0.4rem 0.6rem; cursor: pointer;
 }
 
-/* ---------- Hero ---------- */
+/* ---------- Hero ----------
+   index.html tam genişlikte bir afiş + altında yazı kullanıyor (.hero-banner /
+   .hero-copy). Bu kurallar bir ara yalnızca site/style.css'e yazılmış, oysa
+   sayfalar css/style.css'e bağlı — afiş biçimsiz kalıyor, üstelik eski
+   `.hero .wrap { display:grid }` kuralı yazıyı iki sütuna bölüyordu.
+   24.08'de buraya taşındı, öbür dosya çöp kutusuna gönderildi. */
 .hero {
-  padding: clamp(3rem, 7vw, 5.5rem) 0 clamp(2.5rem, 5vw, 4rem);
+  padding: 0 0 clamp(2.5rem, 5vw, 4rem);
   position: relative;
 }
-.hero .wrap {
-  display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(2rem, 5vw, 4rem);
-  align-items: center;
+.hero-banner {
+  width: 100%;
+  aspect-ratio: 1280 / 632;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
 }
-.hero h1 { max-width: 14ch; }
+.hero-banner img { width: 100%; height: 100%; object-fit: cover; }
+.hero-copy { padding-top: clamp(2rem, 5vw, 3rem); }
+.hero h1 { max-width: 18ch; }
 .hero-actions { display: flex; gap: 0.9rem; margin-top: 1.6rem; flex-wrap: wrap; }
 
 .btn {
@@ -226,6 +236,12 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
   border-radius: var(--radius); padding: 1.6rem;
 }
 .card h3 { color: var(--teal-deep); }
+/* Tıklanabilir kart (ana sayfadaki ürün tanıtımı) */
+.card-link {
+  display: block; text-decoration: none; color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.card-link:hover { border-color: var(--teal); transform: translateY(-2px); }
 
 .figure-num {
   font-family: var(--font-mono); font-size: 0.78rem; color: var(--brass);
@@ -261,6 +277,94 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 }
 .specs-list li:first-child { border-top: none; }
 .specs-list li::before { content: "—"; color: var(--brass); flex: none; }
+
+/* ---------- Ürün kartı: tıklanabilir hâli (urunler.html) ---------- */
+.product-card-link {
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.product-card-link:hover { border-color: var(--teal); transform: translateY(-2px); }
+.product-card-link:hover h3 { color: var(--teal); }
+.model-ozet { margin-bottom: 0.9rem; }
+.model-sayilar {
+  font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-soft);
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin: 0 0 1rem;
+}
+.model-sayilar .say { display: inline-flex; align-items: center; gap: 0.4em; }
+.model-sayilar .say::before {
+  content: ""; width: 6px; height: 6px; background: var(--brass); flex: none;
+}
+.card-cta {
+  margin-top: auto; font-family: var(--font-display); font-weight: 600;
+  font-size: 0.9rem; color: var(--teal-deep);
+}
+.card-cta::after { content: " →"; }
+
+/* ---------- Ürün detay sayfası (urun.html) ---------- */
+.geri-baglanti {
+  font-family: var(--font-mono); font-size: 0.8rem; color: var(--ink-soft);
+  text-decoration: none; display: inline-block; margin-bottom: 1.5rem;
+}
+.geri-baglanti:hover { color: var(--teal-deep); }
+.bulunamadi { font-family: var(--font-mono); color: var(--ink-soft); }
+
+.urun-duzen {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: clamp(1.75rem, 4vw, 3.25rem); align-items: start;
+}
+
+.urun-gorsel-cerceve {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--white); overflow: hidden; aspect-ratio: 1/1;
+}
+.urun-gorsel-cerceve img { width: 100%; height: 100%; object-fit: contain; }
+
+.cekim-serit { display: flex; gap: 0.6rem; margin-top: 0.75rem; }
+.cekim {
+  width: 68px; height: 68px; padding: 0; overflow: hidden; cursor: pointer;
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.cekim img { width: 100%; height: 100%; object-fit: cover; }
+.cekim.secili { border-color: var(--teal); box-shadow: 0 0 0 1px var(--teal); }
+
+.urun-secim h1 { font-size: clamp(1.6rem, 3vw, 2.4rem); }
+
+/* Seçiciler */
+.secici { margin: 1.6rem 0; }
+.secici-baslik {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; margin-bottom: 0.6rem;
+}
+.secici-etiket {
+  font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--brass);
+}
+.secici-secili { font-size: 0.88rem; color: var(--ink-soft); font-weight: 500; }
+
+.secici-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+.secenek {
+  padding: 0; cursor: pointer; background: none;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  line-height: 0; transition: border-color 0.12s, box-shadow 0.12s;
+}
+.secenek:hover { border-color: var(--ink-soft); }
+.secenek.secili { border-color: var(--teal); box-shadow: 0 0 0 1px var(--teal); }
+.secenek-renk { display: block; width: 34px; height: 34px; }
+
+/* Renk örneği olmayan seçenekler (montaj tipi) metin olarak çıkar */
+.secenek-metin {
+  line-height: 1.4; padding: 0.5rem 0.9rem;
+  font-family: var(--font-body); font-size: 0.88rem; color: var(--ink);
+  background: var(--white);
+}
+.secenek-metin.secili { background: var(--teal-deep); color: var(--white); border-color: var(--teal-deep); }
+
+.urun-cta { margin-top: 1.75rem; }
+
+@media (max-width: 900px) {
+  .urun-duzen { grid-template-columns: 1fr; }
+}
 
 /* ---------- Workshop steps ---------- */
 .steps { counter-reset: step; display: grid; gap: 1.1rem; }
@@ -340,8 +444,7 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  .hero .wrap { grid-template-columns: 1fr; }
-  .hero-visual { order: -1; aspect-ratio: 16/10; }
+  .hero-banner { aspect-ratio: 16/10; }
   .grid-3, .values-grid { grid-template-columns: 1fr; }
   .grid-2, .product-grid, .contact-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }

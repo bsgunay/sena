@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ürün</title>
+<meta name="description" content="">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="product">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="images/logo-header.png" alt="Velora" class="brand-logo">
+    </a>
+    <nav class="main-nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Anasayfa</a></li>
+        <li><a href="urunler.html" aria-current="page" data-i18n="nav.products">Ürünler</a></li>
+        <li><a href="atolye.html" data-i18n="nav.workshop">Atölye</a></li>
+        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+      </ul>
+      <div class="lang-select-wrap">
+        <label for="lang-select" data-i18n="nav.lang_label" class="visually-hidden">Dil</label>
+        <select id="lang-select" aria-label="Dil seçimi"></select>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="urun-detay">
+    <div class="wrap">
+      <a href="urunler.html" class="geri-baglanti" id="geri">← Tüm ürünler</a>
+
+      <!-- Model bulunamazsa (adres elle bozulmuşsa) tek satır uyarı gösterilir -->
+      <p id="bulunamadi" class="bulunamadi" hidden></p>
+
+      <div class="urun-duzen" id="duzen" hidden>
+
+        <!-- SOL: seçili kombinasyonun görseli -->
+        <div class="urun-gorsel">
+          <div class="urun-gorsel-cerceve">
+            <img id="ana-gorsel" src="" alt="">
+          </div>
+          <!-- Aynı kombinasyonun birden çok çekimi varsa küçük görseller -->
+          <div class="cekim-serit" id="cekim-serit"></div>
+        </div>
+
+        <!-- SAĞ: seçiciler ve bilgi -->
+        <div class="urun-secim">
+          <p class="eyebrow" data-i18n="products.title">Ürünler</p>
+          <h1 id="model-ad"></h1>
+          <p id="model-aciklama"></p>
+
+          <div class="secici">
+            <div class="secici-baslik">
+              <span class="secici-etiket" id="kumas-etiket"></span>
+              <span class="secici-secili" id="kumas-secili"></span>
+            </div>
+            <div class="secici-bar" id="kumas-bar" role="radiogroup"></div>
+          </div>
+
+          <div class="secici">
+            <div class="secici-baslik">
+              <span class="secici-etiket" id="cerceve-etiket"></span>
+              <span class="secici-secili" id="cerceve-secili"></span>
+            </div>
+            <div class="secici-bar" id="cerceve-bar" role="radiogroup"></div>
+          </div>
+
+          <p class="specs-label" id="specs-etiket"></p>
+          <ul class="specs-list" id="specs-liste"></ul>
+
+          <a href="iletisim.html" class="btn btn-primary urun-cta" data-i18n="home.cta_button">İletişime Geç</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="footer-brand" data-i18n="brand.name">Velora</p>
+      <p data-i18n="footer.tagline">Plise Perde Sistemleri</p>
+    </div>
+    <p>&copy; <span id="footer-year"></span> <span data-i18n="brand.name">Velora</span>. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/urun-verisi.js"></script>
+<script src="js/urun-katmani.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+/* ============================================================================
+   ÜRÜN DETAY SAYFASI
+   Adres: urun.html?model=vidali
+   İki eksen var: kumaş · çerçeve rengi. (Montaj tipi bilerek eksen DEĞİL —
+   gerekçesi urun-veri-araci.js içinde yazılı.)
+
+   ÖNEMLİ: her kombinasyon üretilmiyor. Kullanıcı kumaş değiştirdiğinde o
+   kumaşta olmayan çerçeve renkleri barda GÖRÜNMEZ; seçili renk de yoksa ilk
+   uygun renge düşülür. Böylece "seçtim ama görsel gelmedi" durumu oluşmaz.
+   ========================================================================== */
+document.getElementById("footer-year").textContent = new Date().getFullYear();
+
+const MODEL_ID = new URLSearchParams(location.search).get("model");
+
+const secim = { kumas: null, cerceve: null, cekim: 0 };
+let CEVIRI = null;
+
+function el(id) { return document.getElementById(id); }
+
+/* --- Bir seçenek düğmesi. Renk örneği varsa kare, yoksa metin. --- */
+function dugmeYap(id, ad, hex, secili, tiklama) {
+  const b = document.createElement("button");
+  b.type = "button";
+  b.className = "secenek" + (secili ? " secili" : "") + (hex ? "" : " secenek-metin");
+  b.setAttribute("role", "radio");
+  b.setAttribute("aria-checked", String(secili));
+  b.title = ad;
+  if (hex) {
+    const kare = document.createElement("span");
+    kare.className = "secenek-renk";
+    kare.style.background = hex;
+    b.appendChild(kare);
+    const gizli = document.createElement("span");
+    gizli.className = "visually-hidden";
+    gizli.textContent = ad;
+    b.appendChild(gizli);
+  } else {
+    b.textContent = ad;
+  }
+  b.addEventListener("click", tiklama);
+  return b;
+}
+
+function ciz() {
+  const U = window.VeloraUrun, t = CEVIRI;
+  if (!U || !t) return;
+
+  const model = U.model(MODEL_ID);
+  if (!model) {
+    el("duzen").hidden = true;
+    const uyari = el("bulunamadi");
+    uyari.hidden = false;
+    uyari.textContent = U.ad.ui(t, "not_found", "Ürün bulunamadı.");
+    return;
+  }
+  el("duzen").hidden = false;
+  el("bulunamadi").hidden = true;
+
+  /* --- Sabit metinler --- */
+  el("geri").textContent        = "← " + U.ad.ui(t, "back", "Tüm ürünler");
+  el("model-ad").textContent    = U.ad.model(t, MODEL_ID);
+  el("model-aciklama").textContent =
+    (((t.products.models || {})[MODEL_ID] || {}).description) || "";
+  el("kumas-etiket").textContent   = U.ad.ui(t, "fabric_label", "Kumaş");
+  el("cerceve-etiket").textContent = U.ad.ui(t, "frame_label", "Çerçeve Rengi");
+  el("specs-etiket").textContent   = t.products.specs_label || "";
+  document.title = U.ad.model(t, MODEL_ID) + " — " + (t.brand.name || "Velora");
+
+  /* --- Kumaş ekseni --- */
+  const kumaslar = U.kumaslar(MODEL_ID);
+  if (!kumaslar.some(k => k.id === secim.kumas)) secim.kumas = (kumaslar[0] || {}).id || null;
+  const kBar = el("kumas-bar");
+  kBar.innerHTML = "";
+  for (const k of kumaslar) {
+    kBar.appendChild(dugmeYap(k.id, U.ad.kumas(t, k.id), k.hex, k.id === secim.kumas, () => {
+      secim.kumas = k.id; secim.cekim = 0; ciz();
+    }));
+  }
+  el("kumas-secili").textContent = secim.kumas ? U.ad.kumas(t, secim.kumas) : "";
+
+  /* --- Çerçeve ekseni: seçili kumaşta ÜRETİLEN renkler --- */
+  const cerceveler = U.cerceveler(MODEL_ID, secim.kumas);
+  if (!cerceveler.some(c => c.id === secim.cerceve)) secim.cerceve = (cerceveler[0] || {}).id || null;
+  const cBar = el("cerceve-bar");
+  cBar.innerHTML = "";
+  for (const c of cerceveler) {
+    cBar.appendChild(dugmeYap(c.id, U.ad.cerceve(t, c.id), c.hex, c.id === secim.cerceve, () => {
+      secim.cerceve = c.id; secim.cekim = 0; ciz();
+    }));
+  }
+  el("cerceve-secili").textContent = secim.cerceve ? U.ad.cerceve(t, secim.cerceve) : "";
+
+  /* --- Görsel + çekim şeridi --- */
+  const varyant = U.varyant(MODEL_ID, secim.kumas, secim.cerceve);
+  const gorseller = varyant ? U.cekimSirala(varyant.gorseller) : [];
+  if (secim.cekim >= gorseller.length) secim.cekim = 0;
+
+  const ana = el("ana-gorsel");
+  if (gorseller.length) {
+    ana.src = U.gorselYolu(MODEL_ID, gorseller[secim.cekim].dosya);
+    ana.alt = [U.ad.model(t, MODEL_ID),
+               secim.kumas   ? U.ad.kumas(t, secim.kumas) : "",
+               secim.cerceve ? U.ad.cerceve(t, secim.cerceve) : ""].filter(Boolean).join(" — ");
+  } else {
+    ana.removeAttribute("src");
+    ana.alt = "";
+  }
+
+  const serit = el("cekim-serit");
+  serit.innerHTML = "";
+  if (gorseller.length > 1) {
+    gorseller.forEach((g, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "cekim" + (i === secim.cekim ? " secili" : "");
+      b.innerHTML = `<img src="${U.gorselYolu(MODEL_ID, g.dosya)}" alt="" loading="lazy">`;
+      b.title = U.ad.ui(t, "view_" + (g.cekim || "cerceve"), g.cekim || "");
+      b.addEventListener("click", () => { secim.cekim = i; ciz(); });
+      serit.appendChild(b);
+    });
+  }
+
+  /* --- Özellikler --- */
+  const ozellikler = (((t.products.models || {})[MODEL_ID] || {}).specs) || [];
+  const liste = el("specs-liste");
+  liste.innerHTML = "";
+  for (const s of ozellikler) {
+    const li = document.createElement("li");
+    li.textContent = s;
+    liste.appendChild(li);
+  }
+}
+
+window.renderDynamicContent = function (t) { CEVIRI = t; ciz(); };
+</script>
+</body>
+</html>

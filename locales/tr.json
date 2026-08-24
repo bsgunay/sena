@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Sineklik ve Plise Perde Sistemleri",
-    "description": "Türkiye üretimi sineklik ve plise perde sistemleri. Avrupa geneli bayilere toptan tanıtım ve üretim bilgisi."
+    "title": "Velora — Plise Perde Sistemleri",
+    "description": "Türkiye üretimi plise perde sistemleri. Avrupa geneli bayilere toptan tanıtım ve üretim bilgisi."
   },
   "nav": {
     "home": "Anasayfa",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Sineklik ve Plise Perde Sistemleri"
+    "tagline": "Plise Perde Sistemleri"
   },
   "home": {
     "hero_eyebrow": "Türkiye'de Üretim, Avrupa'ya Sevkiyat",
     "hero_title": "Katlanır bir sistem, kesintisiz bir hava akışı.",
-    "hero_subtitle": "Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
+    "hero_subtitle": "Plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
     "hero_cta": "Ürünleri İncele",
     "hero_cta_secondary": "Bize Ulaşın",
     "intro_title": "Bayiler İçin Üretim Ortağı",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Ürün Ailemiz",
-    "products_teaser_text": "Sineklik sistemlerinden plise perdelere, farklı montaj tiplerine uygun geniş bir ürün yelpazesi.",
+    "products_teaser_text": "Farklı montaj tiplerine uygun plise perde sistemleri; geniş kumaş ve çerçeve rengi seçenekleriyle.",
     "products_teaser_cta": "Tüm Ürünleri Gör",
     "cta_title": "Bayilik ve İş Birliği İçin",
     "cta_text": "Ürünlerimiz hakkında detaylı bilgi, numune talebi veya bayilik koşulları için bizimle iletişime geçin.",
@@ -46,7 +46,7 @@
   },
   "products": {
     "title": "Ürünler",
-    "intro": "Tüm ürünlerimiz kendi atölyemizde, sipariş üzerine ve ölçüye göre üretilir. Aşağıdaki bilgiler genel ürün özellikleridir; teknik çizim ve numune talepleri için bizimle iletişime geçebilirsiniz.",
+    "intro": "Tüm ürünlerimiz kendi atölyemizde, sipariş üzerine ve ölçüye göre üretilir. Her modelin kumaş ve çerçeve seçeneklerini görmek için ürüne tıklayın.",
     "category_sineklik": "Sineklik Sistemleri",
     "category_plise": "Plise Perde Sistemleri",
     "specs_label": "Özellikler",
@@ -55,76 +55,210 @@
         "category": "sineklik",
         "name": "Plise Sineklik",
         "description": "Akordeon şeklinde katlanan, kapı ve pencerelerde yatay veya dikey hareket eden, kullanılmadığında kaseti içinde toplanan sineklik sistemi.",
-        "specs": ["Alüminyum kasa ve kaset profili", "Fiberglas plise file", "Ölçüye göre üretim", "Menteşeli ve sürme kapı uygulamalarına uygun"]
+        "specs": [
+          "Alüminyum kasa ve kaset profili",
+          "Fiberglas plise file",
+          "Ölçüye göre üretim",
+          "Menteşeli ve sürme kapı uygulamalarına uygun"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Sürme Sineklik",
         "description": "Ray sistemi üzerinde yatay olarak kayan, geniş kapı ve balkon açıklıkları için uygun sineklik sistemi.",
-        "specs": ["Tek veya çift kanatlı seçenek", "Alüminyum profil", "Fırçalı conta ile sızdırmazlık", "Geniş açıklıklara uygun"]
+        "specs": [
+          "Tek veya çift kanatlı seçenek",
+          "Alüminyum profil",
+          "Fırçalı conta ile sızdırmazlık",
+          "Geniş açıklıklara uygun"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Menteşeli Sineklik",
         "description": "Kapı gibi açılıp kapanan, tek kanatlı klasik sineklik sistemi.",
-        "specs": ["Otomatik kapanma menteşesi", "Alüminyum kasa", "Standart pencere ve kapı ölçülerine uygun"]
+        "specs": [
+          "Otomatik kapanma menteşesi",
+          "Alüminyum kasa",
+          "Standart pencere ve kapı ölçülerine uygun"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Manyetik Sineklik",
         "description": "Manyetik kapanma şeridi ile monte edilen, kolay takılıp çıkarılabilen pratik sineklik sistemi.",
-        "specs": ["Manyetik kapanma bandı", "Hafif ve esnek çerçeve", "Kiracı ve kolay montaj için uygun"]
+        "specs": [
+          "Manyetik kapanma bandı",
+          "Hafif ve esnek çerçeve",
+          "Kiracı ve kolay montaj için uygun"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Rulo Sineklik",
         "description": "Kullanılmadığında küçük bir kasete sarılan, dikey veya yatay hareket eden sineklik sistemi.",
-        "specs": ["Yaylı sarma mekanizması", "İnce profil kaset", "Pencere ve kapı uygulamaları için uygun"]
+        "specs": [
+          "Yaylı sarma mekanizması",
+          "İnce profil kaset",
+          "Pencere ve kapı uygulamaları için uygun"
+        ]
       },
       {
         "category": "plise",
         "name": "Tekli Plise Perde",
         "description": "Tek kat akordeon dokuma kumaştan oluşan, yukarı veya aşağı doğru hareket eden pencere perde sistemi.",
-        "specs": ["Geniş kumaş ve renk seçenekleri", "Zincirli veya kordonlu kontrol", "Ölçüye göre üretim"]
+        "specs": [
+          "Geniş kumaş ve renk seçenekleri",
+          "Zincirli veya kordonlu kontrol",
+          "Ölçüye göre üretim"
+        ]
       },
       {
         "category": "plise",
         "name": "İkili (Day & Night) Plise Perde",
         "description": "Şeffaf ve opak iki kumaşın bir arada kullanıldığı, ışık kontrolüne imkan veren çift katlı plise perde sistemi.",
-        "specs": ["İki farklı kumaş katmanı", "Bağımsız hareket eden katlar", "Gizlilik ve ışık dengesi"]
+        "specs": [
+          "İki farklı kumaş katmanı",
+          "Bağımsız hareket eden katlar",
+          "Gizlilik ve ışık dengesi"
+        ]
       },
       {
         "category": "plise",
         "name": "Cam Balkon Plise Perde",
         "description": "Cam balkon sistemleriyle uyumlu, özel montaj aparatlarıyla uygulanan plise perde çözümü.",
-        "specs": ["Cam balkon profiline özel aparat", "Rüzgâr ve güneş kontrolü", "Ölçüye göre üretim"]
+        "specs": [
+          "Cam balkon profiline özel aparat",
+          "Rüzgâr ve güneş kontrolü",
+          "Ölçüye göre üretim"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Kumaş",
+      "frame_label": "Çerçeve Rengi",
+      "mount_label": "Montaj Tipi",
+      "view_label": "Görünüm",
+      "view_profil": "Profil",
+      "view_cerceve": "Çerçeve",
+      "back": "Tüm ürünler",
+      "fabric_count": "kumaş",
+      "frame_count": "çerçeve rengi",
+      "option_count": "seçenek",
+      "selected": "Seçili",
+      "fabric_code": "Tedarikçi kodu",
+      "not_found": "Ürün bulunamadı.",
+      "detail_cta": "Kumaş ve renk seçeneklerini gör",
+      "model_count": "model"
+    },
+    "frames": {
+      "beyaz": "Beyaz",
+      "kirikbeyaz": "Kırık Beyaz",
+      "bej": "Bej",
+      "parlament": "Parlament",
+      "kahve": "Kahve",
+      "acikkahve": "Açık Kahve",
+      "siyah": "Siyah"
+    },
+    "mounts": {
+      "vidali": "Vidalı",
+      "yapistirmali": "Yapıştırmalı"
+    },
+    "models": {
+      "vidali": {
+        "name": "Vidalı Plise Perde",
+        "summary": "Vidayla sabitlenen, en sağlam montaj tipi.",
+        "description": "Tek kat akordeon dokuma kumaştan oluşan plise perde. Pencere kanadına veya duvara vidalanarak sabitlenir; kalıcı ve en sağlam montaj tipidir. Perde yukarı ve aşağı doğru hareket eder, istenen yükseklikte durur.",
+        "specs": [
+          "Vidalı sabit montaj",
+          "Geniş kumaş ve renk seçenekleri",
+          "Zincirli veya kordonlu kontrol",
+          "Ölçüye göre üretim"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Yapıştırmalı Plise Perde",
+        "summary": "Delik açmadan, yapışkan bantla monte edilir.",
+        "description": "Tek kat akordeon dokuma kumaştan oluşan plise perde. Pencere kanadına yapışkan bantla monte edilir; vida ve delik gerektirmez. Kiracılar ve PVC doğramaya delik açmak istemeyenler için uygundur.",
+        "specs": [
+          "Yapışkan bantla montaj, delik yok",
+          "Geniş kumaş ve renk seçenekleri",
+          "Zincirli veya kordonlu kontrol",
+          "Ölçüye göre üretim"
+        ]
+      },
+      "askili": {
+        "name": "Askılı / EasyFix Plise Perde",
+        "summary": "Kanada takılan aparatla, aletsiz montaj.",
+        "description": "Tek kat akordeon dokuma kumaştan oluşan plise perde. Pencere kanadının kenarına geçirilen askı aparatlarıyla takılır; vida, delik ve alet gerektirmez. İstenildiğinde iz bırakmadan sökülebilir.",
+        "specs": [
+          "Askı aparatıyla montaj, delik yok",
+          "İz bırakmadan sökülebilir",
+          "Geniş kumaş ve renk seçenekleri",
+          "Ölçüye göre üretim"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "İkili (Gece & Gündüz) Plise Perde",
+        "summary": "Şeffaf ve opak iki kumaş bir arada.",
+        "description": "Şeffaf ve opak iki kumaşın bir arada kullanıldığı çift katlı plise perde. İki kat bağımsız hareket ettiği için gün içinde ışığı, akşam ise gizliliği ayrı ayrı ayarlayabilirsiniz. Vidalı veya yapıştırmalı olarak monte edilir.",
+        "specs": [
+          "İki farklı kumaş katmanı",
+          "Bağımsız hareket eden katlar",
+          "Vidalı veya yapıştırmalı montaj",
+          "Gizlilik ve ışık dengesi"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Atölye ve Üretim",
     "intro": "Tüm ürünlerimiz kendi atölyemizde üretilir. Kesimden montaja kadar her aşama kendi ekibimiz tarafından yürütülür.",
     "steps": [
-      { "title": "Profil Kesimi", "text": "Alüminyum profiller, sipariş ölçülerine göre hassas kesim istasyonlarında hazırlanır." },
-      { "title": "Kaynak ve Montaj", "text": "Kesilen parçalar köşe kaynağı ve montaj aşamalarından geçerek kasa haline getirilir." },
-      { "title": "Kumaş ve File Uygulaması", "text": "Plise kumaş veya sineklik filesi, kasete özel makinelerle gerdirilerek yerleştirilir." },
-      { "title": "Kalite Kontrol", "text": "Her ürün sevkiyat öncesinde hareket mekanizması ve yüzey kalitesi açısından kontrol edilir." },
-      { "title": "Paketleme ve Sevkiyat", "text": "Ürünler nakliye sırasında hasar görmeyecek şekilde paketlenip sevkiyata hazırlanır." }
+      {
+        "title": "Profil Kesimi",
+        "text": "Alüminyum profiller, sipariş ölçülerine göre hassas kesim istasyonlarında hazırlanır."
+      },
+      {
+        "title": "Kaynak ve Montaj",
+        "text": "Kesilen parçalar köşe kaynağı ve montaj aşamalarından geçerek kasa haline getirilir."
+      },
+      {
+        "title": "Kumaş ve File Uygulaması",
+        "text": "Plise kumaş veya sineklik filesi, kasete özel makinelerle gerdirilerek yerleştirilir."
+      },
+      {
+        "title": "Kalite Kontrol",
+        "text": "Her ürün sevkiyat öncesinde hareket mekanizması ve yüzey kalitesi açısından kontrol edilir."
+      },
+      {
+        "title": "Paketleme ve Sevkiyat",
+        "text": "Ürünler nakliye sırasında hasar görmeyecek şekilde paketlenip sevkiyata hazırlanır."
+      }
     ],
     "gallery_note": "Atölye fotoğrafları yakında bu alanda yer alacaktır."
   },
   "about": {
     "title": "Hakkımızda",
     "intro_paragraphs": [
-      "Velora, sineklik ve plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
+      "Velora, plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
       "Üretimimizin tamamını kendi atölyemizde gerçekleştiriyor; kesim, kaynak, montaj ve paketleme süreçlerini kendi ekibimizle yönetiyoruz.",
       "Avrupa genelindeki bayi ve mağazalara düzenli sevkiyat yaparak, ürünlerimizin son kullanıcıya güvenilir bir şekilde ulaşmasını sağlıyoruz."
     ],
     "values_title": "Neye Önem Veriyoruz",
     "values": [
-      { "title": "Kendi Üretimimiz", "text": "Fason üretime değil, kendi atölyemizdeki kontrollü süreçlere güveniyoruz." },
-      { "title": "Bayi İlişkisi", "text": "Bayilerimizle uzun vadeli, karşılıklı güvene dayalı iş ilişkileri kuruyoruz." },
-      { "title": "Malzeme Kalitesi", "text": "Alüminyum profil ve kumaş seçimlerinde dayanıklılığı ön planda tutuyoruz." }
+      {
+        "title": "Kendi Üretimimiz",
+        "text": "Fason üretime değil, kendi atölyemizdeki kontrollü süreçlere güveniyoruz."
+      },
+      {
+        "title": "Bayi İlişkisi",
+        "text": "Bayilerimizle uzun vadeli, karşılıklı güvene dayalı iş ilişkileri kuruyoruz."
+      },
+      {
+        "title": "Malzeme Kalitesi",
+        "text": "Alüminyum profil ve kumaş seçimlerinde dayanıklılığı ön planda tutuyoruz."
+      }
     ]
   },
   "contact": {
@@ -140,6 +274,6 @@
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
-    "tagline": "Sineklik ve Plise Perde Sistemleri — Avrupa'ya Toptan Tanıtım"
+    "tagline": "Plise Perde Sistemleri — Avrupa’ya Toptan Tanıtım"
   }
 }
