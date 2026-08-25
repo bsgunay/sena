@@ -8,6 +8,8 @@ const SITE_CONFIG = {
   phoneDisplay: "+90 538 970 17 75",
   phoneTel: "+905389701775",
   whatsappNumber: "905389701775", // ülke kodu + numara, boşluksuz
+  instagram: "https://www.instagram.com/velora_turkey",
+  instagramHandle: "@velora_turkey",
 
   // Bayilik logosu hazır olduğunda /images/logo.svg veya .png olarak
   // ekleyin ve aşağıdaki satırı o dosya adıyla güncelleyin.

@@ -85,12 +85,14 @@
       const key = el.getAttribute("data-config");
       if (key === "email") { el.textContent = SITE_CONFIG.email; }
       if (key === "phoneDisplay") { el.textContent = SITE_CONFIG.phoneDisplay; }
+      if (key === "instagramHandle") { el.textContent = SITE_CONFIG.instagramHandle; }
     });
     document.querySelectorAll("[data-config-href]").forEach((el) => {
       const key = el.getAttribute("data-config-href");
       if (key === "email") el.setAttribute("href", `mailto:${SITE_CONFIG.email}`);
       if (key === "phoneTel") el.setAttribute("href", `tel:${SITE_CONFIG.phoneTel}`);
       if (key === "whatsapp") el.setAttribute("href", `https://wa.me/${SITE_CONFIG.whatsappNumber}`);
+      if (key === "instagram") el.setAttribute("href", SITE_CONFIG.instagram);
     });
   }
 

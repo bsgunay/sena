@@ -9,7 +9,8 @@
     "workshop": "Atölye",
     "about": "Hakkımızda",
     "contact": "İletişim",
-    "lang_label": "Dil"
+    "lang_label": "Dil",
+    "dealer": "Bayilik"
   },
   "brand": {
     "name": "Velora",
@@ -40,6 +41,34 @@
     "products_teaser_title": "Ürün Ailemiz",
     "products_teaser_text": "Farklı montaj tiplerine uygun plise perde sistemleri; geniş kumaş ve çerçeve rengi seçenekleriyle.",
     "products_teaser_cta": "Tüm Ürünleri Gör",
+    "services_title": "Hizmetlerimiz",
+    "services_text": "Velora yalnızca ürün üretmiyor; siparişin ölçüye göre hazırlanmasından paketlenip yola çıkmasına kadar olan aşamaları da kendi ekibiyle yürütüyor.",
+    "services": [
+      {
+        "title": "Özel Ölçü Üretim",
+        "text": "Her sipariş, bayinin bildirdiği ölçülere göre tek tek üretilir. Stoktan hazır ölçü satışı yapılmaz."
+      },
+      {
+        "title": "Markaya Özel İmalat",
+        "text": "Ürünler, bayinin kendi marka adı altında üretilebilir. Kendi markasıyla satış yapmak isteyen bayiler için uygundur."
+      },
+      {
+        "title": "Kalite Kontrol",
+        "text": "Her ürün sevkiyattan önce hareket mekanizması ve yüzey kalitesi açısından tek tek kontrol edilir."
+      },
+      {
+        "title": "Paketleme ve Ambalajlama",
+        "text": "Ürünler nakliye sırasında hasar görmeyecek şekilde paketlenip sevkiyata hazırlanır."
+      },
+      {
+        "title": "Bitmiş Ürün ve Demonte Sevkiyat",
+        "text": "Ürünler monte edilmiş halde gönderilebileceği gibi demonte olarak da sevk edilebilir; demonte gönderim nakliye hacmini düşürür."
+      }
+    ],
+    "delivery_days": "7–10 gün",
+    "delivery_caption": "kapıda teslim",
+    "delivery_title": "Avrupa Geneline Teslimat",
+    "delivery_text": "Siparişler Avrupa genelinde en geç 10 gün içinde bayinin kapısına teslim edilir.",
     "cta_title": "Bayilik ve İş Birliği İçin",
     "cta_text": "Ürünlerimiz hakkında detaylı bilgi, numune talebi veya bayilik koşulları için bizimle iletişime geçin.",
     "cta_button": "İletişime Geç"
@@ -265,12 +294,12 @@
     "title": "İletişim",
     "intro": "Bayilik koşulları, numune talebi veya ürünlerimiz hakkında sorularınız için bize ulaşabilirsiniz.",
     "address_label": "Adres",
-    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Türkiye",
+    "address": "Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul, Türkiye",
     "email_label": "E-posta",
     "phone_label": "Telefon",
     "whatsapp_label": "WhatsApp",
     "whatsapp_cta": "WhatsApp'tan Yaz",
-    "form_note": "Not: Adres bilgisi geçici olup ilerleyen süreçte güncellenecektir."
+    "instagram_label": "Instagram"
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Flugnät- och plisségardinsystem",
-    "description": "Flugnät- och plisségardinsystem tillverkade i Turkiet. Information för återförsäljare i hela Europa."
+    "title": "Velora — Plisségardinsystem",
+    "description": "Plisségardinsystem tillverkade i Turkiet. Information för återförsäljare i hela Europa."
   },
   "nav": {
     "home": "Hem",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Flugnät- och plisségardinsystem"
+    "tagline": "Plisségardinsystem"
   },
   "home": {
     "hero_eyebrow": "Tillverkat i Turkiet, levererat i hela Europa",
     "hero_title": "Ett vikbart system, ett obrutet luftflöde.",
-    "hero_subtitle": "Vi tillverkar flugnät- och plisségardinsystem i vår egen verkstad och levererar till återförsäljare i hela Europa.",
+    "hero_subtitle": "Vi tillverkar plisségardinsystem i vår egen verkstad och levererar till återförsäljare i hela Europa.",
     "hero_cta": "Se produkter",
     "hero_cta_secondary": "Kontakta oss",
     "intro_title": "Produktionspartner för återförsäljare",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Vårt produktsortiment",
-    "products_teaser_text": "Från flugnätsystem till plisségardiner — ett brett sortiment för olika monteringstyper.",
+    "products_teaser_text": "Plisségardinsystem för varje monteringstyp, med ett brett urval av tyger och ramfärger.",
     "products_teaser_cta": "Se alla produkter",
     "cta_title": "För återförsäljarsamarbete",
     "cta_text": "Kontakta oss för produktinformation, provbeställningar eller villkor för återförsäljare.",
@@ -116,7 +116,7 @@
   "about": {
     "title": "Om oss",
     "intro_paragraphs": [
-      "Velora är en turkisk tillverkare specialiserad på flugnät- och plisségardinsystem.",
+      "Velora är en turkisk tillverkare specialiserad på plisségardinsystem.",
       "Vi tillverkar uteslutande i vår egen verkstad — kapning, montering, kvalitetskontroll och emballering hanteras helt av vårt eget team.",
       "Genom regelbundna leveranser till återförsäljare i hela Europa säkerställer vi att våra produkter når slutkunden på ett pålitligt sätt."
     ],
@@ -131,15 +131,15 @@
     "title": "Kontakt",
     "intro": "Kontakta oss gärna för återförsäljarvillkor, provbeställningar eller frågor om våra produkter.",
     "address_label": "Adress",
-    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turkiet",
+    "address": "Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul, Turkiet",
     "email_label": "E-post",
     "phone_label": "Telefon",
     "whatsapp_label": "WhatsApp",
     "whatsapp_cta": "Skriv via WhatsApp",
-    "form_note": "Observera: adressuppgiften är preliminär och kommer att uppdateras senare."
+    "instagram_label": "Instagram"
   },
   "footer": {
     "rights": "Alla rättigheter förbehållna.",
-    "tagline": "Flugnät- och plisségardinsystem — Presentation för europeiska återförsäljare"
+    "tagline": "Plisségardinsystem — Presentation för europeiska återförsäljare"
   }
 }

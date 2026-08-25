@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Hordeur- en Plissésystemen",
-    "description": "In Turkije vervaardigde hordeur- en plissésystemen. Informatie voor vakhandelaren in heel Europa."
+    "title": "Velora — Plissésystemen",
+    "description": "In Turkije vervaardigde plissésystemen. Informatie voor vakhandelaren in heel Europa."
   },
   "nav": {
     "home": "Home",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Hordeur- en Plissésystemen"
+    "tagline": "Plissésystemen"
   },
   "home": {
     "hero_eyebrow": "Gemaakt in Turkije, geleverd in heel Europa",
     "hero_title": "Eén vouwbaar systeem, een ononderbroken luchtstroom.",
-    "hero_subtitle": "Wij vervaardigen hordeur- en plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
+    "hero_subtitle": "Wij vervaardigen plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
     "hero_cta": "Bekijk producten",
     "hero_cta_secondary": "Neem contact op",
     "intro_title": "Productiepartner voor vakhandelaren",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Ons productassortiment",
-    "products_teaser_text": "Van hordeursystemen tot plissés — een breed assortiment voor verschillende montagetypes.",
+    "products_teaser_text": "Plissésystemen voor elk montagetype, met een ruime keuze aan stoffen en framekleuren.",
     "products_teaser_cta": "Bekijk alle producten",
     "cta_title": "Voor handelspartnerschappen",
     "cta_text": "Neem contact met ons op voor productinformatie, monsteraanvragen of voorwaarden voor vakhandelaren.",
@@ -116,7 +116,7 @@
   "about": {
     "title": "Over ons",
     "intro_paragraphs": [
-      "Velora is een Turkse fabrikant, gespecialiseerd in hordeur- en plissésystemen.",
+      "Velora is een Turkse fabrikant, gespecialiseerd in plissésystemen.",
       "Wij produceren uitsluitend in onze eigen werkplaats — snijden, montage, kwaliteitscontrole en verpakking worden volledig door ons eigen team uitgevoerd.",
       "Door regelmatige leveringen aan vakhandelaren in heel Europa zorgen wij ervoor dat onze producten betrouwbaar bij de eindgebruiker terechtkomen."
     ],
@@ -131,15 +131,15 @@
     "title": "Contact",
     "intro": "Voor handelsvoorwaarden, monsteraanvragen of vragen over onze producten kunt u contact met ons opnemen.",
     "address_label": "Adres",
-    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turkije",
+    "address": "Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul, Turkije",
     "email_label": "E-mail",
     "phone_label": "Telefoon",
     "whatsapp_label": "WhatsApp",
     "whatsapp_cta": "Stuur bericht via WhatsApp",
-    "form_note": "Let op: het adres is voorlopig en wordt op een later moment bijgewerkt."
+    "instagram_label": "Instagram"
   },
   "footer": {
     "rights": "Alle rechten voorbehouden.",
-    "tagline": "Hordeur- en Plissésystemen — Kennismaking voor vakhandelaren in Europa"
+    "tagline": "Plissésystemen — Kennismaking voor vakhandelaren in Europa"
   }
 }

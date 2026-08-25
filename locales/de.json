@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Fliegengitter- und Plissee-Systeme",
-    "description": "In der Türkei hergestellte Fliegengitter- und Plissee-Systeme. Informationen für Fachhändler in ganz Europa."
+    "title": "Velora — Plissee-Systeme",
+    "description": "In der Türkei hergestellte Plissee-Systeme. Informationen für Fachhändler in ganz Europa."
   },
   "nav": {
     "home": "Startseite",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Fliegengitter- und Plissee-Systeme"
+    "tagline": "Plissee-Systeme"
   },
   "home": {
     "hero_eyebrow": "Hergestellt in der Türkei, geliefert in ganz Europa",
     "hero_title": "Ein faltbares System für ununterbrochenen Luftstrom.",
-    "hero_subtitle": "Wir fertigen Fliegengitter- und Plissee-Systeme in unserer eigenen Werkstatt und beliefern Fachhändler in ganz Europa.",
+    "hero_subtitle": "Wir fertigen Plissee-Systeme in unserer eigenen Werkstatt und beliefern Fachhändler in ganz Europa.",
     "hero_cta": "Produkte ansehen",
     "hero_cta_secondary": "Kontakt aufnehmen",
     "intro_title": "Produktionspartner für Fachhändler",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Unser Produktprogramm",
-    "products_teaser_text": "Von Fliegengittersystemen bis zu Plissees — ein breites Sortiment für unterschiedliche Montagearten.",
+    "products_teaser_text": "Plissee-Systeme für jede Montageart — mit einer großen Auswahl an Stoffen und Rahmenfarben.",
     "products_teaser_cta": "Alle Produkte ansehen",
     "cta_title": "Für Händlerpartnerschaften",
     "cta_text": "Kontaktieren Sie uns für Produktinformationen, Musteranfragen oder Konditionen für Fachhändler.",
@@ -116,7 +116,7 @@
   "about": {
     "title": "Über uns",
     "intro_paragraphs": [
-      "Velora ist ein türkischer Hersteller, spezialisiert auf Fliegengitter- und Plissee-Systeme.",
+      "Velora ist ein türkischer Hersteller, spezialisiert auf Plissee-Systeme.",
       "Wir fertigen ausschließlich in unserer eigenen Werkstatt — Zuschnitt, Montage, Qualitätskontrolle und Verpackung liegen vollständig in der Hand unseres eigenen Teams.",
       "Durch regelmäßige Lieferungen an Fachhändler in ganz Europa stellen wir sicher, dass unsere Produkte zuverlässig beim Endkunden ankommen."
     ],
@@ -131,15 +131,15 @@
     "title": "Kontakt",
     "intro": "Für Händlerkonditionen, Musteranfragen oder Fragen zu unseren Produkten stehen wir Ihnen gerne zur Verfügung.",
     "address_label": "Adresse",
-    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Türkei",
+    "address": "Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul, Türkei",
     "email_label": "E-Mail",
     "phone_label": "Telefon",
     "whatsapp_label": "WhatsApp",
     "whatsapp_cta": "Über WhatsApp schreiben",
-    "form_note": "Hinweis: Die Adressangabe ist vorläufig und wird zu einem späteren Zeitpunkt aktualisiert."
+    "instagram_label": "Instagram"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
-    "tagline": "Fliegengitter- und Plissee-Systeme — Vorstellung für Fachhändler in Europa"
+    "tagline": "Plissee-Systeme — Vorstellung für Fachhändler in Europa"
   }
 }

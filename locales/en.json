@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Pleated Blinds & Insect Screens",
-    "description": "Insect screen and pleated blind systems manufactured in Turkey. Information for trade dealers across Europe."
+    "title": "Velora — Pleated Blind Systems",
+    "description": "Pleated blind systems manufactured in Turkey. Information for trade dealers across Europe."
   },
   "nav": {
     "home": "Home",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Pleated Blinds & Insect Screens"
+    "tagline": "Pleated Blind Systems"
   },
   "home": {
     "hero_eyebrow": "Made in Turkey, delivered across Europe",
     "hero_title": "One folding system, one uninterrupted flow of air.",
-    "hero_subtitle": "We manufacture insect screen and pleated blind systems in our own workshop and supply trade dealers across Europe.",
+    "hero_subtitle": "We manufacture pleated blind systems in our own workshop and supply trade dealers across Europe.",
     "hero_cta": "View products",
     "hero_cta_secondary": "Get in touch",
     "intro_title": "A production partner for dealers",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Our product range",
-    "products_teaser_text": "From insect screen systems to pleated blinds — a wide range suited to different mounting types.",
+    "products_teaser_text": "Pleated blind systems for every mounting type, with a wide choice of fabrics and frame colours.",
     "products_teaser_cta": "View all products",
     "cta_title": "For dealer partnerships",
     "cta_text": "Contact us for product information, sample requests or dealer terms.",
@@ -116,7 +116,7 @@
   "about": {
     "title": "About Us",
     "intro_paragraphs": [
-      "Velora is a Turkish manufacturer specialising in insect screen and pleated blind systems.",
+      "Velora is a Turkish manufacturer specialising in pleated blind systems.",
       "We manufacture exclusively in our own workshop — cutting, assembly, quality control and packing are all handled by our own team.",
       "Through regular deliveries to trade dealers across Europe, we make sure our products reach the end customer reliably."
     ],
@@ -131,15 +131,15 @@
     "title": "Contact",
     "intro": "For dealer terms, sample requests or questions about our products, feel free to get in touch.",
     "address_label": "Address",
-    "address": "Kuvayi Milliye Mahallesi, Balıkesir, Turkey",
+    "address": "Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul, Turkey",
     "email_label": "Email",
     "phone_label": "Phone",
     "whatsapp_label": "WhatsApp",
     "whatsapp_cta": "Message on WhatsApp",
-    "form_note": "Note: the address shown is provisional and will be updated at a later stage."
+    "instagram_label": "Instagram"
   },
   "footer": {
     "rights": "All rights reserved.",
-    "tagline": "Insect Screen and Pleated Blind Systems — Introduction for European Dealers"
+    "tagline": "Pleated Blind Systems — Trade Introduction for Europe"
   }
 }

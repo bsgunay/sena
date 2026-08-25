@@ -145,7 +145,10 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   display: block;
 }
 
-.main-nav { display: flex; align-items: center; gap: 1.75rem; }
+/* margin-left:auto → marka solda kalır, menü ile bayilik butonu sağda yan yana
+   toplanır. Olmasaydı space-between üçünü eşit aralıklarla dağıtır, menü ortada
+   asılı kalırdı. */
+.main-nav { display: flex; align-items: center; gap: 1.75rem; margin-left: auto; }
 .main-nav ul {
   list-style: none; display: flex; gap: 1.6rem; margin: 0; padding: 0;
   font-size: 0.95rem;
@@ -422,6 +425,62 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 }
 .map-frame iframe { width: 100%; height: 100%; border: 0; }
 
+/* ---------- Hizmetler ----------
+   Hizmet sayısı sabit değil (şu an 5). Sabit 3 sütun kullanılsaydı 5 kart
+   "3 + 2 boşluk" diye kırık görünürdü; auto-fit sayı değişince kendiliğinden
+   yeniden diziyor. */
+.service-grid {
+  display: grid; gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+}
+.service-card h3 { margin-bottom: 0.35rem; }
+.service-card p { margin-bottom: 0; }
+
+/* ---------- Teslimat şeridi ---------- */
+.delivery-band {
+  display: flex; align-items: center; gap: clamp(1.5rem, 4vw, 3rem);
+  flex-wrap: wrap;
+}
+.delivery-figure {
+  display: flex; flex-direction: column; align-items: flex-start;
+  border-left: 3px solid var(--brass); padding-left: 1.25rem;
+}
+.delivery-number {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(2.2rem, 5vw, 3.2rem); line-height: 1;
+  color: var(--teal-deep); letter-spacing: -0.02em;
+}
+.delivery-caption {
+  font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--ink-soft); margin-top: 0.5rem;
+}
+.delivery-copy { flex: 1 1 22rem; }
+.delivery-copy h2 { margin-bottom: 0.35rem; }
+.delivery-copy p { margin-bottom: 0; }
+
+/* ---------- Bayilik butonu (üst çubukta, her sayfada) ----------
+   Menünün İÇİNDE değil, yanında duruyor: telefonda menü hamburgerin arkasına
+   kapandığında bile görünür kalsın diye. */
+.btn-dealer {
+  background: var(--brass); color: var(--ink); border-color: var(--brass);
+  padding: 0.55rem 1.15rem; font-size: 0.88rem; white-space: nowrap;
+}
+.btn-dealer:hover { background: var(--brass-soft); border-color: var(--brass-soft); }
+
+/* ---------- WhatsApp yüzen butonu ----------
+   #25D366 bilerek palet dışı: WhatsApp'ın kendi rengi, tanınırlığı buradan
+   geliyor. Site paletine boyansaydı ne olduğu anlaşılmazdı. */
+.wa-float {
+  position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 50;
+  width: 54px; height: 54px; border-radius: 50%;
+  background: #25D366; color: var(--white);
+  display: grid; place-items: center;
+  box-shadow: 0 4px 14px rgba(27, 33, 29, 0.25);
+  transition: transform 0.15s;
+}
+.wa-float:hover { transform: translateY(-2px); }
+.wa-float svg { width: 30px; height: 30px; fill: currentColor; }
+
 /* ---------- CTA band ---------- */
 .cta-band {
   background: var(--teal-deep); color: var(--white);
@@ -441,6 +500,8 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 }
 .site-footer p { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
 .footer-brand { font-family: var(--font-display); font-weight: 600; }
+.footer-ig { color: var(--ink-soft); text-decoration: none; }
+.footer-ig:hover { color: var(--ink); text-decoration: underline; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
@@ -459,6 +520,10 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
   .main-nav a { display: block; padding: 0.9rem 0; }
   .lang-select-wrap { padding: 0.9rem clamp(1.25rem, 4vw, 2.5rem) 0.3rem; }
   .nav-toggle { display: block; }
+  .site-header .wrap { gap: 0.75rem; }
+  /* Telefonda menü akıştan çıkıyor (position:fixed); boşluğu bu emsin, yoksa
+     marka / buton / hamburger üçe bölünüp buton ortada asılı kalır. */
+  .btn-dealer { padding: 0.5rem 0.85rem; font-size: 0.82rem; margin-left: auto; }
 }
 
 @media (max-width: 600px) {
