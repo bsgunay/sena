@@ -18,15 +18,15 @@
   "home": {
     "hero_eyebrow": "Gemaakt in Turkije, geleverd in heel Europa",
     "hero_title": "Eén vouwbaar systeem, een ononderbroken luchtstroom.",
-    "hero_subtitle": "Wij vervaardigen hordeur- en plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
+    "hero_subtitle": "Wij vervaardigen hordeur- en plissésystemen op maat en leveren aan vakhandelaren in heel Europa.",
     "hero_cta": "Bekijk producten",
     "hero_cta_secondary": "Neem contact op",
     "intro_title": "Productiepartner voor vakhandelaren",
     "intro_text": "Deze website is geen verkoopplatform, maar dient om onze producten, ons productieproces en ons bedrijf voor te stellen aan vakhandelaren in Europa. Bestellingen en prijzen worden rechtstreeks via persoonlijk contact geregeld.",
     "highlights": [
       {
-        "title": "Vervaardigd in eigen werkplaats",
-        "text": "Snijden, montage en eindcontrole vinden volledig in onze eigen werkplaats plaats — zonder externe uitbesteding."
+        "title": "Vervaardigd op maat",
+        "text": "Snijden, montage en eindcontrole verlopen volgens een gecontroleerd productieproces; elk product wordt op de bestelde maat gemaakt."
       },
       {
         "title": "Levering in heel Europa",
@@ -46,7 +46,7 @@
   },
   "products": {
     "title": "Producten",
-    "intro": "Al onze producten worden op bestelling en op maat vervaardigd in onze eigen werkplaats. Onderstaande informatie betreft algemene productkenmerken; neem voor technische tekeningen en monsteraanvragen gerust contact met ons op.",
+    "intro": "Al onze producten worden op bestelling en op maat vervaardigd. Onderstaande informatie betreft algemene productkenmerken; neem voor technische tekeningen en monsteraanvragen gerust contact met ons op.",
     "category_sineklik": "Hordeursystemen",
     "category_plise": "Plissésystemen",
     "specs_label": "Kenmerken",
@@ -103,7 +103,7 @@
   },
   "workshop": {
     "title": "Werkplaats en productie",
-    "intro": "Al onze producten worden vervaardigd in onze eigen werkplaats. Van snijden tot montage wordt elke stap door ons eigen team uitgevoerd.",
+    "intro": "Onze producten worden op de bestelde maat vervaardigd. Van snijden tot montage volgt elke stap het onderstaande proces, en elk product wordt vóór verzending gecontroleerd.",
     "steps": [
       { "title": "Profielen zagen", "text": "Aluminium profielen worden op precisiezaagstations exact op bestelmaat gezaagd." },
       { "title": "Lassen en montage", "text": "De gezaagde onderdelen worden aan de hoeken verbonden en tot een kader gemonteerd." },
@@ -116,12 +116,12 @@
     "title": "Over ons",
     "intro_paragraphs": [
       "Velora is een Turkse fabrikant, gespecialiseerd in hordeur- en plissésystemen.",
-      "Wij produceren uitsluitend in onze eigen werkplaats — snijden, montage, kwaliteitscontrole en verpakking worden volledig door ons eigen team uitgevoerd.",
+      "Wij volgen het snijden, de montage, de kwaliteitscontrole en de verpakking van begin tot eind; elk product doorloopt vóór verzending onze eigen controle.",
       "Door regelmatige leveringen aan vakhandelaren in heel Europa zorgen wij ervoor dat onze producten betrouwbaar bij de eindgebruiker terechtkomen."
     ],
     "values_title": "Waar wij waarde aan hechten",
     "values": [
-      { "title": "Eigen productie", "text": "Wij vertrouwen op gecontroleerde processen in onze eigen werkplaats in plaats van externe uitbesteding." },
+      { "title": "Gecontroleerde productie", "text": "Elk product doorloopt een gecontroleerd proces, van opmeting tot verzending." },
       { "title": "Relatie met handelaren", "text": "Wij bouwen langdurige, op vertrouwen gebaseerde handelsrelaties op met onze vakhandelaren." },
       { "title": "Materiaalkwaliteit", "text": "Bij de keuze van aluminium profielen en stoffen staat duurzaamheid voorop." }
     ]

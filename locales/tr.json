@@ -19,15 +19,15 @@
   "home": {
     "hero_eyebrow": "Türkiye'de Üretim, Avrupa'ya Sevkiyat",
     "hero_title": "Katlanır bir sistem, kesintisiz bir hava akışı.",
-    "hero_subtitle": "Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
+    "hero_subtitle": "Sineklik ve plise perde sistemlerini özel ölçülerde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
     "hero_cta": "Ürünleri İncele",
     "hero_cta_secondary": "Bize Ulaşın",
     "intro_title": "Bayiler İçin Üretim Ortağı",
     "intro_text": "Bu site bir satış platformu değil; ürünlerimizi, üretim sürecimizi ve firmamızı Avrupa'daki bayi ve mağaza sahiplerine tanıtmak için hazırlandı. Sipariş ve fiyatlandırma süreçleri doğrudan iletişim üzerinden yürütülür.",
     "highlights": [
       {
-        "title": "Kendi Atölyemizde Üretim",
-        "text": "Kesim, kaynak ve montaj aşamalarının tamamı kendi tesisimizde gerçekleşir; dışarıdan fason üretim kullanılmaz."
+        "title": "Özel Ölçü Üretim",
+        "text": "Kesim, kaynak ve montaj aşamaları kontrollü bir üretim akışında yürütülür; her ürün siparişe özel ölçülendirilir."
       },
       {
         "title": "Avrupa Geneline Sevkiyat",
@@ -75,7 +75,7 @@
   },
   "products": {
     "title": "Ürünler",
-    "intro": "Tüm ürünlerimiz kendi atölyemizde, sipariş üzerine ve ölçüye göre üretilir. Her modelin kumaş ve çerçeve seçeneklerini görmek için ürüne tıklayın.",
+    "intro": "Tüm ürünlerimiz sipariş üzerine ve ölçüye göre üretilir. Her modelin kumaş ve çerçeve seçeneklerini görmek için ürüne tıklayın.",
     "category_sineklik": "Sineklik Sistemleri",
     "category_plise": "Plise Perde Sistemleri",
     "specs_label": "Özellikler",
@@ -242,7 +242,7 @@
   },
   "workshop": {
     "title": "Atölye ve Üretim",
-    "intro": "Tüm ürünlerimiz kendi atölyemizde üretilir. Kesimden montaja kadar her aşama kendi ekibimiz tarafından yürütülür.",
+    "intro": "Ürünlerimiz sipariş ölçülerine göre üretilir. Kesimden montaja kadar her aşama aşağıdaki akışa göre yürütülür ve her ürün sevkiyat öncesi kontrol edilir.",
     "steps": [
       {
         "title": "Profil Kesimi",
@@ -270,14 +270,14 @@
     "title": "Hakkımızda",
     "intro_paragraphs": [
       "Velora, sineklik ve plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
-      "Üretimimizin tamamını kendi atölyemizde gerçekleştiriyor; kesim, kaynak, montaj ve paketleme süreçlerini kendi ekibimizle yönetiyoruz.",
+      "Kesim, kaynak, montaj ve paketleme süreçlerini baştan sona takip ediyor, her ürünü sevkiyat öncesi kendi kalite kontrolümüzden geçiriyoruz.",
       "Avrupa genelindeki bayi ve mağazalara düzenli sevkiyat yaparak, ürünlerimizin son kullanıcıya güvenilir bir şekilde ulaşmasını sağlıyoruz."
     ],
     "values_title": "Neye Önem Veriyoruz",
     "values": [
       {
-        "title": "Kendi Üretimimiz",
-        "text": "Fason üretime değil, kendi atölyemizdeki kontrollü süreçlere güveniyoruz."
+        "title": "Kontrollü Üretim",
+        "text": "Her ürün, ölçüsünden sevkiyatına kadar kontrollü bir süreçten geçer."
       },
       {
         "title": "Bayi İlişkisi",

@@ -18,15 +18,15 @@
   "home": {
     "hero_eyebrow": "Tillverkat i Turkiet, levererat i hela Europa",
     "hero_title": "Ett vikbart system, ett obrutet luftflöde.",
-    "hero_subtitle": "Vi tillverkar flugnät- och plisségardinsystem i vår egen verkstad och levererar till återförsäljare i hela Europa.",
+    "hero_subtitle": "Vi tillverkar måttanpassade flugnät- och plisségardinsystem och levererar till återförsäljare i hela Europa.",
     "hero_cta": "Se produkter",
     "hero_cta_secondary": "Kontakta oss",
     "intro_title": "Produktionspartner för återförsäljare",
     "intro_text": "Den här webbplatsen är ingen försäljningsplattform utan presenterar våra produkter, vår tillverkningsprocess och vårt företag för återförsäljare i Europa. Beställningar och prissättning hanteras direkt via personlig kontakt.",
     "highlights": [
       {
-        "title": "Tillverkning i egen verkstad",
-        "text": "Kapning, montering och slutkontroll sker helt i vår egen anläggning — utan extern legotillverkning."
+        "title": "Måttanpassad tillverkning",
+        "text": "Kapning, montering och slutkontroll följer ett kontrollerat tillverkningsflöde; varje produkt tillverkas i beställda mått."
       },
       {
         "title": "Leverans i hela Europa",
@@ -46,7 +46,7 @@
   },
   "products": {
     "title": "Produkter",
-    "intro": "Alla våra produkter tillverkas på beställning och måttanpassas i vår egen verkstad. Informationen nedan avser generella produktegenskaper; kontakta oss gärna för tekniska ritningar och provbeställningar.",
+    "intro": "Alla våra produkter tillverkas på beställning och måttanpassas. Informationen nedan avser generella produktegenskaper; kontakta oss gärna för tekniska ritningar och provbeställningar.",
     "category_sineklik": "Flugnätsystem",
     "category_plise": "Plisségardinsystem",
     "specs_label": "Egenskaper",
@@ -103,7 +103,7 @@
   },
   "workshop": {
     "title": "Verkstad och tillverkning",
-    "intro": "Alla våra produkter tillverkas i vår egen verkstad. Från kapning till montering utförs varje steg av vårt eget team.",
+    "intro": "Våra produkter tillverkas i beställda mått. Från kapning till montering följer varje steg flödet nedan, och varje produkt kontrolleras före leverans.",
     "steps": [
       { "title": "Kapning av profiler", "text": "Aluminiumprofiler kapas exakt efter beställningsmått i precisionskapstationer." },
       { "title": "Sammanfogning och montering", "text": "De kapade delarna hörnsammanfogas och monteras till en ram." },
@@ -116,12 +116,12 @@
     "title": "Om oss",
     "intro_paragraphs": [
       "Velora är en turkisk tillverkare specialiserad på flugnät- och plisségardinsystem.",
-      "Vi tillverkar uteslutande i vår egen verkstad — kapning, montering, kvalitetskontroll och emballering hanteras helt av vårt eget team.",
+      "Vi följer kapning, montering, kvalitetskontroll och emballering från början till slut; varje produkt genomgår vår egen kontroll före leverans.",
       "Genom regelbundna leveranser till återförsäljare i hela Europa säkerställer vi att våra produkter når slutkunden på ett pålitligt sätt."
     ],
     "values_title": "Vad vi värdesätter",
     "values": [
-      { "title": "Egen tillverkning", "text": "Vi förlitar oss på kontrollerade processer i vår egen verkstad snarare än extern legotillverkning." },
+      { "title": "Kontrollerad tillverkning", "text": "Varje produkt genomgår en kontrollerad process, från mått till leverans." },
       { "title": "Relation med återförsäljare", "text": "Vi bygger långsiktiga affärsrelationer baserade på ömsesidigt förtroende med våra återförsäljare." },
       { "title": "Materialkvalitet", "text": "Vid val av aluminiumprofiler och tyger prioriterar vi hållbarhet." }
     ]

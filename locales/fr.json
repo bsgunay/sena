@@ -18,15 +18,15 @@
   "home": {
     "hero_eyebrow": "Fabriqué en Turquie, livré dans toute l'Europe",
     "hero_title": "Un système plissé, un flux d'air ininterrompu.",
-    "hero_subtitle": "Nous fabriquons des systèmes de moustiquaires et de stores plissés dans notre propre atelier et livrons des revendeurs professionnels dans toute l'Europe.",
+    "hero_subtitle": "Nous fabriquons des systèmes de moustiquaires et de stores plissés sur mesure et livrons des revendeurs professionnels dans toute l'Europe.",
     "hero_cta": "Voir les produits",
     "hero_cta_secondary": "Nous contacter",
     "intro_title": "Partenaire de production pour les revendeurs",
     "intro_text": "Ce site n'est pas une plateforme de vente : il présente nos produits, notre processus de fabrication et notre entreprise aux revendeurs professionnels en Europe. Les commandes et les tarifs sont traités directement par contact personnel.",
     "highlights": [
       {
-        "title": "Fabrication dans notre propre atelier",
-        "text": "La découpe, l'assemblage et le contrôle final sont entièrement réalisés dans notre atelier, sans sous-traitance externe."
+        "title": "Fabrication sur mesure",
+        "text": "La découpe, l'assemblage et le contrôle final suivent un processus de fabrication maîtrisé ; chaque produit est réalisé aux dimensions commandées."
       },
       {
         "title": "Livraison dans toute l'Europe",
@@ -46,7 +46,7 @@
   },
   "products": {
     "title": "Produits",
-    "intro": "Tous nos produits sont fabriqués sur mesure, à la commande, dans notre propre atelier. Les informations ci-dessous présentent les caractéristiques générales ; pour les plans techniques et les demandes d'échantillons, n'hésitez pas à nous contacter.",
+    "intro": "Tous nos produits sont fabriqués sur mesure, à la commande. Les informations ci-dessous présentent les caractéristiques générales ; pour les plans techniques et les demandes d'échantillons, n'hésitez pas à nous contacter.",
     "category_sineklik": "Systèmes de moustiquaires",
     "category_plise": "Systèmes de stores plissés",
     "specs_label": "Caractéristiques",
@@ -103,7 +103,7 @@
   },
   "workshop": {
     "title": "Atelier et fabrication",
-    "intro": "Tous nos produits sont fabriqués dans notre propre atelier. De la découpe à l'assemblage, chaque étape est réalisée par notre propre équipe.",
+    "intro": "Nos produits sont fabriqués aux dimensions commandées. De la découpe à l'assemblage, chaque étape suit le processus ci-dessous, et chaque produit est contrôlé avant expédition.",
     "steps": [
       { "title": "Découpe des profilés", "text": "Les profilés en aluminium sont découpés avec précision selon les dimensions de la commande." },
       { "title": "Assemblage", "text": "Les pièces découpées sont assemblées aux angles pour former le cadre." },
@@ -116,12 +116,12 @@
     "title": "À propos",
     "intro_paragraphs": [
       "Velora est un fabricant turc spécialisé dans les systèmes de moustiquaires et de stores plissés.",
-      "Nous fabriquons exclusivement dans notre propre atelier : découpe, assemblage, contrôle qualité et emballage sont entièrement gérés par notre équipe.",
+      "Nous suivons la découpe, l'assemblage, le contrôle qualité et l'emballage du début à la fin ; chaque produit passe notre propre contrôle avant expédition.",
       "Grâce à des livraisons régulières auprès de revendeurs professionnels dans toute l'Europe, nous garantissons que nos produits arrivent de manière fiable jusqu'à l'utilisateur final."
     ],
     "values_title": "Ce à quoi nous tenons",
     "values": [
-      { "title": "Fabrication propre", "text": "Nous nous appuyons sur des processus maîtrisés dans notre propre atelier plutôt que sur la sous-traitance." },
+      { "title": "Production maîtrisée", "text": "Chaque produit suit un processus maîtrisé, de la prise de mesure à l'expédition." },
       { "title": "Relation avec les revendeurs", "text": "Nous construisons des relations commerciales durables et fondées sur la confiance avec nos revendeurs." },
       { "title": "Qualité des matériaux", "text": "Nous privilégions la durabilité dans le choix des profilés en aluminium et des tissus." }
     ]

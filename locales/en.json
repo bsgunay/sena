@@ -18,15 +18,15 @@
   "home": {
     "hero_eyebrow": "Made in Turkey, delivered across Europe",
     "hero_title": "One folding system, one uninterrupted flow of air.",
-    "hero_subtitle": "We manufacture insect screen and pleated blind systems in our own workshop and supply trade dealers across Europe.",
+    "hero_subtitle": "We manufacture insect screen and pleated blind systems to measure and supply trade dealers across Europe.",
     "hero_cta": "View products",
     "hero_cta_secondary": "Get in touch",
     "intro_title": "A production partner for dealers",
     "intro_text": "This site is not a sales platform. It's here to introduce our products, our manufacturing process and our company to trade dealers across Europe. Orders and pricing are handled directly through personal contact.",
     "highlights": [
       {
-        "title": "Made in our own workshop",
-        "text": "Cutting, assembly and final inspection all take place in-house — we don't outsource production to third parties."
+        "title": "Made to measure",
+        "text": "Cutting, assembly and final inspection follow a controlled production flow; every unit is made to the ordered dimensions."
       },
       {
         "title": "Delivery across Europe",
@@ -46,7 +46,7 @@
   },
   "products": {
     "title": "Products",
-    "intro": "All our products are made to order and to measure, in our own workshop. The details below cover general product features; contact us for technical drawings and sample requests.",
+    "intro": "All our products are made to order and to measure. The details below cover general product features; contact us for technical drawings and sample requests.",
     "category_sineklik": "Insect Screen Systems",
     "category_plise": "Pleated Blind Systems",
     "specs_label": "Features",
@@ -103,7 +103,7 @@
   },
   "workshop": {
     "title": "Workshop & Manufacturing",
-    "intro": "All our products are made in our own workshop. From cutting to assembly, every step is handled by our own team.",
+    "intro": "Our products are made to the ordered dimensions. From cutting to assembly, every stage follows the flow below, and every product is checked before dispatch.",
     "steps": [
       { "title": "Profile cutting", "text": "Aluminium profiles are cut precisely to order dimensions at our cutting stations." },
       { "title": "Joining & assembly", "text": "Cut pieces are corner-joined and assembled into a complete frame." },
@@ -116,12 +116,12 @@
     "title": "About Us",
     "intro_paragraphs": [
       "Velora is a Turkish manufacturer specialising in insect screen and pleated blind systems.",
-      "We manufacture exclusively in our own workshop — cutting, assembly, quality control and packing are all handled by our own team.",
+      "We follow cutting, assembly, quality control and packing from start to finish, and every product passes our own inspection before dispatch.",
       "Through regular deliveries to trade dealers across Europe, we make sure our products reach the end customer reliably."
     ],
     "values_title": "What we value",
     "values": [
-      { "title": "In-house manufacturing", "text": "We rely on controlled processes in our own workshop rather than third-party contract manufacturing." },
+      { "title": "Controlled production", "text": "Every product goes through a controlled process, from measurement to dispatch." },
       { "title": "Dealer relationships", "text": "We build long-term, trust-based business relationships with our dealers." },
       { "title": "Material quality", "text": "We prioritise durability in the aluminium profiles and fabrics we choose." }
     ]
