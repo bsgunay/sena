@@ -182,11 +182,11 @@
     },
     "frames": {
       "beyaz": "Beyaz",
-      "kirikbeyaz": "Kırık Beyaz",
-      "bej": "Bej",
-      "parlament": "Parlament",
-      "kahve": "Kahve",
-      "acikkahve": "Açık Kahve",
+      "kirikbeyaz": "Gümüş Gri",
+      "bej": "Krem",
+      "parlament": "Antrasit Gri",
+      "kahve": "Kahverengi",
+      "acikkahve": "Bronz",
       "siyah": "Siyah"
     },
     "mounts": {
