@@ -22,11 +22,7 @@
       <ul>
         <li><a href="index.html" data-i18n="nav.home">Anasayfa</a></li>
         <li><a href="urunler.html" data-i18n="nav.products">Ürünler</a></li>
-        <!-- ATÖLYE SEKMESİ 25.08'de GİZLENDİ — bkz. index.html'deki açıklama.
-             Bu sayfanın kendi menü satırı da gizli: sayfa artık yalnızca
-             doğrudan adresle açılıyor, hiçbir menüden bağlantı verilmiyor.
         <li><a href="atolye.html" aria-current="page" data-i18n="nav.workshop">Atölye</a></li>
-        -->
         <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
         <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
       </ul>
@@ -59,13 +55,11 @@
     </div>
   </section>
 
-  <section class="section-alt">
-    <div class="wrap">
-      <h2 data-i18n="nav.workshop">Atölye</h2>
-      <div class="gallery-grid" id="gallery-grid"></div>
-      <p class="gallery-note" data-i18n="workshop.gallery_note">Atölye fotoğrafları yakında bu alanda yer alacaktır.</p>
-    </div>
-  </section>
+  <!-- 31.08: Boş galeri bölümü KALDIRILDI (kardeşinin kararı: "sadece boş galeriyi
+       sil, sekme kalsın"). Firma yeni kuruluyor, atölye fotoğrafı yok; yer tutucu
+       kutular "yakında" vaadi veriyordu. Geri gelecekse `gallery-grid` div'i,
+       `workshop.gallery_note` anahtarı ve aşağıdaki `galleryImages` bloğu birlikte
+       eklenmeli — üçü bir arada çalışıyordu. -->
 
   <section class="cta-band">
     <div class="wrap">
@@ -99,15 +93,6 @@
 <script>
   document.getElementById("footer-year").textContent = new Date().getFullYear();
 
-  const galleryImages = [
-    "images/workshop/atolye-1.svg",
-    "images/workshop/atolye-2.svg",
-    "images/workshop/atolye-3.svg",
-    "images/workshop/atolye-4.svg",
-    "images/workshop/atolye-5.svg",
-    "images/workshop/atolye-6.svg"
-  ];
-
   window.renderDynamicContent = function (data) {
     const stepsEl = document.getElementById("steps-list");
     stepsEl.innerHTML = "";
@@ -116,15 +101,6 @@
       div.className = "step";
       div.innerHTML = `<span class="num"></span><div><h3>${s.title}</h3><p>${s.text}</p></div>`;
       stepsEl.appendChild(div);
-    });
-
-    const galEl = document.getElementById("gallery-grid");
-    galEl.innerHTML = "";
-    galleryImages.forEach((src) => {
-      const div = document.createElement("div");
-      div.className = "thumb";
-      div.innerHTML = `<img src="${src}" alt="">`;
-      galEl.appendChild(div);
     });
   };
 </script>

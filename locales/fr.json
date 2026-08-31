@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Systèmes de stores plissés",
-    "description": "Systèmes de stores plissés fabriqués en Turquie. Informations destinées aux revendeurs professionnels en Europe."
+    "title": "Velora — Systèmes de moustiquaires et de stores plissés",
+    "description": "Systèmes de moustiquaires et de stores plissés fabriqués en Turquie. Informations destinées aux revendeurs professionnels en Europe."
   },
   "nav": {
     "home": "Accueil",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Systèmes de stores plissés"
+    "tagline": "Systèmes de moustiquaires et de stores plissés"
   },
   "home": {
     "hero_eyebrow": "Fabriqué en Turquie, livré dans toute l'Europe",
     "hero_title": "Un système plissé, un flux d'air ininterrompu.",
-    "hero_subtitle": "Nous fabriquons des systèmes de stores plissés dans notre propre atelier et livrons des revendeurs professionnels dans toute l'Europe.",
+    "hero_subtitle": "Nous fabriquons des systèmes de moustiquaires et de stores plissés dans notre propre atelier et livrons des revendeurs professionnels dans toute l'Europe.",
     "hero_cta": "Voir les produits",
     "hero_cta_secondary": "Nous contacter",
     "intro_title": "Partenaire de production pour les revendeurs",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Notre gamme de produits",
-    "products_teaser_text": "Des stores plissés pour chaque type de pose, avec un large choix de tissus et de couleurs de cadre.",
+    "products_teaser_text": "Des systèmes de moustiquaires aux stores plissés — une large gamme adaptée à chaque type de pose, avec un vaste choix de tissus et de couleurs de cadre.",
     "products_teaser_cta": "Voir tous les produits",
     "cta_title": "Pour un partenariat commercial",
     "cta_text": "Contactez-nous pour toute information produit, demande d'échantillon ou condition de revente.",
@@ -110,13 +110,12 @@
       { "title": "Pose du tissu ou de la toile", "text": "Le tissu plissé ou la toile moustiquaire est tendu dans la cassette à l'aide de machines spécifiques." },
       { "title": "Contrôle qualité", "text": "Chaque produit est vérifié avant expédition, tant sur le fonctionnement du mécanisme que sur la qualité des surfaces." },
       { "title": "Emballage et expédition", "text": "Les produits sont emballés de façon à éviter tout dommage pendant le transport, puis préparés pour l'expédition." }
-    ],
-    "gallery_note": "Les photos de l'atelier seront prochainement ajoutées ici."
+    ]
   },
   "about": {
     "title": "À propos",
     "intro_paragraphs": [
-      "Velora est un fabricant turc spécialisé dans les systèmes de stores plissés.",
+      "Velora est un fabricant turc spécialisé dans les systèmes de moustiquaires et de stores plissés.",
       "Nous fabriquons exclusivement dans notre propre atelier : découpe, assemblage, contrôle qualité et emballage sont entièrement gérés par notre équipe.",
       "Grâce à des livraisons régulières auprès de revendeurs professionnels dans toute l'Europe, nous garantissons que nos produits arrivent de manière fiable jusqu'à l'utilisateur final."
     ],
@@ -140,6 +139,6 @@
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "tagline": "Systèmes de stores plissés — Présentation destinée aux revendeurs européens"
+    "tagline": "Systèmes de moustiquaires et de stores plissés — Présentation destinée aux revendeurs européens"
   }
 }

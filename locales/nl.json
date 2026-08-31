@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Plissésystemen",
-    "description": "In Turkije vervaardigde plissésystemen. Informatie voor vakhandelaren in heel Europa."
+    "title": "Velora — Hordeur- en Plissésystemen",
+    "description": "In Turkije vervaardigde hordeur- en plissésystemen. Informatie voor vakhandelaren in heel Europa."
   },
   "nav": {
     "home": "Home",
@@ -13,12 +13,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Plissésystemen"
+    "tagline": "Hordeur- en Plissésystemen"
   },
   "home": {
     "hero_eyebrow": "Gemaakt in Turkije, geleverd in heel Europa",
     "hero_title": "Eén vouwbaar systeem, een ononderbroken luchtstroom.",
-    "hero_subtitle": "Wij vervaardigen plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
+    "hero_subtitle": "Wij vervaardigen hordeur- en plissésystemen in onze eigen werkplaats en leveren aan vakhandelaren in heel Europa.",
     "hero_cta": "Bekijk producten",
     "hero_cta_secondary": "Neem contact op",
     "intro_title": "Productiepartner voor vakhandelaren",
@@ -38,7 +38,7 @@
       }
     ],
     "products_teaser_title": "Ons productassortiment",
-    "products_teaser_text": "Plissésystemen voor elk montagetype, met een ruime keuze aan stoffen en framekleuren.",
+    "products_teaser_text": "Van hordeursystemen tot plissés — een breed assortiment voor elk montagetype, met een ruime keuze aan stoffen en framekleuren.",
     "products_teaser_cta": "Bekijk alle producten",
     "cta_title": "Voor handelspartnerschappen",
     "cta_text": "Neem contact met ons op voor productinformatie, monsteraanvragen of voorwaarden voor vakhandelaren.",
@@ -110,13 +110,12 @@
       { "title": "Stof- en gaasplaatsing", "text": "Plissé-stof of hordeurgaas wordt met speciale machines strak in de cassette geplaatst." },
       { "title": "Kwaliteitscontrole", "text": "Elk product wordt voor verzending gecontroleerd op werking van het mechanisme en oppervlaktekwaliteit." },
       { "title": "Verpakking en verzending", "text": "De producten worden transportveilig verpakt en klaargemaakt voor verzending." }
-    ],
-    "gallery_note": "Werkplaatsfoto's worden binnenkort op deze plek toegevoegd."
+    ]
   },
   "about": {
     "title": "Over ons",
     "intro_paragraphs": [
-      "Velora is een Turkse fabrikant, gespecialiseerd in plissésystemen.",
+      "Velora is een Turkse fabrikant, gespecialiseerd in hordeur- en plissésystemen.",
       "Wij produceren uitsluitend in onze eigen werkplaats — snijden, montage, kwaliteitscontrole en verpakking worden volledig door ons eigen team uitgevoerd.",
       "Door regelmatige leveringen aan vakhandelaren in heel Europa zorgen wij ervoor dat onze producten betrouwbaar bij de eindgebruiker terechtkomen."
     ],
@@ -140,6 +139,6 @@
   },
   "footer": {
     "rights": "Alle rechten voorbehouden.",
-    "tagline": "Plissésystemen — Kennismaking voor vakhandelaren in Europa"
+    "tagline": "Hordeur- en Plissésystemen — Kennismaking voor vakhandelaren in Europa"
   }
 }

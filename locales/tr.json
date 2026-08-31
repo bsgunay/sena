@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Velora — Plise Perde Sistemleri",
-    "description": "Türkiye üretimi plise perde sistemleri. Avrupa geneli bayilere toptan tanıtım ve üretim bilgisi."
+    "title": "Velora — Sineklik ve Plise Perde Sistemleri",
+    "description": "Türkiye üretimi sineklik ve plise perde sistemleri. Avrupa geneli bayilere toptan tanıtım ve üretim bilgisi."
   },
   "nav": {
     "home": "Anasayfa",
@@ -14,12 +14,12 @@
   },
   "brand": {
     "name": "Velora",
-    "tagline": "Plise Perde Sistemleri"
+    "tagline": "Sineklik ve Plise Perde Sistemleri"
   },
   "home": {
     "hero_eyebrow": "Türkiye'de Üretim, Avrupa'ya Sevkiyat",
     "hero_title": "Katlanır bir sistem, kesintisiz bir hava akışı.",
-    "hero_subtitle": "Plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
+    "hero_subtitle": "Sineklik ve plise perde sistemlerini kendi atölyemizde üretiyor, Avrupa genelindeki bayi ve mağazalara sevk ediyoruz.",
     "hero_cta": "Ürünleri İncele",
     "hero_cta_secondary": "Bize Ulaşın",
     "intro_title": "Bayiler İçin Üretim Ortağı",
@@ -39,7 +39,7 @@
       }
     ],
     "products_teaser_title": "Ürün Ailemiz",
-    "products_teaser_text": "Farklı montaj tiplerine uygun plise perde sistemleri; geniş kumaş ve çerçeve rengi seçenekleriyle.",
+    "products_teaser_text": "Sineklik sistemlerinden plise perdelere, farklı montaj tiplerine uygun geniş bir ürün yelpazesi; zengin kumaş ve çerçeve rengi seçenekleriyle.",
     "products_teaser_cta": "Tüm Ürünleri Gör",
     "services_title": "Hizmetlerimiz",
     "services_text": "Velora yalnızca ürün üretmiyor; siparişin ölçüye göre hazırlanmasından paketlenip yola çıkmasına kadar olan aşamaları da kendi ekibiyle yürütüyor.",
@@ -264,13 +264,12 @@
         "title": "Paketleme ve Sevkiyat",
         "text": "Ürünler nakliye sırasında hasar görmeyecek şekilde paketlenip sevkiyata hazırlanır."
       }
-    ],
-    "gallery_note": "Atölye fotoğrafları yakında bu alanda yer alacaktır."
+    ]
   },
   "about": {
     "title": "Hakkımızda",
     "intro_paragraphs": [
-      "Velora, plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
+      "Velora, sineklik ve plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
       "Üretimimizin tamamını kendi atölyemizde gerçekleştiriyor; kesim, kaynak, montaj ve paketleme süreçlerini kendi ekibimizle yönetiyoruz.",
       "Avrupa genelindeki bayi ve mağazalara düzenli sevkiyat yaparak, ürünlerimizin son kullanıcıya güvenilir bir şekilde ulaşmasını sağlıyoruz."
     ],
@@ -303,6 +302,6 @@
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
-    "tagline": "Plise Perde Sistemleri — Avrupa’ya Toptan Tanıtım"
+    "tagline": "Sineklik ve Plise Perde Sistemleri — Avrupa’ya Toptan Tanıtım"
   }
 }
