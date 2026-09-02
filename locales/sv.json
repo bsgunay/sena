@@ -9,7 +9,8 @@
     "workshop": "Verkstad",
     "about": "Om oss",
     "contact": "Kontakt",
-    "lang_label": "Språk"
+    "lang_label": "Språk",
+    "dealer": "Återförsäljare"
   },
   "brand": {
     "name": "Velora",
@@ -42,7 +43,35 @@
     "products_teaser_cta": "Se alla produkter",
     "cta_title": "För återförsäljarsamarbete",
     "cta_text": "Kontakta oss för produktinformation, provbeställningar eller villkor för återförsäljare.",
-    "cta_button": "Kontakta oss"
+    "cta_button": "Kontakta oss",
+    "services_title": "Våra tjänster",
+    "services_text": "Velora tillverkar inte bara: vårt eget team sköter varje steg, från måttanpassad orderberedning till packning och leverans.",
+    "services": [
+      {
+        "title": "Måttbeställd tillverkning",
+        "text": "Varje order tillverkas individuellt efter de mått återförsäljaren uppger. Vi säljer inga standardmått från lager."
+      },
+      {
+        "title": "Tillverkning under eget varumärke",
+        "text": "Produkterna kan tillverkas under återförsäljarens eget varumärke. Passar återförsäljare som vill sälja under eget namn."
+      },
+      {
+        "title": "Kvalitetskontroll",
+        "text": "Före leverans kontrolleras varje produkt individuellt med avseende på mekanismens funktion och ytfinish."
+      },
+      {
+        "title": "Packning och emballering",
+        "text": "Produkterna packas så att de tål transport utan skador och görs redo för leverans."
+      },
+      {
+        "title": "Levereras monterad eller demonterad",
+        "text": "Produkterna kan levereras färdigmonterade eller demonterade; demonterad leverans minskar transportvolymen."
+      }
+    ],
+    "delivery_days": "7–10 dagar",
+    "delivery_caption": "till dörren",
+    "delivery_title": "Leverans i Turkiet och hela Europa",
+    "delivery_text": "Oavsett om det gäller Turkiet eller någon annanstans i Europa levereras beställningar till återförsäljarens dörr inom högst 10 dagar."
   },
   "products": {
     "title": "Produkter",
@@ -55,75 +84,211 @@
         "category": "sineklik",
         "name": "Plisserat flugnät",
         "description": "Dragspelsvikt flugnät för dörrar och fönster, horisontellt eller vertikalt rörligt, som samlas i sin kassett när det inte används.",
-        "specs": ["Ram och kassett i aluminium", "Plisserad glasfibernät", "Måttanpassad tillverkning", "Passar gångjärns- och skjutdörrar"]
+        "specs": [
+          "Ram och kassett i aluminium",
+          "Plisserad glasfibernät",
+          "Måttanpassad tillverkning",
+          "Passar gångjärns- och skjutdörrar"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Skjutbart flugnät",
         "description": "Flugnät som glider horisontellt på skena, lämpligt för breda dörr- och balkongöppningar.",
-        "specs": ["Finns med en eller två luckor", "Aluminiumprofil", "Borsttätning", "Lämpligt för stora öppningar"]
+        "specs": [
+          "Finns med en eller två luckor",
+          "Aluminiumprofil",
+          "Borsttätning",
+          "Lämpligt för stora öppningar"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Gångjärnsmonterat flugnät",
         "description": "Klassiskt flugnät med en lucka som öppnas och stängs som en dörr.",
-        "specs": ["Självstängande gångjärn", "Aluminiumram", "Passar standardmått för fönster och dörrar"]
+        "specs": [
+          "Självstängande gångjärn",
+          "Aluminiumram",
+          "Passar standardmått för fönster och dörrar"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Magnetiskt flugnät",
         "description": "Flugnät monterat med magnetisk tätningslist, enkelt att sätta upp och ta ner.",
-        "specs": ["Magnetisk tätningslist", "Lätt och flexibel ram", "Lämpligt för hyresbostäder och enkel montering"]
+        "specs": [
+          "Magnetisk tätningslist",
+          "Lätt och flexibel ram",
+          "Lämpligt för hyresbostäder och enkel montering"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Rullbart flugnät",
         "description": "Flugnät som rullas in i en liten kassett när det inte används, horisontellt eller vertikalt rörligt.",
-        "specs": ["Fjäderbelastad rullmekanism", "Smal kassettprofil", "Lämpligt för fönster- och dörrapplikationer"]
+        "specs": [
+          "Fjäderbelastad rullmekanism",
+          "Smal kassettprofil",
+          "Lämpligt för fönster- och dörrapplikationer"
+        ]
       },
       {
         "category": "plise",
         "name": "Enkel plisségardin",
         "description": "Enskiktad plisserad tygersättning för fönster, rörlig uppåt eller nedåt.",
-        "specs": ["Brett urval av tyger och färger", "Kedje- eller snörstyrning", "Måttanpassad tillverkning"]
+        "specs": [
+          "Brett urval av tyger och färger",
+          "Kedje- eller snörstyrning",
+          "Måttanpassad tillverkning"
+        ]
       },
       {
         "category": "plise",
         "name": "Dubbel plisségardin (Day & Night)",
         "description": "Tvåskiktad plisségardin med genomskinligt och mörkläggande tyg för flexibel ljusreglering.",
-        "specs": ["Två oberoende tygskikt", "Separat rörliga skikt", "Balans mellan insynsskydd och ljusinsläpp"]
+        "specs": [
+          "Två oberoende tygskikt",
+          "Separat rörliga skikt",
+          "Balans mellan insynsskydd och ljusinsläpp"
+        ]
       },
       {
         "category": "plise",
         "name": "Plisségardin för vikbara glaspartier",
         "description": "Plissélösning anpassad till vikbara glaspartisystem med särskilda monteringsbeslag.",
-        "specs": ["Specialbeslag för vikbara glaspartiprofiler", "Vind- och solskydd", "Måttanpassad tillverkning"]
+        "specs": [
+          "Specialbeslag för vikbara glaspartiprofiler",
+          "Vind- och solskydd",
+          "Måttanpassad tillverkning"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Tyg",
+      "frame_label": "Ramfärg",
+      "mount_label": "Monteringstyp",
+      "view_label": "Vy",
+      "view_profil": "Profil",
+      "view_cerceve": "Ram",
+      "back": "Alla produkter",
+      "fabric_count": "tyger",
+      "frame_count": "ramfärger",
+      "option_count": "alternativ",
+      "selected": "Vald",
+      "fabric_code": "Leverantörskod",
+      "not_found": "Produkten hittades inte.",
+      "detail_cta": "Se tyg- och färgalternativ",
+      "model_count": "modeller"
+    },
+    "frames": {
+      "beyaz": "Vit",
+      "kirikbeyaz": "Silvergrå",
+      "bej": "Krämvit",
+      "parlament": "Antracitgrå",
+      "kahve": "Brun",
+      "acikkahve": "Brons",
+      "siyah": "Svart"
+    },
+    "mounts": {
+      "vidali": "Skruvad",
+      "yapistirmali": "Limmad"
+    },
+    "models": {
+      "vidali": {
+        "name": "Skruvad plisségardin",
+        "summary": "Fästs med skruv – den stadigaste monteringstypen.",
+        "description": "En plisségardin av ett lager dragspelsvikt tyg. Den skruvas fast i fönsterbågen eller väggen, vilket ger en permanent och mycket stabil montering. Gardinen rör sig upp och ner och stannar på valfri höjd.",
+        "specs": [
+          "Fast skruvmontering",
+          "Stort urval av tyger och färger",
+          "Manövrering med kedja eller snöre",
+          "Måttbeställd tillverkning"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Limmad plisségardin",
+        "summary": "Monteras med tejp, utan borrning.",
+        "description": "En plisségardin av ett lager dragspelsvikt tyg. Den fästs på fönsterbågen med tejp och kräver varken skruv eller borrhål. Passar hyresgäster och alla som inte vill borra i PVC-karmar.",
+        "specs": [
+          "Montering med tejp, inga hål",
+          "Stort urval av tyger och färger",
+          "Manövrering med kedja eller snöre",
+          "Måttbeställd tillverkning"
+        ]
+      },
+      "askili": {
+        "name": "Klämmonterad / EasyFix plisségardin",
+        "summary": "Monteras med klämmor på bågen – utan verktyg.",
+        "description": "En plisségardin av ett lager dragspelsvikt tyg. Den monteras med klämfästen som träs över fönsterbågens kant, utan skruv, hål eller verktyg. Den kan när som helst tas bort utan att lämna märken.",
+        "specs": [
+          "Montering med klämfästen, inga hål",
+          "Kan tas bort utan spår",
+          "Stort urval av tyger och färger",
+          "Måttbeställd tillverkning"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "Duo-plisségardin (dag & natt)",
+        "summary": "Transparent och täckande tyg i samma gardin.",
+        "description": "En dubbellagrad plisségardin med ett transparent och ett täckande tyg. Eftersom lagren rör sig oberoende av varandra kan du reglera dagsljuset på dagen och insynsskyddet på kvällen var för sig. Monteras med skruv eller tejp.",
+        "specs": [
+          "Två olika tyglager",
+          "Lager som rör sig oberoende",
+          "Montering med skruv eller tejp",
+          "Balans mellan insynsskydd och ljus"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Verkstad och tillverkning",
     "intro": "Våra produkter tillverkas i beställda mått. Från kapning till montering följer varje steg flödet nedan, och varje produkt kontrolleras före leverans.",
     "steps": [
-      { "title": "Kapning av profiler", "text": "Aluminiumprofiler kapas exakt efter beställningsmått i precisionskapstationer." },
-      { "title": "Sammanfogning och montering", "text": "De kapade delarna hörnsammanfogas och monteras till en ram." },
-      { "title": "Tyg- och nätmontering", "text": "Plissétyg eller flugnät spänns fast i kassetten med specialmaskiner." },
-      { "title": "Kvalitetskontroll", "text": "Varje produkt kontrolleras före leverans avseende mekanismens funktion och ytkvalitet." },
-      { "title": "Emballering och leverans", "text": "Produkterna emballeras transportsäkert och förbereds för leverans." }
+      {
+        "title": "Kapning av profiler",
+        "text": "Aluminiumprofiler kapas exakt efter beställningsmått i precisionskapstationer."
+      },
+      {
+        "title": "Sammanfogning och montering",
+        "text": "De kapade delarna hörnsammanfogas och monteras till en ram."
+      },
+      {
+        "title": "Tyg- och nätmontering",
+        "text": "Plissétyg eller flugnät spänns fast i kassetten med specialmaskiner."
+      },
+      {
+        "title": "Kvalitetskontroll",
+        "text": "Varje produkt kontrolleras före leverans avseende mekanismens funktion och ytkvalitet."
+      },
+      {
+        "title": "Emballering och leverans",
+        "text": "Produkterna emballeras transportsäkert och förbereds för leverans."
+      }
     ]
   },
   "about": {
-    "title": "Om oss",
+    "title": "Vi utformar, tillverkar och levererar för projekt i hela Europa.",
     "intro_paragraphs": [
-      "Velora är en turkisk tillverkare specialiserad på flugnät- och plisségardinsystem.",
-      "Vi följer kapning, montering, kvalitetskontroll och emballering från början till slut; varje produkt genomgår vår egen kontroll före leverans.",
-      "Genom regelbundna leveranser till återförsäljare i hela Europa säkerställer vi att våra produkter når slutkunden på ett pålitligt sätt."
+      "Vi är ett tillverkningsvarumärke som utvecklar måttbeställda insektsnät, plisségardiner och solskyddssystem och som samlar FoU, konstruktion, produktion, kvalitetskontroll och logistik under ett tak.",
+      "Vi utgår från varje projekts egna behov: med måttbeställd tillverkning, produktion under eget varumärke, noggrann kvalitetskontroll och professionell emballering gör vi våra produkter redo för leverans, monterade eller demonterade.",
+      "Från bostäder till hotell och kommersiella lokaler, från dörr- och fönstersystem till inglasade balkonger och projektlösningar erbjuder vi lösningar anpassade efter mått, design och projekt.",
+      "För våra partner i Europa kombinerar vi en flexibel orderstruktur, pålitlig frakt och logistik, leverans till dörren och ett hållbart materialval – vi erbjuder inte bara produkter, utan en obruten leveransupplevelse.",
+      "Vi omvandlar vår produktionskapacitet, vårt tekniska angreppssätt och vår servicenivå enligt europeisk standard till långsiktiga affärspartnerskap."
     ],
     "values_title": "Vad vi värdesätter",
     "values": [
-      { "title": "Kontrollerad tillverkning", "text": "Varje produkt genomgår en kontrollerad process, från mått till leverans." },
-      { "title": "Relation med återförsäljare", "text": "Vi bygger långsiktiga affärsrelationer baserade på ömsesidigt förtroende med våra återförsäljare." },
-      { "title": "Materialkvalitet", "text": "Vid val av aluminiumprofiler och tyger prioriterar vi hållbarhet." }
+      {
+        "title": "Kontrollerad tillverkning",
+        "text": "Varje produkt genomgår en kontrollerad process, från mått till leverans."
+      },
+      {
+        "title": "Relation med återförsäljare",
+        "text": "Vi bygger långsiktiga affärsrelationer baserade på ömsesidigt förtroende med våra återförsäljare."
+      },
+      {
+        "title": "Materialkvalitet",
+        "text": "Vid val av aluminiumprofiler och tyger prioriterar vi hållbarhet."
+      }
     ]
   },
   "contact": {
@@ -139,6 +304,24 @@
   },
   "footer": {
     "rights": "Alla rättigheter förbehållna.",
-    "tagline": "Flugnät- och plisségardinsystem — Presentation för europeiska återförsäljare"
+    "tagline": "Flugnät- och plisségardinsystem — Presentation för europeiska återförsäljare",
+    "services_title": "Våra tjänster",
+    "services": [
+      "Måttbeställd tillverkning",
+      "Tillverkning under eget varumärke",
+      "Kvalitetskontroll",
+      "Leverans monterad eller demonterad",
+      "Packning och emballering",
+      "Frakt och logistik"
+    ],
+    "solutions_title": "Våra lösningar",
+    "solutions": [
+      "Bostäder och boendemiljöer",
+      "Hotell och kommersiella lokaler",
+      "Dörr- och fönsterlösningar",
+      "Lösningar för inglasade balkonger",
+      "Lösningar för kommersiella lokaler",
+      "Projektlösningar"
+    ]
   }
 }

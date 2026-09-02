@@ -9,7 +9,8 @@
     "workshop": "Atelier",
     "about": "À propos",
     "contact": "Contact",
-    "lang_label": "Langue"
+    "lang_label": "Langue",
+    "dealer": "Revendeurs"
   },
   "brand": {
     "name": "Velora",
@@ -42,7 +43,35 @@
     "products_teaser_cta": "Voir tous les produits",
     "cta_title": "Pour un partenariat commercial",
     "cta_text": "Contactez-nous pour toute information produit, demande d'échantillon ou condition de revente.",
-    "cta_button": "Nous contacter"
+    "cta_button": "Nous contacter",
+    "services_title": "Nos services",
+    "services_text": "Velora ne se contente pas de fabriquer : notre propre équipe assure chaque étape, de la préparation sur mesure de la commande à l'emballage et à l'expédition.",
+    "services": [
+      {
+        "title": "Production sur mesure",
+        "text": "Chaque commande est fabriquée individuellement selon les dimensions communiquées par le revendeur. Nous ne vendons pas de dimensions standard en stock."
+      },
+      {
+        "title": "Fabrication en marque propre",
+        "text": "Les produits peuvent être fabriqués sous la marque du revendeur. Convient aux revendeurs qui souhaitent vendre sous leur propre marque."
+      },
+      {
+        "title": "Contrôle qualité",
+        "text": "Avant expédition, chaque produit est contrôlé individuellement quant au fonctionnement de son mécanisme et à la qualité de sa finition."
+      },
+      {
+        "title": "Emballage et conditionnement",
+        "text": "Les produits sont emballés pour résister au transport sans dommage, puis préparés pour l'expédition."
+      },
+      {
+        "title": "Expédition montée ou démontée",
+        "text": "Les produits peuvent être expédiés montés ou démontés ; l'expédition démontée réduit le volume de transport."
+      }
+    ],
+    "delivery_days": "7 à 10 jours",
+    "delivery_caption": "livraison à domicile",
+    "delivery_title": "Livraison en Turquie et dans toute l'Europe",
+    "delivery_text": "Que ce soit en Turquie ou partout en Europe, les commandes sont livrées à la porte du revendeur sous 10 jours au plus tard."
   },
   "products": {
     "title": "Produits",
@@ -55,75 +84,211 @@
         "category": "sineklik",
         "name": "Moustiquaire plissée",
         "description": "Moustiquaire pliée en accordéon pour portes et fenêtres, à déplacement horizontal ou vertical, se rangeant dans sa cassette lorsqu'elle n'est pas utilisée.",
-        "specs": ["Cadre et cassette en aluminium", "Toile plissée en fibre de verre", "Fabrication sur mesure", "Adaptée aux portes battantes et coulissantes"]
+        "specs": [
+          "Cadre et cassette en aluminium",
+          "Toile plissée en fibre de verre",
+          "Fabrication sur mesure",
+          "Adaptée aux portes battantes et coulissantes"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Moustiquaire coulissante",
         "description": "Moustiquaire se déplaçant horizontalement sur rail, adaptée aux grandes ouvertures de porte et de balcon.",
-        "specs": ["Disponible en un ou deux vantaux", "Profilé aluminium", "Joint brosse pour l'étanchéité", "Adaptée aux grandes ouvertures"]
+        "specs": [
+          "Disponible en un ou deux vantaux",
+          "Profilé aluminium",
+          "Joint brosse pour l'étanchéité",
+          "Adaptée aux grandes ouvertures"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Moustiquaire à charnière",
         "description": "Moustiquaire classique à un vantail, s'ouvrant et se fermant comme une porte.",
-        "specs": ["Charnière à fermeture automatique", "Cadre en aluminium", "Adaptée aux dimensions standard de fenêtres et portes"]
+        "specs": [
+          "Charnière à fermeture automatique",
+          "Cadre en aluminium",
+          "Adaptée aux dimensions standard de fenêtres et portes"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Moustiquaire magnétique",
         "description": "Moustiquaire montée avec une bande de fermeture magnétique, facile à poser et à retirer.",
-        "specs": ["Bande de fermeture magnétique", "Cadre léger et souple", "Adaptée à la location et à une pose simple"]
+        "specs": [
+          "Bande de fermeture magnétique",
+          "Cadre léger et souple",
+          "Adaptée à la location et à une pose simple"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Moustiquaire enroulable",
         "description": "Moustiquaire s'enroulant dans une petite cassette lorsqu'elle n'est pas utilisée, à déplacement horizontal ou vertical.",
-        "specs": ["Mécanisme d'enroulement à ressort", "Cassette fine", "Adaptée aux fenêtres et aux portes"]
+        "specs": [
+          "Mécanisme d'enroulement à ressort",
+          "Cassette fine",
+          "Adaptée aux fenêtres et aux portes"
+        ]
       },
       {
         "category": "plise",
         "name": "Store plissé simple",
         "description": "Store en tissu plissé à une couche, se déplaçant vers le haut ou vers le bas pour les fenêtres.",
-        "specs": ["Large choix de tissus et de coloris", "Commande par chaînette ou cordon", "Fabrication sur mesure"]
+        "specs": [
+          "Large choix de tissus et de coloris",
+          "Commande par chaînette ou cordon",
+          "Fabrication sur mesure"
+        ]
       },
       {
         "category": "plise",
         "name": "Store plissé double (Day & Night)",
         "description": "Store plissé à double couche, associant un tissu transparent et un tissu opaque pour un contrôle flexible de la lumière.",
-        "specs": ["Deux couches de tissu indépendantes", "Couches à déplacement séparé", "Équilibre entre intimité et luminosité"]
+        "specs": [
+          "Deux couches de tissu indépendantes",
+          "Couches à déplacement séparé",
+          "Équilibre entre intimité et luminosité"
+        ]
       },
       {
         "category": "plise",
         "name": "Store plissé pour baie vitrée pliante",
         "description": "Solution de store plissé adaptée aux systèmes de baies vitrées pliantes grâce à des accessoires de pose spécifiques.",
-        "specs": ["Accessoires spécifiques aux profilés de baie pliante", "Protection contre le vent et le soleil", "Fabrication sur mesure"]
+        "specs": [
+          "Accessoires spécifiques aux profilés de baie pliante",
+          "Protection contre le vent et le soleil",
+          "Fabrication sur mesure"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Tissu",
+      "frame_label": "Couleur du cadre",
+      "mount_label": "Type de pose",
+      "view_label": "Vue",
+      "view_profil": "Profil",
+      "view_cerceve": "Cadre",
+      "back": "Tous les produits",
+      "fabric_count": "tissus",
+      "frame_count": "couleurs de cadre",
+      "option_count": "options",
+      "selected": "Sélectionné",
+      "fabric_code": "Code fournisseur",
+      "not_found": "Produit introuvable.",
+      "detail_cta": "Voir les options de tissu et de couleur",
+      "model_count": "modèles"
+    },
+    "frames": {
+      "beyaz": "Blanc",
+      "kirikbeyaz": "Gris argent",
+      "bej": "Crème",
+      "parlament": "Gris anthracite",
+      "kahve": "Marron",
+      "acikkahve": "Bronze",
+      "siyah": "Noir"
+    },
+    "mounts": {
+      "vidali": "Vissé",
+      "yapistirmali": "Adhésif"
+    },
+    "models": {
+      "vidali": {
+        "name": "Store plissé vissé",
+        "summary": "Fixé par vis — le type de pose le plus solide.",
+        "description": "Un store plissé composé d'une seule couche de tissu plissé en accordéon. Il se visse sur l'ouvrant de la fenêtre ou sur le mur, pour une pose permanente et particulièrement solide. Le store se déplace vers le haut et vers le bas et s'arrête à la hauteur souhaitée.",
+        "specs": [
+          "Pose fixe par vis",
+          "Large choix de tissus et de couleurs",
+          "Commande à chaînette ou à cordon",
+          "Fabrication sur mesure"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Store plissé adhésif",
+        "summary": "Pose par bande adhésive, sans perçage.",
+        "description": "Un store plissé composé d'une seule couche de tissu plissé en accordéon. Il se fixe sur l'ouvrant de la fenêtre avec une bande adhésive, sans vis ni perçage. Convient aux locataires et à tous ceux qui ne souhaitent pas percer des menuiseries en PVC.",
+        "specs": [
+          "Pose par adhésif, sans perçage",
+          "Large choix de tissus et de couleurs",
+          "Commande à chaînette ou à cordon",
+          "Fabrication sur mesure"
+        ]
+      },
+      "askili": {
+        "name": "Store plissé à clipser / EasyFix",
+        "summary": "Pose sur l'ouvrant à l'aide de clips — sans outils.",
+        "description": "Un store plissé composé d'une seule couche de tissu plissé en accordéon. Il se pose à l'aide de supports à clipser sur le bord de l'ouvrant, sans vis, ni perçage, ni outils. Il peut être retiré à tout moment sans laisser de trace.",
+        "specs": [
+          "Pose par supports à clipser, sans perçage",
+          "Démontable sans laisser de trace",
+          "Large choix de tissus et de couleurs",
+          "Fabrication sur mesure"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "Store plissé duo (jour & nuit)",
+        "summary": "Un tissu transparent et un tissu occultant réunis.",
+        "description": "Un store plissé à double couche associant un tissu transparent et un tissu occultant. Les deux couches se déplaçant indépendamment, vous réglez séparément la lumière en journée et l'intimité le soir. La pose se fait par vis ou par adhésif.",
+        "specs": [
+          "Deux couches de tissu différentes",
+          "Couches à mouvement indépendant",
+          "Pose par vis ou par adhésif",
+          "Équilibre entre intimité et lumière"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Atelier et fabrication",
     "intro": "Nos produits sont fabriqués aux dimensions commandées. De la découpe à l'assemblage, chaque étape suit le processus ci-dessous, et chaque produit est contrôlé avant expédition.",
     "steps": [
-      { "title": "Découpe des profilés", "text": "Les profilés en aluminium sont découpés avec précision selon les dimensions de la commande." },
-      { "title": "Assemblage", "text": "Les pièces découpées sont assemblées aux angles pour former le cadre." },
-      { "title": "Pose du tissu ou de la toile", "text": "Le tissu plissé ou la toile moustiquaire est tendu dans la cassette à l'aide de machines spécifiques." },
-      { "title": "Contrôle qualité", "text": "Chaque produit est vérifié avant expédition, tant sur le fonctionnement du mécanisme que sur la qualité des surfaces." },
-      { "title": "Emballage et expédition", "text": "Les produits sont emballés de façon à éviter tout dommage pendant le transport, puis préparés pour l'expédition." }
+      {
+        "title": "Découpe des profilés",
+        "text": "Les profilés en aluminium sont découpés avec précision selon les dimensions de la commande."
+      },
+      {
+        "title": "Assemblage",
+        "text": "Les pièces découpées sont assemblées aux angles pour former le cadre."
+      },
+      {
+        "title": "Pose du tissu ou de la toile",
+        "text": "Le tissu plissé ou la toile moustiquaire est tendu dans la cassette à l'aide de machines spécifiques."
+      },
+      {
+        "title": "Contrôle qualité",
+        "text": "Chaque produit est vérifié avant expédition, tant sur le fonctionnement du mécanisme que sur la qualité des surfaces."
+      },
+      {
+        "title": "Emballage et expédition",
+        "text": "Les produits sont emballés de façon à éviter tout dommage pendant le transport, puis préparés pour l'expédition."
+      }
     ]
   },
   "about": {
-    "title": "À propos",
+    "title": "Nous concevons, fabriquons et livrons pour des projets dans toute l'Europe.",
     "intro_paragraphs": [
-      "Velora est un fabricant turc spécialisé dans les systèmes de moustiquaires et de stores plissés.",
-      "Nous suivons la découpe, l'assemblage, le contrôle qualité et l'emballage du début à la fin ; chaque produit passe notre propre contrôle avant expédition.",
-      "Grâce à des livraisons régulières auprès de revendeurs professionnels dans toute l'Europe, nous garantissons que nos produits arrivent de manière fiable jusqu'à l'utilisateur final."
+      "Nous sommes une marque de fabrication qui développe des moustiquaires, des stores plissés et des systèmes d'occultation sur mesure, et qui réunit sous un même toit la R&D, l'ingénierie, la production, le contrôle qualité et la logistique.",
+      "Nous abordons chaque projet selon ses besoins propres : production sur mesure, fabrication en marque propre, contrôle qualité rigoureux et emballage professionnel nous permettent de préparer nos produits à l'expédition, montés ou démontés.",
+      "Des logements aux hôtels et aux espaces commerciaux, des systèmes de portes et fenêtres aux balcons vitrés et aux applications de projet, nous proposons des solutions adaptées aux dimensions, au design et au projet.",
+      "Pour nos partenaires en Europe, nous associons une structure de commande flexible, un transport et une logistique fiables, une livraison à domicile et une approche durable des matériaux : nous offrons ainsi non seulement des produits, mais une expérience d'approvisionnement sans rupture.",
+      "Nous transformons notre capacité de production, notre approche d'ingénierie et notre niveau de service aux standards européens en partenariats commerciaux de long terme."
     ],
     "values_title": "Ce à quoi nous tenons",
     "values": [
-      { "title": "Production maîtrisée", "text": "Chaque produit suit un processus maîtrisé, de la prise de mesure à l'expédition." },
-      { "title": "Relation avec les revendeurs", "text": "Nous construisons des relations commerciales durables et fondées sur la confiance avec nos revendeurs." },
-      { "title": "Qualité des matériaux", "text": "Nous privilégions la durabilité dans le choix des profilés en aluminium et des tissus." }
+      {
+        "title": "Production maîtrisée",
+        "text": "Chaque produit suit un processus maîtrisé, de la prise de mesure à l'expédition."
+      },
+      {
+        "title": "Relation avec les revendeurs",
+        "text": "Nous construisons des relations commerciales durables et fondées sur la confiance avec nos revendeurs."
+      },
+      {
+        "title": "Qualité des matériaux",
+        "text": "Nous privilégions la durabilité dans le choix des profilés en aluminium et des tissus."
+      }
     ]
   },
   "contact": {
@@ -139,6 +304,24 @@
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "tagline": "Systèmes de moustiquaires et de stores plissés — Présentation destinée aux revendeurs européens"
+    "tagline": "Systèmes de moustiquaires et de stores plissés — Présentation destinée aux revendeurs européens",
+    "services_title": "Nos services",
+    "services": [
+      "Production sur mesure",
+      "Fabrication en marque propre",
+      "Contrôle qualité",
+      "Expédition montée ou démontée",
+      "Emballage et conditionnement",
+      "Transport et logistique"
+    ],
+    "solutions_title": "Nos solutions",
+    "solutions": [
+      "Logements et espaces de vie",
+      "Hôtels et espaces commerciaux",
+      "Solutions portes et fenêtres",
+      "Solutions pour balcons vitrés",
+      "Solutions pour espaces commerciaux",
+      "Solutions de projet"
+    ]
   }
 }

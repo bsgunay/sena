@@ -9,7 +9,8 @@
     "workshop": "Workshop",
     "about": "About",
     "contact": "Contact",
-    "lang_label": "Language"
+    "lang_label": "Language",
+    "dealer": "Dealership"
   },
   "brand": {
     "name": "Velora",
@@ -42,7 +43,35 @@
     "products_teaser_cta": "View all products",
     "cta_title": "For dealer partnerships",
     "cta_text": "Contact us for product information, sample requests or dealer terms.",
-    "cta_button": "Get in touch"
+    "cta_button": "Get in touch",
+    "services_title": "Our Services",
+    "services_text": "Velora does more than manufacture: our own team handles every stage, from preparing the order to measure through to packing and dispatch.",
+    "services": [
+      {
+        "title": "Made-to-Measure Production",
+        "text": "Every order is produced individually to the measurements supplied by the dealer. We do not sell ready-made standard sizes from stock."
+      },
+      {
+        "title": "Private-Label Manufacturing",
+        "text": "Products can be manufactured under the dealer's own brand name. Suitable for dealers who wish to sell under their own label."
+      },
+      {
+        "title": "Quality Control",
+        "text": "Before dispatch, every product is checked individually for the operation of its mechanism and the quality of its finish."
+      },
+      {
+        "title": "Packing and Packaging",
+        "text": "Products are packed to withstand transport without damage and prepared for dispatch."
+      },
+      {
+        "title": "Assembled and Knock-Down Shipping",
+        "text": "Products can be shipped fully assembled or knocked down; knock-down shipping reduces transport volume."
+      }
+    ],
+    "delivery_days": "7–10 days",
+    "delivery_caption": "to your door",
+    "delivery_title": "Delivery Across Türkiye and Europe",
+    "delivery_text": "Whether within Türkiye or anywhere in Europe, orders are delivered to the dealer's door within 10 days at the latest."
   },
   "products": {
     "title": "Products",
@@ -55,75 +84,211 @@
         "category": "sineklik",
         "name": "Pleated Insect Screen",
         "description": "Accordion-folded insect screen for doors and windows, moving horizontally or vertically and retracting into its cassette when not in use.",
-        "specs": ["Aluminium frame and cassette profile", "Pleated fibreglass mesh", "Made to measure", "Suited to hinged and sliding doors"]
+        "specs": [
+          "Aluminium frame and cassette profile",
+          "Pleated fibreglass mesh",
+          "Made to measure",
+          "Suited to hinged and sliding doors"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Sliding Insect Screen",
         "description": "Insect screen that slides horizontally along a track, suited to wide door and balcony openings.",
-        "specs": ["Available as single or double panel", "Aluminium profile", "Brush seal for weathertightness", "Suited to large openings"]
+        "specs": [
+          "Available as single or double panel",
+          "Aluminium profile",
+          "Brush seal for weathertightness",
+          "Suited to large openings"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Hinged Insect Screen",
         "description": "Classic single-panel insect screen that opens and closes like a door.",
-        "specs": ["Self-closing hinge", "Aluminium frame", "Fits standard window and door sizes"]
+        "specs": [
+          "Self-closing hinge",
+          "Aluminium frame",
+          "Fits standard window and door sizes"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Magnetic Insect Screen",
         "description": "Insect screen fitted with a magnetic closure strip, easy to attach and remove.",
-        "specs": ["Magnetic closure strip", "Light, flexible frame", "Suited to rentals and simple installation"]
+        "specs": [
+          "Magnetic closure strip",
+          "Light, flexible frame",
+          "Suited to rentals and simple installation"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Roller Insect Screen",
         "description": "Insect screen that retracts into a small cassette when not in use, moving horizontally or vertically.",
-        "specs": ["Spring-loaded roller mechanism", "Slim cassette profile", "Suited to window and door applications"]
+        "specs": [
+          "Spring-loaded roller mechanism",
+          "Slim cassette profile",
+          "Suited to window and door applications"
+        ]
       },
       {
         "category": "plise",
         "name": "Single Pleated Blind",
         "description": "Single-layer pleated fabric blind for windows, moving up or down.",
-        "specs": ["Wide range of fabrics and colours", "Chain or cord control", "Made to measure"]
+        "specs": [
+          "Wide range of fabrics and colours",
+          "Chain or cord control",
+          "Made to measure"
+        ]
       },
       {
         "category": "plise",
         "name": "Duo (Day & Night) Pleated Blind",
         "description": "Two-layer pleated blind combining a sheer and a blackout fabric for flexible light control.",
-        "specs": ["Two independent fabric layers", "Layers move separately", "Balances privacy and daylight"]
+        "specs": [
+          "Two independent fabric layers",
+          "Layers move separately",
+          "Balances privacy and daylight"
+        ]
       },
       {
         "category": "plise",
         "name": "Pleated Blind for Folding Glass Walls",
         "description": "Pleated blind solution fitted to folding glass wall systems using dedicated mounting hardware.",
-        "specs": ["Dedicated hardware for folding glass wall profiles", "Wind and sun protection", "Made to measure"]
+        "specs": [
+          "Dedicated hardware for folding glass wall profiles",
+          "Wind and sun protection",
+          "Made to measure"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Fabric",
+      "frame_label": "Frame Colour",
+      "mount_label": "Mounting Type",
+      "view_label": "View",
+      "view_profil": "Profile",
+      "view_cerceve": "Frame",
+      "back": "All products",
+      "fabric_count": "fabrics",
+      "frame_count": "frame colours",
+      "option_count": "options",
+      "selected": "Selected",
+      "fabric_code": "Supplier code",
+      "not_found": "Product not found.",
+      "detail_cta": "See fabric and colour options",
+      "model_count": "models"
+    },
+    "frames": {
+      "beyaz": "White",
+      "kirikbeyaz": "Silver Grey",
+      "bej": "Cream",
+      "parlament": "Anthracite Grey",
+      "kahve": "Brown",
+      "acikkahve": "Bronze",
+      "siyah": "Black"
+    },
+    "mounts": {
+      "vidali": "Screw-fixed",
+      "yapistirmali": "Adhesive"
+    },
+    "models": {
+      "vidali": {
+        "name": "Screw-Fixed Pleated Blind",
+        "summary": "Fixed with screws — the most robust mounting type.",
+        "description": "A pleated blind made from a single layer of accordion-folded fabric. It is screwed to the window sash or the wall, giving a permanent and highly stable fitting. The blind moves up and down and stays at any height you set.",
+        "specs": [
+          "Fixed screw mounting",
+          "Wide choice of fabrics and colours",
+          "Chain or cord operation",
+          "Made to measure"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Adhesive Pleated Blind",
+        "summary": "Mounted with adhesive tape, no drilling.",
+        "description": "A pleated blind made from a single layer of accordion-folded fabric. It is fitted to the window sash with adhesive tape and needs no screws or drilling. Suitable for tenants and for anyone who does not want to drill into PVC frames.",
+        "specs": [
+          "Adhesive tape mounting, no holes",
+          "Wide choice of fabrics and colours",
+          "Chain or cord operation",
+          "Made to measure"
+        ]
+      },
+      "askili": {
+        "name": "Clip-On / EasyFix Pleated Blind",
+        "summary": "Fitted with clips onto the sash — no tools needed.",
+        "description": "A pleated blind made from a single layer of accordion-folded fabric. It is fitted with clips that slide over the edge of the window sash, needing no screws, holes or tools. It can be removed again at any time without leaving a mark.",
+        "specs": [
+          "Clip mounting, no holes",
+          "Removable without a trace",
+          "Wide choice of fabrics and colours",
+          "Made to measure"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "Duo (Day & Night) Pleated Blind",
+        "summary": "Sheer and opaque fabric in one blind.",
+        "description": "A double-layer pleated blind combining a sheer and an opaque fabric. Because the two layers move independently, you can control daylight during the day and privacy in the evening separately. It can be mounted with screws or with adhesive tape.",
+        "specs": [
+          "Two different fabric layers",
+          "Independently moving layers",
+          "Screw or adhesive mounting",
+          "Balance of privacy and light"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Workshop & Manufacturing",
     "intro": "Our products are made to the ordered dimensions. From cutting to assembly, every stage follows the flow below, and every product is checked before dispatch.",
     "steps": [
-      { "title": "Profile cutting", "text": "Aluminium profiles are cut precisely to order dimensions at our cutting stations." },
-      { "title": "Joining & assembly", "text": "Cut pieces are corner-joined and assembled into a complete frame." },
-      { "title": "Fitting the fabric or mesh", "text": "Pleated fabric or insect mesh is tensioned into the cassette using dedicated machinery." },
-      { "title": "Quality control", "text": "Every product is checked before shipping for smooth mechanism operation and surface quality." },
-      { "title": "Packing & shipping", "text": "Products are packed to withstand transport and prepared for shipment." }
+      {
+        "title": "Profile cutting",
+        "text": "Aluminium profiles are cut precisely to order dimensions at our cutting stations."
+      },
+      {
+        "title": "Joining & assembly",
+        "text": "Cut pieces are corner-joined and assembled into a complete frame."
+      },
+      {
+        "title": "Fitting the fabric or mesh",
+        "text": "Pleated fabric or insect mesh is tensioned into the cassette using dedicated machinery."
+      },
+      {
+        "title": "Quality control",
+        "text": "Every product is checked before shipping for smooth mechanism operation and surface quality."
+      },
+      {
+        "title": "Packing & shipping",
+        "text": "Products are packed to withstand transport and prepared for shipment."
+      }
     ]
   },
   "about": {
-    "title": "About Us",
+    "title": "We design, manufacture and deliver for projects across Europe.",
     "intro_paragraphs": [
-      "Velora is a Turkish manufacturer specialising in insect screen and pleated blind systems.",
-      "We follow cutting, assembly, quality control and packing from start to finish, and every product passes our own inspection before dispatch.",
-      "Through regular deliveries to trade dealers across Europe, we make sure our products reach the end customer reliably."
+      "We are a manufacturing brand developing made-to-measure insect screens, pleated blinds and shading systems, managing R&D, engineering, production, quality control and logistics under one roof.",
+      "We approach every project according to its own requirements: through made-to-measure production, private-label manufacturing, rigorous quality control and professional packing, we prepare our products for dispatch either fully assembled or knocked down.",
+      "From homes to hotels and commercial spaces, from door and window systems to glass balconies and project applications, we provide solutions tailored to the measurements, the design and the project.",
+      "For our partners in Europe we combine a flexible ordering structure, reliable shipping and logistics, door-to-door delivery and a sustainable approach to materials — providing not just products, but an uninterrupted supply experience.",
+      "We turn our production capacity, our engineering approach and our European standard of service into long-term business partnerships."
     ],
     "values_title": "What we value",
     "values": [
-      { "title": "Controlled production", "text": "Every product goes through a controlled process, from measurement to dispatch." },
-      { "title": "Dealer relationships", "text": "We build long-term, trust-based business relationships with our dealers." },
-      { "title": "Material quality", "text": "We prioritise durability in the aluminium profiles and fabrics we choose." }
+      {
+        "title": "Controlled production",
+        "text": "Every product goes through a controlled process, from measurement to dispatch."
+      },
+      {
+        "title": "Dealer relationships",
+        "text": "We build long-term, trust-based business relationships with our dealers."
+      },
+      {
+        "title": "Material quality",
+        "text": "We prioritise durability in the aluminium profiles and fabrics we choose."
+      }
     ]
   },
   "contact": {
@@ -139,6 +304,24 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "tagline": "Insect Screen and Pleated Blind Systems — Introduction for European Dealers"
+    "tagline": "Insect Screen and Pleated Blind Systems — Introduction for European Dealers",
+    "services_title": "Our Services",
+    "services": [
+      "Made-to-Measure Production",
+      "Private-Label Manufacturing",
+      "Quality Control",
+      "Assembled and Knock-Down Shipping",
+      "Packing and Packaging",
+      "Shipping and Logistics"
+    ],
+    "solutions_title": "Our Solutions",
+    "solutions": [
+      "Homes and Living Spaces",
+      "Hotels and Commercial Spaces",
+      "Door and Window Solutions",
+      "Glass Balcony Solutions",
+      "Commercial Space Solutions",
+      "Project Solutions"
+    ]
   }
 }

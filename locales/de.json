@@ -9,7 +9,8 @@
     "workshop": "Werkstatt",
     "about": "Über uns",
     "contact": "Kontakt",
-    "lang_label": "Sprache"
+    "lang_label": "Sprache",
+    "dealer": "Händler"
   },
   "brand": {
     "name": "Velora",
@@ -42,7 +43,35 @@
     "products_teaser_cta": "Alle Produkte ansehen",
     "cta_title": "Für Händlerpartnerschaften",
     "cta_text": "Kontaktieren Sie uns für Produktinformationen, Musteranfragen oder Konditionen für Fachhändler.",
-    "cta_button": "Kontakt aufnehmen"
+    "cta_button": "Kontakt aufnehmen",
+    "services_title": "Unsere Leistungen",
+    "services_text": "Velora fertigt nicht nur: Von der maßgenauen Auftragsvorbereitung bis zur Verpackung und zum Versand übernimmt unser eigenes Team jeden Schritt.",
+    "services": [
+      {
+        "title": "Fertigung nach Maß",
+        "text": "Jeder Auftrag wird einzeln nach den vom Händler angegebenen Maßen gefertigt. Standardmaße ab Lager verkaufen wir nicht."
+      },
+      {
+        "title": "Fertigung als Eigenmarke",
+        "text": "Produkte können unter dem eigenen Markennamen des Händlers gefertigt werden. Geeignet für Händler, die unter eigener Marke verkaufen möchten."
+      },
+      {
+        "title": "Qualitätskontrolle",
+        "text": "Vor dem Versand wird jedes Produkt einzeln auf die Funktion des Mechanismus und die Oberflächenqualität geprüft."
+      },
+      {
+        "title": "Verpackung und Konfektionierung",
+        "text": "Die Produkte werden transportsicher verpackt und für den Versand vorbereitet."
+      },
+      {
+        "title": "Versand montiert oder zerlegt",
+        "text": "Die Produkte können montiert oder zerlegt versandt werden; der zerlegte Versand verringert das Transportvolumen."
+      }
+    ],
+    "delivery_days": "7–10 Tage",
+    "delivery_caption": "frei Haus",
+    "delivery_title": "Lieferung in der Türkei und in ganz Europa",
+    "delivery_text": "Ob innerhalb der Türkei oder irgendwo in Europa: Bestellungen werden spätestens innerhalb von 10 Tagen bis vor die Tür des Händlers geliefert."
   },
   "products": {
     "title": "Produkte",
@@ -55,75 +84,211 @@
         "category": "sineklik",
         "name": "Plissee-Fliegengitter",
         "description": "Ziehharmonikaförmig faltbares Fliegengitter für Türen und Fenster, horizontal oder vertikal beweglich, das sich bei Nichtgebrauch in der Kassette verstaut.",
-        "specs": ["Rahmen und Kassette aus Aluminium", "Fiberglas-Plissee-Gewebe", "Maßanfertigung", "Geeignet für Dreh- und Schiebetüren"]
+        "specs": [
+          "Rahmen und Kassette aus Aluminium",
+          "Fiberglas-Plissee-Gewebe",
+          "Maßanfertigung",
+          "Geeignet für Dreh- und Schiebetüren"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Schiebe-Fliegengitter",
         "description": "Auf Schienen horizontal laufendes Fliegengitter, geeignet für große Tür- und Balkonöffnungen.",
-        "specs": ["Ein- oder zweiflügelig erhältlich", "Aluminiumprofil", "Bürstendichtung", "Für große Öffnungen geeignet"]
+        "specs": [
+          "Ein- oder zweiflügelig erhältlich",
+          "Aluminiumprofil",
+          "Bürstendichtung",
+          "Für große Öffnungen geeignet"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Dreh-Fliegengitter",
         "description": "Klassisches einflügeliges Fliegengitter, das sich wie eine Tür öffnen und schließen lässt.",
-        "specs": ["Selbstschließendes Scharnier", "Aluminiumrahmen", "Geeignet für Standard-Fenster- und Türmaße"]
+        "specs": [
+          "Selbstschließendes Scharnier",
+          "Aluminiumrahmen",
+          "Geeignet für Standard-Fenster- und Türmaße"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Magnet-Fliegengitter",
         "description": "Mit Magnetstreifen montiertes, leicht anzubringendes und wieder abnehmbares Fliegengitter.",
-        "specs": ["Magnetischer Verschlussstreifen", "Leichter, flexibler Rahmen", "Ideal für Mietwohnungen und einfache Montage"]
+        "specs": [
+          "Magnetischer Verschlussstreifen",
+          "Leichter, flexibler Rahmen",
+          "Ideal für Mietwohnungen und einfache Montage"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Roll-Fliegengitter",
         "description": "Fliegengitter, das sich bei Nichtgebrauch in eine kleine Kassette einrollt, horizontal oder vertikal beweglich.",
-        "specs": ["Federzug-Aufrollmechanismus", "Schlanke Kassette", "Geeignet für Fenster- und Türanwendungen"]
+        "specs": [
+          "Federzug-Aufrollmechanismus",
+          "Schlanke Kassette",
+          "Geeignet für Fenster- und Türanwendungen"
+        ]
       },
       {
         "category": "plise",
         "name": "Einfach-Plissee",
         "description": "Einlagiges Plissee aus gefaltetem Stoff, das sich für Fenster nach oben oder unten bewegen lässt.",
-        "specs": ["Große Auswahl an Stoffen und Farben", "Kettenzug oder Kordelzug", "Maßanfertigung"]
+        "specs": [
+          "Große Auswahl an Stoffen und Farben",
+          "Kettenzug oder Kordelzug",
+          "Maßanfertigung"
+        ]
       },
       {
         "category": "plise",
         "name": "Duo-Plissee (Day & Night)",
         "description": "Doppellagiges Plissee mit transparentem und blickdichtem Stoff, das eine flexible Lichtsteuerung ermöglicht.",
-        "specs": ["Zwei unabhängige Stofflagen", "Getrennt bewegliche Lagen", "Balance aus Sichtschutz und Lichteinfall"]
+        "specs": [
+          "Zwei unabhängige Stofflagen",
+          "Getrennt bewegliche Lagen",
+          "Balance aus Sichtschutz und Lichteinfall"
+        ]
       },
       {
         "category": "plise",
         "name": "Plissee für Glasfaltwände",
         "description": "Plissee-Lösung, die mit speziellen Montagebeschlägen an Glasfaltwand-Systeme angepasst wird.",
-        "specs": ["Spezialbeschlag für Glasfaltwand-Profile", "Wind- und Sonnenschutz", "Maßanfertigung"]
+        "specs": [
+          "Spezialbeschlag für Glasfaltwand-Profile",
+          "Wind- und Sonnenschutz",
+          "Maßanfertigung"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Stoff",
+      "frame_label": "Rahmenfarbe",
+      "mount_label": "Montageart",
+      "view_label": "Ansicht",
+      "view_profil": "Profil",
+      "view_cerceve": "Rahmen",
+      "back": "Alle Produkte",
+      "fabric_count": "Stoffe",
+      "frame_count": "Rahmenfarben",
+      "option_count": "Optionen",
+      "selected": "Ausgewählt",
+      "fabric_code": "Lieferantencode",
+      "not_found": "Produkt nicht gefunden.",
+      "detail_cta": "Stoff- und Farboptionen ansehen",
+      "model_count": "Modelle"
+    },
+    "frames": {
+      "beyaz": "Weiß",
+      "kirikbeyaz": "Silbergrau",
+      "bej": "Creme",
+      "parlament": "Anthrazitgrau",
+      "kahve": "Braun",
+      "acikkahve": "Bronze",
+      "siyah": "Schwarz"
+    },
+    "mounts": {
+      "vidali": "Verschraubt",
+      "yapistirmali": "Geklebt"
+    },
+    "models": {
+      "vidali": {
+        "name": "Verschraubtes Plissee",
+        "summary": "Mit Schrauben befestigt — die stabilste Montageart.",
+        "description": "Ein Plissee aus einer einlagigen, ziehharmonikaförmig gefalteten Stoffbahn. Es wird am Fensterflügel oder an der Wand verschraubt und ergibt eine dauerhafte, besonders stabile Montage. Das Plissee lässt sich nach oben und unten bewegen und bleibt auf jeder gewünschten Höhe stehen.",
+        "specs": [
+          "Feste Verschraubung",
+          "Große Auswahl an Stoffen und Farben",
+          "Ketten- oder Kordelzug",
+          "Maßanfertigung"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Geklebtes Plissee",
+        "summary": "Montage mit Klebeband, ohne Bohren.",
+        "description": "Ein Plissee aus einer einlagigen, ziehharmonikaförmig gefalteten Stoffbahn. Es wird mit Klebeband am Fensterflügel befestigt und benötigt weder Schrauben noch Bohrlöcher. Geeignet für Mieter und für alle, die nicht in Kunststoffrahmen bohren möchten.",
+        "specs": [
+          "Montage mit Klebeband, keine Bohrlöcher",
+          "Große Auswahl an Stoffen und Farben",
+          "Ketten- oder Kordelzug",
+          "Maßanfertigung"
+        ]
+      },
+      "askili": {
+        "name": "Einhänge- / EasyFix-Plissee",
+        "summary": "Montage mit Klemmträgern am Flügel — ohne Werkzeug.",
+        "description": "Ein Plissee aus einer einlagigen, ziehharmonikaförmig gefalteten Stoffbahn. Es wird mit Klemmträgern auf die Kante des Fensterflügels gesteckt und benötigt weder Schrauben noch Bohrlöcher oder Werkzeug. Es lässt sich jederzeit rückstandslos wieder abnehmen.",
+        "specs": [
+          "Montage mit Klemmträgern, keine Bohrlöcher",
+          "Rückstandslos abnehmbar",
+          "Große Auswahl an Stoffen und Farben",
+          "Maßanfertigung"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "Duo-Plissee (Tag & Nacht)",
+        "summary": "Transparenter und blickdichter Stoff in einem Plissee.",
+        "description": "Ein doppellagiges Plissee mit einem transparenten und einem blickdichten Stoff. Da sich beide Lagen unabhängig bewegen, lassen sich Lichteinfall am Tag und Sichtschutz am Abend getrennt regeln. Die Montage erfolgt wahlweise verschraubt oder geklebt.",
+        "specs": [
+          "Zwei unterschiedliche Stofflagen",
+          "Unabhängig bewegliche Lagen",
+          "Montage verschraubt oder geklebt",
+          "Balance aus Sichtschutz und Lichteinfall"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Werkstatt und Fertigung",
     "intro": "Unsere Produkte werden nach den bestellten Maßen gefertigt. Vom Zuschnitt bis zur Montage folgt jeder Schritt dem unten dargestellten Ablauf, und jedes Produkt wird vor dem Versand kontrolliert.",
     "steps": [
-      { "title": "Profilzuschnitt", "text": "Aluminiumprofile werden an Präzisionssägen exakt nach Bestellmaß zugeschnitten." },
-      { "title": "Verbindung und Montage", "text": "Die zugeschnittenen Teile werden an den Ecken verbunden und zum Rahmen montiert." },
-      { "title": "Stoff- und Gewebeeinzug", "text": "Plisseestoff oder Fliegengittergewebe wird mit speziellen Maschinen straff in die Kassette eingezogen." },
-      { "title": "Qualitätskontrolle", "text": "Jedes Produkt wird vor dem Versand auf Funktion des Mechanismus und Oberflächenqualität geprüft." },
-      { "title": "Verpackung und Versand", "text": "Die Produkte werden transportsicher verpackt und für den Versand vorbereitet." }
+      {
+        "title": "Profilzuschnitt",
+        "text": "Aluminiumprofile werden an Präzisionssägen exakt nach Bestellmaß zugeschnitten."
+      },
+      {
+        "title": "Verbindung und Montage",
+        "text": "Die zugeschnittenen Teile werden an den Ecken verbunden und zum Rahmen montiert."
+      },
+      {
+        "title": "Stoff- und Gewebeeinzug",
+        "text": "Plisseestoff oder Fliegengittergewebe wird mit speziellen Maschinen straff in die Kassette eingezogen."
+      },
+      {
+        "title": "Qualitätskontrolle",
+        "text": "Jedes Produkt wird vor dem Versand auf Funktion des Mechanismus und Oberflächenqualität geprüft."
+      },
+      {
+        "title": "Verpackung und Versand",
+        "text": "Die Produkte werden transportsicher verpackt und für den Versand vorbereitet."
+      }
     ]
   },
   "about": {
-    "title": "Über uns",
+    "title": "Wir entwickeln, fertigen und liefern für Projekte in ganz Europa.",
     "intro_paragraphs": [
-      "Velora ist ein türkischer Hersteller, spezialisiert auf Fliegengitter- und Plissee-Systeme.",
-      "Wir begleiten Zuschnitt, Montage, Qualitätskontrolle und Verpackung von Anfang bis Ende; jedes Produkt durchläuft vor dem Versand unsere eigene Kontrolle.",
-      "Durch regelmäßige Lieferungen an Fachhändler in ganz Europa stellen wir sicher, dass unsere Produkte zuverlässig beim Endkunden ankommen."
+      "Wir sind eine Fertigungsmarke, die maßgefertigte Fliegengitter, Plissees und Beschattungssysteme entwickelt und Forschung und Entwicklung, Konstruktion, Produktion, Qualitätskontrolle und Logistik unter einem Dach vereint.",
+      "Wir betrachten jedes Projekt nach seinen eigenen Anforderungen: Mit Fertigung nach Maß, Eigenmarkenproduktion, sorgfältiger Qualitätskontrolle und professioneller Verpackung bereiten wir unsere Produkte montiert oder zerlegt für den Versand vor.",
+      "Von Wohnräumen über Hotels und Gewerbeflächen bis hin zu Tür- und Fenstersystemen, Glasbalkonen und Projektanwendungen bieten wir Lösungen, die auf Maß, Gestaltung und Projekt zugeschnitten sind.",
+      "Für unsere Partner in Europa verbinden wir eine flexible Bestellstruktur, zuverlässigen Versand und Logistik, Lieferung frei Haus und einen nachhaltigen Materialansatz — und bieten damit nicht nur Produkte, sondern ein durchgängiges Beschaffungserlebnis.",
+      "Unsere Fertigungskapazität, unseren technischen Ansatz und unser Serviceverständnis auf europäischem Niveau setzen wir in langfristige Geschäftspartnerschaften um."
     ],
     "values_title": "Worauf wir Wert legen",
     "values": [
-      { "title": "Kontrollierte Fertigung", "text": "Jedes Produkt durchläuft einen kontrollierten Prozess — vom Aufmaß bis zum Versand." },
-      { "title": "Partnerschaft mit Händlern", "text": "Wir bauen langfristige, vertrauensbasierte Geschäftsbeziehungen mit unseren Fachhändlern auf." },
-      { "title": "Materialqualität", "text": "Bei Aluminiumprofilen und Stoffen legen wir besonderen Wert auf Langlebigkeit." }
+      {
+        "title": "Kontrollierte Fertigung",
+        "text": "Jedes Produkt durchläuft einen kontrollierten Prozess — vom Aufmaß bis zum Versand."
+      },
+      {
+        "title": "Partnerschaft mit Händlern",
+        "text": "Wir bauen langfristige, vertrauensbasierte Geschäftsbeziehungen mit unseren Fachhändlern auf."
+      },
+      {
+        "title": "Materialqualität",
+        "text": "Bei Aluminiumprofilen und Stoffen legen wir besonderen Wert auf Langlebigkeit."
+      }
     ]
   },
   "contact": {
@@ -139,6 +304,24 @@
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
-    "tagline": "Fliegengitter- und Plissee-Systeme — Vorstellung für Fachhändler in Europa"
+    "tagline": "Fliegengitter- und Plissee-Systeme — Vorstellung für Fachhändler in Europa",
+    "services_title": "Unsere Leistungen",
+    "services": [
+      "Fertigung nach Maß",
+      "Fertigung als Eigenmarke",
+      "Qualitätskontrolle",
+      "Versand montiert oder zerlegt",
+      "Verpackung und Konfektionierung",
+      "Versand und Logistik"
+    ],
+    "solutions_title": "Unsere Lösungen",
+    "solutions": [
+      "Wohn- und Lebensräume",
+      "Hotels und Gewerbeflächen",
+      "Tür- und Fensterlösungen",
+      "Lösungen für Glasbalkone",
+      "Lösungen für Gewerbeflächen",
+      "Projektlösungen"
+    ]
   }
 }

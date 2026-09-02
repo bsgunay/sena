@@ -9,7 +9,8 @@
     "workshop": "Werkplaats",
     "about": "Over ons",
     "contact": "Contact",
-    "lang_label": "Taal"
+    "lang_label": "Taal",
+    "dealer": "Dealers"
   },
   "brand": {
     "name": "Velora",
@@ -42,7 +43,35 @@
     "products_teaser_cta": "Bekijk alle producten",
     "cta_title": "Voor handelspartnerschappen",
     "cta_text": "Neem contact met ons op voor productinformatie, monsteraanvragen of voorwaarden voor vakhandelaren.",
-    "cta_button": "Neem contact op"
+    "cta_button": "Neem contact op",
+    "services_title": "Onze diensten",
+    "services_text": "Velora produceert niet alleen: ons eigen team verzorgt elke stap, van het op maat voorbereiden van de order tot het verpakken en verzenden.",
+    "services": [
+      {
+        "title": "Productie op maat",
+        "text": "Elke order wordt afzonderlijk gemaakt volgens de maten die de dealer doorgeeft. Wij verkopen geen standaardmaten uit voorraad."
+      },
+      {
+        "title": "Productie onder eigen merk",
+        "text": "Producten kunnen onder de eigen merknaam van de dealer worden gemaakt. Geschikt voor dealers die onder hun eigen merk willen verkopen."
+      },
+      {
+        "title": "Kwaliteitscontrole",
+        "text": "Voor verzending wordt elk product afzonderlijk gecontroleerd op de werking van het mechanisme en de afwerking."
+      },
+      {
+        "title": "Verpakking en emballage",
+        "text": "Producten worden transportbestendig verpakt en klaargemaakt voor verzending."
+      },
+      {
+        "title": "Gemonteerd of gedemonteerd verzenden",
+        "text": "Producten kunnen gemonteerd of gedemonteerd worden verzonden; demontage verkleint het transportvolume."
+      }
+    ],
+    "delivery_days": "7–10 dagen",
+    "delivery_caption": "tot aan de deur",
+    "delivery_title": "Levering in Turkije en heel Europa",
+    "delivery_text": "Zowel binnen Turkije als overal in Europa worden bestellingen uiterlijk binnen 10 dagen tot aan de deur van de dealer geleverd."
   },
   "products": {
     "title": "Producten",
@@ -55,75 +84,211 @@
         "category": "sineklik",
         "name": "Plissé-hordeur",
         "description": "Accordeon-gevouwen hordeursysteem voor deuren en ramen, horizontaal of verticaal beweegbaar, dat bij niet-gebruik wegklapt in de cassette.",
-        "specs": ["Aluminium kader en cassetteprofiel", "Geplisseerd glasvezelgaas", "Maatwerk", "Geschikt voor scharnierende en schuivende deuren"]
+        "specs": [
+          "Aluminium kader en cassetteprofiel",
+          "Geplisseerd glasvezelgaas",
+          "Maatwerk",
+          "Geschikt voor scharnierende en schuivende deuren"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Schuifhordeur",
         "description": "Horizontaal over een railsysteem schuivend hordeur, geschikt voor brede deur- en balkonopeningen.",
-        "specs": ["Verkrijgbaar met één of twee panelen", "Aluminium profiel", "Borsteldichting", "Geschikt voor grote openingen"]
+        "specs": [
+          "Verkrijgbaar met één of twee panelen",
+          "Aluminium profiel",
+          "Borsteldichting",
+          "Geschikt voor grote openingen"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Scharnierende hordeur",
         "description": "Klassiek hordeursysteem met één paneel dat open- en dichtgaat zoals een deur.",
-        "specs": ["Zelfsluitend scharnier", "Aluminium kader", "Geschikt voor standaard raam- en deurmaten"]
+        "specs": [
+          "Zelfsluitend scharnier",
+          "Aluminium kader",
+          "Geschikt voor standaard raam- en deurmaten"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Magnetische hordeur",
         "description": "Met een magnetische sluitstrip gemonteerd hordeur, eenvoudig te plaatsen en te verwijderen.",
-        "specs": ["Magnetische sluitstrip", "Licht en flexibel frame", "Geschikt voor huurwoningen en eenvoudige montage"]
+        "specs": [
+          "Magnetische sluitstrip",
+          "Licht en flexibel frame",
+          "Geschikt voor huurwoningen en eenvoudige montage"
+        ]
       },
       {
         "category": "sineklik",
         "name": "Oprolbare hordeur",
         "description": "Hordeur dat bij niet-gebruik oprolt in een kleine cassette, horizontaal of verticaal beweegbaar.",
-        "specs": ["Veerbelast oprolmechanisme", "Smal cassetteprofiel", "Geschikt voor raam- en deurtoepassingen"]
+        "specs": [
+          "Veerbelast oprolmechanisme",
+          "Smal cassetteprofiel",
+          "Geschikt voor raam- en deurtoepassingen"
+        ]
       },
       {
         "category": "plise",
         "name": "Enkel plissegordijn",
         "description": "Eénlaags geplisseerd stoffen raambekleding, verticaal beweegbaar naar boven of beneden.",
-        "specs": ["Ruime keuze aan stoffen en kleuren", "Ketting- of koordbediening", "Maatwerk"]
+        "specs": [
+          "Ruime keuze aan stoffen en kleuren",
+          "Ketting- of koordbediening",
+          "Maatwerk"
+        ]
       },
       {
         "category": "plise",
         "name": "Dubbel plissegordijn (Day & Night)",
         "description": "Dubbellaags plissegordijn met transparante en lichtdichte stof, voor flexibele lichtregeling.",
-        "specs": ["Twee onafhankelijke stoflagen", "Afzonderlijk beweegbare lagen", "Balans tussen privacy en lichtinval"]
+        "specs": [
+          "Twee onafhankelijke stoflagen",
+          "Afzonderlijk beweegbare lagen",
+          "Balans tussen privacy en lichtinval"
+        ]
       },
       {
         "category": "plise",
         "name": "Plissé voor vouwwanden",
         "description": "Plisséoplossing die met speciale montagebeslag wordt aangepast aan glazen vouwwandsystemen.",
-        "specs": ["Speciaal beslag voor vouwwandprofielen", "Wind- en zonwering", "Maatwerk"]
+        "specs": [
+          "Speciaal beslag voor vouwwandprofielen",
+          "Wind- en zonwering",
+          "Maatwerk"
+        ]
       }
-    ]
+    ],
+    "ui": {
+      "fabric_label": "Stof",
+      "frame_label": "Framekleur",
+      "mount_label": "Montagetype",
+      "view_label": "Weergave",
+      "view_profil": "Profiel",
+      "view_cerceve": "Frame",
+      "back": "Alle producten",
+      "fabric_count": "stoffen",
+      "frame_count": "framekleuren",
+      "option_count": "opties",
+      "selected": "Geselecteerd",
+      "fabric_code": "Leverancierscode",
+      "not_found": "Product niet gevonden.",
+      "detail_cta": "Bekijk stof- en kleuropties",
+      "model_count": "modellen"
+    },
+    "frames": {
+      "beyaz": "Wit",
+      "kirikbeyaz": "Zilvergrijs",
+      "bej": "Crème",
+      "parlament": "Antracietgrijs",
+      "kahve": "Bruin",
+      "acikkahve": "Brons",
+      "siyah": "Zwart"
+    },
+    "mounts": {
+      "vidali": "Geschroefd",
+      "yapistirmali": "Geplakt"
+    },
+    "models": {
+      "vidali": {
+        "name": "Geschroefd plisségordijn",
+        "summary": "Met schroeven bevestigd — de stevigste montagewijze.",
+        "description": "Een plisségordijn van één laag accordeongevouwen stof. Het wordt op de raamvleugel of de muur geschroefd, wat een permanente en zeer stevige montage geeft. Het gordijn beweegt omhoog en omlaag en blijft op elke gewenste hoogte staan.",
+        "specs": [
+          "Vaste schroefmontage",
+          "Ruime keuze aan stoffen en kleuren",
+          "Bediening met ketting of koord",
+          "Productie op maat"
+        ]
+      },
+      "yapistirmali": {
+        "name": "Geplakt plisségordijn",
+        "summary": "Montage met plakband, zonder boren.",
+        "description": "Een plisségordijn van één laag accordeongevouwen stof. Het wordt met plakband op de raamvleugel bevestigd en vereist geen schroeven of boorgaten. Geschikt voor huurders en voor iedereen die niet in kunststof kozijnen wil boren.",
+        "specs": [
+          "Montage met plakband, geen gaten",
+          "Ruime keuze aan stoffen en kleuren",
+          "Bediening met ketting of koord",
+          "Productie op maat"
+        ]
+      },
+      "askili": {
+        "name": "Inhaak- / EasyFix-plisségordijn",
+        "summary": "Montage met klemmen op de raamvleugel — zonder gereedschap.",
+        "description": "Een plisségordijn van één laag accordeongevouwen stof. Het wordt bevestigd met klemsteunen die over de rand van de raamvleugel schuiven, zonder schroeven, gaten of gereedschap. Het kan op elk moment spoorloos worden verwijderd.",
+        "specs": [
+          "Montage met klemsteunen, geen gaten",
+          "Spoorloos te verwijderen",
+          "Ruime keuze aan stoffen en kleuren",
+          "Productie op maat"
+        ]
+      },
+      "gece-gunduz": {
+        "name": "Duo-plisségordijn (dag & nacht)",
+        "summary": "Transparante en verduisterende stof in één gordijn.",
+        "description": "Een dubbellaags plisségordijn met een transparante en een verduisterende stof. Doordat beide lagen onafhankelijk bewegen, regelt u overdag het licht en 's avonds de privacy afzonderlijk. Montage kan geschroefd of geplakt.",
+        "specs": [
+          "Twee verschillende stoflagen",
+          "Onafhankelijk bewegende lagen",
+          "Montage geschroefd of geplakt",
+          "Balans tussen privacy en licht"
+        ]
+      }
+    }
   },
   "workshop": {
     "title": "Werkplaats en productie",
     "intro": "Onze producten worden op de bestelde maat vervaardigd. Van snijden tot montage volgt elke stap het onderstaande proces, en elk product wordt vóór verzending gecontroleerd.",
     "steps": [
-      { "title": "Profielen zagen", "text": "Aluminium profielen worden op precisiezaagstations exact op bestelmaat gezaagd." },
-      { "title": "Lassen en montage", "text": "De gezaagde onderdelen worden aan de hoeken verbonden en tot een kader gemonteerd." },
-      { "title": "Stof- en gaasplaatsing", "text": "Plissé-stof of hordeurgaas wordt met speciale machines strak in de cassette geplaatst." },
-      { "title": "Kwaliteitscontrole", "text": "Elk product wordt voor verzending gecontroleerd op werking van het mechanisme en oppervlaktekwaliteit." },
-      { "title": "Verpakking en verzending", "text": "De producten worden transportveilig verpakt en klaargemaakt voor verzending." }
+      {
+        "title": "Profielen zagen",
+        "text": "Aluminium profielen worden op precisiezaagstations exact op bestelmaat gezaagd."
+      },
+      {
+        "title": "Lassen en montage",
+        "text": "De gezaagde onderdelen worden aan de hoeken verbonden en tot een kader gemonteerd."
+      },
+      {
+        "title": "Stof- en gaasplaatsing",
+        "text": "Plissé-stof of hordeurgaas wordt met speciale machines strak in de cassette geplaatst."
+      },
+      {
+        "title": "Kwaliteitscontrole",
+        "text": "Elk product wordt voor verzending gecontroleerd op werking van het mechanisme en oppervlaktekwaliteit."
+      },
+      {
+        "title": "Verpakking en verzending",
+        "text": "De producten worden transportveilig verpakt en klaargemaakt voor verzending."
+      }
     ]
   },
   "about": {
-    "title": "Over ons",
+    "title": "Wij ontwerpen, produceren en leveren voor projecten in heel Europa.",
     "intro_paragraphs": [
-      "Velora is een Turkse fabrikant, gespecialiseerd in hordeur- en plissésystemen.",
-      "Wij volgen het snijden, de montage, de kwaliteitscontrole en de verpakking van begin tot eind; elk product doorloopt vóór verzending onze eigen controle.",
-      "Door regelmatige leveringen aan vakhandelaren in heel Europa zorgen wij ervoor dat onze producten betrouwbaar bij de eindgebruiker terechtkomen."
+      "Wij zijn een productiemerk dat op maat gemaakte horren, plisségordijnen en zonweringssystemen ontwikkelt en R&D, engineering, productie, kwaliteitscontrole en logistiek onder één dak beheert.",
+      "Wij benaderen elk project vanuit de eigen eisen: met productie op maat, fabricage onder eigen merk, zorgvuldige kwaliteitscontrole en professionele verpakking maken wij onze producten gemonteerd of gedemonteerd verzendklaar.",
+      "Van woningen tot hotels en commerciële ruimtes, van deur- en raamsystemen tot glazen balkons en projecttoepassingen bieden wij oplossingen op maat van de afmetingen, het ontwerp en het project.",
+      "Voor onze partners in Europa combineren wij een flexibele bestelstructuur, betrouwbaar transport en logistiek, levering tot aan de deur en een duurzame materiaalaanpak — zo bieden wij niet alleen producten, maar een ononderbroken bevoorradingservaring.",
+      "Wij zetten onze productiekracht, onze engineeringaanpak en ons serviceniveau volgens Europese standaarden om in langdurige samenwerkingen."
     ],
     "values_title": "Waar wij waarde aan hechten",
     "values": [
-      { "title": "Gecontroleerde productie", "text": "Elk product doorloopt een gecontroleerd proces, van opmeting tot verzending." },
-      { "title": "Relatie met handelaren", "text": "Wij bouwen langdurige, op vertrouwen gebaseerde handelsrelaties op met onze vakhandelaren." },
-      { "title": "Materiaalkwaliteit", "text": "Bij de keuze van aluminium profielen en stoffen staat duurzaamheid voorop." }
+      {
+        "title": "Gecontroleerde productie",
+        "text": "Elk product doorloopt een gecontroleerd proces, van opmeting tot verzending."
+      },
+      {
+        "title": "Relatie met handelaren",
+        "text": "Wij bouwen langdurige, op vertrouwen gebaseerde handelsrelaties op met onze vakhandelaren."
+      },
+      {
+        "title": "Materiaalkwaliteit",
+        "text": "Bij de keuze van aluminium profielen en stoffen staat duurzaamheid voorop."
+      }
     ]
   },
   "contact": {
@@ -139,6 +304,24 @@
   },
   "footer": {
     "rights": "Alle rechten voorbehouden.",
-    "tagline": "Hordeur- en Plissésystemen — Kennismaking voor vakhandelaren in Europa"
+    "tagline": "Hordeur- en Plissésystemen — Kennismaking voor vakhandelaren in Europa",
+    "services_title": "Onze diensten",
+    "services": [
+      "Productie op maat",
+      "Productie onder eigen merk",
+      "Kwaliteitscontrole",
+      "Gemonteerd of gedemonteerd verzenden",
+      "Verpakking en emballage",
+      "Transport en logistiek"
+    ],
+    "solutions_title": "Onze oplossingen",
+    "solutions": [
+      "Woningen en leefruimtes",
+      "Hotels en commerciële ruimtes",
+      "Deur- en raamoplossingen",
+      "Oplossingen voor glazen balkons",
+      "Oplossingen voor commerciële ruimtes",
+      "Projectoplossingen"
+    ]
   }
 }
