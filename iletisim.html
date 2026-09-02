@@ -67,7 +67,19 @@
           </li>
           <li>
             <span class="label" data-i18n="contact.instagram_label">Instagram</span>
-            <a href="#" data-config="instagramHandle" data-config-href="instagram" target="_blank" rel="noopener">@velora_turkey</a>
+            <!-- 02.09: Instagram bağlantısı alt bilgiden buraya taşındı. Kardeşi
+                 "instagram olduğu anlaşılsın, başına küçük instagram logosu"
+                 dedi — alt bilgide yalnızca "@velora_turkey" yazıyordu, ne
+                 olduğu belli olmuyordu. Simge gömülü SVG, dış istek yok.
+                 ⚠️ data-config="instagramHandle" artık İÇTEKİ span'de: bağlantının
+                 kendisinde kalsaydı i18n metni yazarken SVG'yi silerdi. -->
+            <a class="ig-link" href="#" data-config-href="instagram" target="_blank" rel="noopener">
+              <svg class="ig-mark" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4"/>
+                <circle cx="12" cy="12" r="4.5"/>
+                <circle cx="17.5" cy="6.5" r="1.2" class="ig-dot"/>
+              </svg><span data-config="instagramHandle">@velora_turkey</span>
+            </a>
           </li>
           <li>
             <span class="label" data-i18n="contact.whatsapp_label">WhatsApp</span>
@@ -94,7 +106,6 @@
       <div class="footer-brand-block">
         <p class="footer-brand" data-i18n="brand.name">Velora</p>
         <p data-i18n="footer.tagline">Plise Perde Sistemleri</p>
-        <p><a class="footer-ig" href="#" data-config-href="instagram" data-config="instagramHandle" target="_blank" rel="noopener">@velora_turkey</a></p>
       </div>
       <div class="footer-col">
         <p class="footer-col-title" data-i18n="footer.services_title">Hizmetlerimiz</p>

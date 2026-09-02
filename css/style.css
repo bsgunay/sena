@@ -496,8 +496,13 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 .site-footer { border-top: 1px solid var(--line); padding: 2.5rem 0 2rem; }
 .site-footer p { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
 .footer-brand { font-family: var(--font-display); font-weight: 600; }
-.footer-ig { color: var(--ink-soft); text-decoration: none; }
-.footer-ig:hover { color: var(--ink); text-decoration: underline; }
+/* Instagram bağlantısı 02.09'da alt bilgiden İLETİŞİM sayfasına taşındı
+   (.footer-ig kuralları artık kullanılmadığı için silindi). Simge çizgi
+   çizim: gövde ve halka çerçeve, sağ üstteki nokta dolu. */
+.ig-link { display: inline-flex; align-items: center; gap: 0.45rem; }
+.ig-mark { width: 1.05em; height: 1.05em; flex: none; fill: none;
+  stroke: currentColor; stroke-width: 1.7; }
+.ig-mark .ig-dot { fill: currentColor; stroke: none; }
 
 /* Sütunlar: marka bloğu + Hizmetlerimiz + Çözümlerimiz.
    Marka sütunu geniş çünkü içinde üç satır metin var; listeler dar. */
