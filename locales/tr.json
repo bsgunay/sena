@@ -267,11 +267,13 @@
     ]
   },
   "about": {
-    "title": "Hakkımızda",
+    "title": "Avrupa projeleri için tasarlıyor, üretiyor ve ulaştırıyoruz.",
     "intro_paragraphs": [
-      "Velora, sineklik ve plise perde sistemleri üretimi üzerine kurulmuş, Türkiye merkezli bir üretici firmadır.",
-      "Kesim, kaynak, montaj ve paketleme süreçlerini baştan sona takip ediyor, her ürünü sevkiyat öncesi kendi kalite kontrolümüzden geçiriyoruz.",
-      "Avrupa genelindeki bayi ve mağazalara düzenli sevkiyat yaparak, ürünlerimizin son kullanıcıya güvenilir bir şekilde ulaşmasını sağlıyoruz."
+      "Firmamız; özel ölçü sineklik, plise perde ve gölgelendirme sistemleri geliştiren, Ar-Ge, mühendislik, üretim, kalite kontrol ve lojistik süreçlerini tek çatı altında yöneten bir üretim markasıdır.",
+      "Her projeyi kendi ihtiyaçları doğrultusunda ele alıyor; özel ölçü üretim, markaya özel imalat, titiz kalite kontrol ve profesyonel paketleme süreçleriyle ürünlerimizi bitmiş veya demonte olarak sevkiyata hazırlıyoruz.",
+      "Konutlardan otel ve ticari alanlara, kapı-pencere sistemlerinden cam balkon ve proje uygulamalarına kadar farklı kullanım alanları için ölçüye, tasarıma ve projeye özel çözümler sunuyoruz.",
+      "Avrupa'daki iş ortaklarımız için esnek sipariş yapısı, güvenilir kargo ve lojistik, kapı teslim sevkiyat ve sürdürülebilir malzeme yaklaşımı ile yalnızca ürün değil, kesintisiz bir tedarik deneyimi sağlıyoruz.",
+      "Üretim gücümüzü, mühendislik yaklaşımımızı ve Avrupa standartlarındaki hizmet anlayışımızı uzun vadeli iş ortaklıklarına dönüştürüyoruz."
     ],
     "values_title": "Neye Önem Veriyoruz",
     "values": [
@@ -302,6 +304,24 @@
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
-    "tagline": "Sineklik ve Plise Perde Sistemleri — Avrupa’ya Toptan Tanıtım"
+    "tagline": "Sineklik ve Plise Perde Sistemleri — Avrupa’ya Toptan Tanıtım",
+    "services_title": "Hizmetlerimiz",
+    "services": [
+      "Özel Ölçü Üretim",
+      "Markaya Özel İmalat",
+      "Kalite Kontrol",
+      "Bitmiş Ürün ve Demonte Sevkiyat",
+      "Paketleme ve Ambalajlama",
+      "Kargo ve Lojistik"
+    ],
+    "solutions_title": "Çözümlerimiz",
+    "solutions": [
+      "Konut ve Yaşam Alanları",
+      "Otel ve Ticari Alanlar",
+      "Kapı ve Pencere Çözümleri",
+      "Cam Balkon Çözümleri",
+      "Ticari Alan Çözümleri",
+      "Proje Çözümleri"
+    ]
   }
 }

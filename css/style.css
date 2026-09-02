@@ -494,14 +494,27 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--line); padding: 2.5rem 0 2rem; }
-.site-footer .wrap {
-  display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
-  align-items: flex-end;
-}
 .site-footer p { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
 .footer-brand { font-family: var(--font-display); font-weight: 600; }
 .footer-ig { color: var(--ink-soft); text-decoration: none; }
 .footer-ig:hover { color: var(--ink); text-decoration: underline; }
+
+/* Sütunlar: marka bloğu + Hizmetlerimiz + Çözümlerimiz.
+   Marka sütunu geniş çünkü içinde üç satır metin var; listeler dar. */
+.footer-cols {
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 2rem 2.5rem; align-items: start;
+}
+.footer-brand-block p + p { margin-top: 0.35rem; }
+/* .site-footer p kuralı margin:0 veriyor, alt boşluk burada geri veriliyor. */
+.footer-col-title {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink); margin: 0 0 0.8rem;
+}
+.footer-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.42rem; }
+.footer-col li { font-size: 0.82rem; line-height: 1.35; color: var(--ink-soft); }
+.footer-legal { margin-top: 2.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
@@ -524,9 +537,13 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
   /* Telefonda menü akıştan çıkıyor (position:fixed); boşluğu bu emsin, yoksa
      marka / buton / hamburger üçe bölünüp buton ortada asılı kalır. */
   .btn-dealer { padding: 0.5rem 0.85rem; font-size: 0.82rem; margin-left: auto; }
+  /* Alt bilgi: marka bloğu tam genişlik, iki liste altında yan yana. */
+  .footer-cols { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
+  .footer-brand-block { grid-column: 1 / -1; }
 }
 
 @media (max-width: 600px) {
   .gallery-grid { grid-template-columns: 1fr; }
   .contact-list li { grid-template-columns: 1fr; gap: 0.2rem; }
+  .footer-cols { grid-template-columns: 1fr; gap: 1.5rem; }
 }
