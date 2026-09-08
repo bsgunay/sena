@@ -62,6 +62,23 @@
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) metaDesc.setAttribute("content", data.meta.description);
     }
+
+    /* SAYFAYA ÖZEL BAŞLIK (06.09.2026)
+       Önce altı sayfanın altısı da aynı başlığı taşıyordu — meta.title tek
+       değer. Birkaç sekme açıkken hangisinin hangi sayfa olduğu anlaşılmıyordu,
+       arama sonuçlarında da hepsi aynı görünüyordu.
+       Başlık artık menüdeki HAZIR ÇEVİRİDEN kuruluyor: "Ürünler — Velora".
+       Böylece altı dilin hiçbirine yeni metin yazmak gerekmedi.
+       • home  → meta.title olduğu gibi kalıyor (marka + ne iş yaptığı; ana
+         sayfada aranan da bu)
+       • product → urun.html kendi başlığını sonradan yazıyor ("Model — Velora"),
+         burada dokunulmuyor */
+    const sayfa = document.body ? document.body.getAttribute("data-page") : null;
+    const menuAnahtari = { products: "products", workshop: "workshop",
+                           about: "about", contact: "contact" }[sayfa];
+    if (menuAnahtari && data.nav && data.nav[menuAnahtari] && data.brand && data.brand.name) {
+      document.title = data.nav[menuAnahtari] + " — " + data.brand.name;
+    }
   }
 
   function populateLangSelect(currentLang) {
