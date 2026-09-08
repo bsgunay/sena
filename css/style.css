@@ -413,12 +413,6 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 }
 .whatsapp-btn:hover { background: var(--teal-deep); }
 
-.note-box {
-  margin-top: 1.5rem; padding: 1rem 1.25rem; border: 1px dashed var(--brass);
-  border-radius: var(--radius); font-size: 0.88rem; color: var(--ink-soft);
-  background: var(--brass-soft);
-}
-
 .map-frame {
   aspect-ratio: 4/3; border: 1px solid var(--line); border-radius: var(--radius);
   overflow: hidden;

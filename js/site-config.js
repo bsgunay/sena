@@ -11,8 +11,11 @@ const SITE_CONFIG = {
   instagram: "https://www.instagram.com/velora_turkey",
   instagramHandle: "@velora_turkey",
 
-  // Bayilik logosu hazır olduğunda /images/logo.svg veya .png olarak
-  // ekleyin ve aşağıdaki satırı o dosya adıyla güncelleyin.
+  // ⚠️ ŞU AN BAĞLI DEĞİL. Bu değeri okuyan hiçbir kod yok (ölçüldü 06.09.2026) —
+  // buraya bir dosya adı yazmak tek başına hiçbir şey yapmaz. Üst bilgideki logo
+  // doğrudan index.html'de `images/logo-header.png` olarak duruyor.
+  // Bayilik logosu geldiğinde: ya bu anahtarı okuyan kodu yazın, ya da logoyu
+  // doğrudan sayfaya koyup bu satırı silin.
   logoPath: null,
 
   // Desteklenen diller ve görünecek etiketleri.
