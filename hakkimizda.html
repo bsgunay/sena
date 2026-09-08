@@ -39,15 +39,18 @@
 <main>
   <section>
     <div class="wrap">
-      <div style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:3rem;align-items:center;">
-        <div>
-          <p class="eyebrow" data-i18n="nav.about">Hakkımızda</p>
-          <h1 data-i18n="about.title">Hakkımızda</h1>
-          <div class="about-lede" id="about-paragraphs"></div>
-        </div>
-        <div class="hero-visual" style="aspect-ratio:4/3;">
-          <img src="images/about.svg" alt="">
-        </div>
+      <!-- 06.09: Yandaki görsel KALDIRILDI. `images/about.svg` gerçek bir görsel
+           değil, üzerinde "GÖRSEL YAKINDA" yazan bir yer tutucuydu; referans
+           siteden olduğu gibi kopyalandığı için kalmıştı (Gökşin).
+           Yerine başka görsel konmadı: ekip fotoğrafı yok, ürün fotoğrafı bu
+           sayfada rastgele durur, ana sayfadaki hero.jpg tekrara düşerdi.
+           Metin tek sütunda, 62ch okuma genişliğinde — satırlar çok uzayıp
+           göz kaymasın diye. Sayfanın devamında değerler kartları ve iletişim
+           şeridi zaten var, boş durmuyor. -->
+      <div style="max-width:62ch;">
+        <p class="eyebrow" data-i18n="nav.about">Hakkımızda</p>
+        <h1 data-i18n="about.title">Hakkımızda</h1>
+        <div class="about-lede" id="about-paragraphs"></div>
       </div>
     </div>
   </section>
