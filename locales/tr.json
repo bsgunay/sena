@@ -237,6 +237,17 @@
           "Vidalı veya yapıştırmalı montaj",
           "Gizlilik ve ışık dengesi"
         ]
+      },
+      "blackout": {
+        "name": "Blackout (Karartma) Plise Perde",
+        "summary": "Bal peteği yapısı ve alüminyum astarla tam karartma.",
+        "description": "Bal peteği kesitli, alüminyum astarlı karartma plise perde. Petek boşlukları hava yastığı oluşturduğu için ışığı keserken ısı yalıtımı da sağlar. Yatak odası ve gündüz uyunan alanlar için uygundur. Antrasit gri profille sunulur.",
+        "specs": [
+          "Bal peteği kesit",
+          "Alüminyum astarlı karartma kumaş",
+          "Isı yalıtımı sağlayan hava boşluğu",
+          "Antrasit gri profil"
+        ]
       }
     }
   },

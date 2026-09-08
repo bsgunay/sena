@@ -237,6 +237,17 @@
           "Pose par vis ou par adhésif",
           "Équilibre entre intimité et lumière"
         ]
+      },
+      "blackout": {
+        "name": "Store plissé occultant",
+        "summary": "Occultation totale grâce à la structure alvéolaire et à la doublure aluminium.",
+        "description": "Store plissé occultant à structure alvéolaire et doublure aluminium. Les poches d'air des alvéoles bloquent la lumière tout en assurant une isolation thermique. Convient aux chambres et aux pièces où l'on dort en journée. Livré avec un profilé gris anthracite.",
+        "specs": [
+          "Structure alvéolaire",
+          "Tissu occultant doublé aluminium",
+          "Poches d'air isolantes",
+          "Profilé gris anthracite"
+        ]
       }
     }
   },

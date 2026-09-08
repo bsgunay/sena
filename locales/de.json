@@ -237,6 +237,17 @@
           "Montage verschraubt oder geklebt",
           "Balance aus Sichtschutz und Lichteinfall"
         ]
+      },
+      "blackout": {
+        "name": "Verdunkelungs-Plissee",
+        "summary": "Vollständige Verdunkelung durch Wabenstruktur und Aluminiumbeschichtung.",
+        "description": "Verdunkelungs-Plissee mit Wabenquerschnitt und Aluminiumbeschichtung. Die Luftkammern in den Waben blockieren das Licht und sorgen zugleich für Wärmedämmung. Geeignet für Schlafzimmer und Räume, in denen tagsüber geschlafen wird. Wird mit anthrazitgrauem Profil geliefert.",
+        "specs": [
+          "Wabenquerschnitt",
+          "Aluminiumbeschichteter Verdunkelungsstoff",
+          "Isolierende Luftkammern",
+          "Anthrazitgraues Profil"
+        ]
       }
     }
   },

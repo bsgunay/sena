@@ -237,6 +237,17 @@
           "Screw or adhesive mounting",
           "Balance of privacy and light"
         ]
+      },
+      "blackout": {
+        "name": "Blackout Pleated Blind",
+        "summary": "Full blackout with a honeycomb structure and aluminium lining.",
+        "description": "Blackout pleated blind with a honeycomb cross-section and aluminium lining. The air pockets inside the cells block light while also providing thermal insulation. Suitable for bedrooms and rooms used for daytime sleeping. Supplied with an anthracite grey profile.",
+        "specs": [
+          "Honeycomb cross-section",
+          "Aluminium-lined blackout fabric",
+          "Insulating air pockets",
+          "Anthracite grey profile"
+        ]
       }
     }
   },

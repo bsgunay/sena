@@ -237,6 +237,17 @@
           "Montering med skruv eller tejp",
           "Balans mellan insynsskydd och ljus"
         ]
+      },
+      "blackout": {
+        "name": "Mörkläggande plisségardin",
+        "summary": "Fullständig mörkläggning med bikakestruktur och aluminiumfoder.",
+        "description": "Mörkläggande plisségardin med bikakestruktur och aluminiumfoder. Luftfickorna i cellerna blockerar ljuset och ger samtidigt värmeisolering. Passar för sovrum och rum där man sover dagtid. Levereras med antracitgrå profil.",
+        "specs": [
+          "Bikakestruktur",
+          "Mörkläggande tyg med aluminiumfoder",
+          "Isolerande luftfickor",
+          "Antracitgrå profil"
+        ]
       }
     }
   },

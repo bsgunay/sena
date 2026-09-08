@@ -94,9 +94,30 @@
       return varyantById[anahtar(modelId, kumasId, cerceveId)] || null;
     },
 
-    /* Kart listesi için temsilî görsel: modelin ilk varyantının çerçeve çekimi */
+    /* Kart listesi için temsilî görsel.
+       ⚠️ KATALOGDA HEPSİ AYNI RENK OLMALI (Gökşin, 06.09.2026): ürünler
+       sayfası bir karşılaştırma ızgarası; renkler farklı olunca göz renge
+       takılıyor, oysa orada anlatılan şey montaj sistemi farkı. Renk sabit
+       kalınca tek değişken sistem oluyor. Farklı renkler ürün ayrıntısında
+       zaten seçilebiliyor.
+
+       Eskiden "ilk varyant" alınıyordu ve sonuç rastgeleydi: vidalı bej,
+       yapıştırmalı MOR, ikisi açık gri, blackout krem.
+
+       Krem seçildi çünkü beş modeli en yakın buluşturan renk bu:
+         Krem 502 #DCDAC7  ↔  blackout Krem #EEDBBA   → fark 32/765
+         (Beyaz 01 ile blackout buz grisi eşleşmesi 88 fark ediyordu.)
+       Ayrıca krem, beyaz zeminde ürünün kenar hattını beyazdan iyi gösteriyor.
+       Blackout kendi kumaş serisini kullandığı için ortak kumaş YOK; liste
+       sırayla deneniyor, hiçbiri yoksa eski davranışa düşülüyor. */
     kapakGorseli(modelId) {
-      const v = V.varyantlar.find(x => x.model === modelId);
+      const KAPAK_TERCIHI = ['krem-502', 'bo-krem'];
+      let v = null;
+      for (const kumasId of KAPAK_TERCIHI) {
+        v = V.varyantlar.find(x => x.model === modelId && x.kumas === kumasId && x.gorseller.length);
+        if (v) break;
+      }
+      if (!v) v = V.varyantlar.find(x => x.model === modelId && x.gorseller.length);
       if (!v || !v.gorseller.length) return null;
       const g = cekimSirala(v.gorseller)[0];
       return gorselYolu(modelId, g.dosya);

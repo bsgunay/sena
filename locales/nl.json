@@ -237,6 +237,17 @@
           "Montage geschroefd of geplakt",
           "Balans tussen privacy en licht"
         ]
+      },
+      "blackout": {
+        "name": "Verduisterend plisségordijn",
+        "summary": "Volledige verduistering door honingraatstructuur en aluminium voering.",
+        "description": "Verduisterend plisségordijn met honingraatdoorsnede en aluminium voering. De luchtkamers in de cellen houden het licht tegen en zorgen tegelijk voor warmte-isolatie. Geschikt voor slaapkamers en ruimtes waar overdag geslapen wordt. Wordt geleverd met een antracietgrijs profiel.",
+        "specs": [
+          "Honingraatdoorsnede",
+          "Verduisterende stof met aluminium voering",
+          "Isolerende luchtkamers",
+          "Antracietgrijs profiel"
+        ]
       }
     }
   },
