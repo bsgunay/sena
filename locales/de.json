@@ -71,7 +71,12 @@
     "delivery_days": "7–10 Tage",
     "delivery_caption": "frei Haus",
     "delivery_title": "Lieferung in der Türkei und in ganz Europa",
-    "delivery_text": "Ob innerhalb der Türkei oder irgendwo in Europa: Bestellungen werden spätestens innerhalb von 10 Tagen bis vor die Tür des Händlers geliefert."
+    "delivery_text": "Ob innerhalb der Türkei oder irgendwo in Europa: Bestellungen werden spätestens innerhalb von 10 Tagen bis vor die Tür des Händlers geliefert.",
+    "countries_label": "Länder, in die wir regelmäßig liefern",
+    "country_nl": "Niederlande",
+    "country_fr": "Frankreich",
+    "country_be": "Belgien",
+    "country_de": "Deutschland"
   },
   "products": {
     "title": "Produkte",

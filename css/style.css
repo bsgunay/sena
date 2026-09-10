@@ -452,6 +452,28 @@ section { padding: clamp(2.75rem, 6vw, 4.5rem) 0; }
 .delivery-copy h2 { margin-bottom: 0.35rem; }
 .delivery-copy p { margin-bottom: 0; }
 
+/* ---------- Teslimat ülkeleri (11.09.2026) ----------
+   Bayraklar EMOJİ — ayrı görsel dosyası yok, her dilde aynı görünüyor.
+   Liste `flex-wrap` ile akıyor: dört kısa ad için dikey liste gereksiz yer
+   kaplıyordu, bu haliyle telefonda iki sütuna sarıyor. Ülke sayısı artarsa
+   kendiliğinden uyum sağlar, CSS'e dönmek gerekmez. */
+.delivery-countries { margin-top: 1rem; }
+.delivery-countries-label {
+  display: block; font-family: var(--font-mono); font-size: 0.72rem;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--ink-soft); margin-bottom: 0.5rem;
+}
+.country-list {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.15rem;
+}
+.country-list li {
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.95rem; color: var(--ink);
+}
+/* Emoji bayrağı gövde yazısıyla aynı boyutta silik kalıyordu, hafif büyütüldü. */
+.country-flag { font-size: 1.15rem; line-height: 1; }
+
 /* ---------- Bayilik butonu (üst çubukta, her sayfada) ----------
    Menünün İÇİNDE değil, yanında duruyor: telefonda menü hamburgerin arkasına
    kapandığında bile görünür kalsın diye. */

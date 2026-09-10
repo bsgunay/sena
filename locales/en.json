@@ -71,7 +71,12 @@
     "delivery_days": "7–10 days",
     "delivery_caption": "to your door",
     "delivery_title": "Delivery Across Türkiye and Europe",
-    "delivery_text": "Whether within Türkiye or anywhere in Europe, orders are delivered to the dealer's door within 10 days at the latest."
+    "delivery_text": "Whether within Türkiye or anywhere in Europe, orders are delivered to the dealer's door within 10 days at the latest.",
+    "countries_label": "Countries we deliver to regularly",
+    "country_nl": "Netherlands",
+    "country_fr": "France",
+    "country_be": "Belgium",
+    "country_de": "Germany"
   },
   "products": {
     "title": "Products",

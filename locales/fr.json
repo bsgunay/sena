@@ -71,7 +71,12 @@
     "delivery_days": "7 à 10 jours",
     "delivery_caption": "livraison à domicile",
     "delivery_title": "Livraison en Turquie et dans toute l'Europe",
-    "delivery_text": "Que ce soit en Turquie ou partout en Europe, les commandes sont livrées à la porte du revendeur sous 10 jours au plus tard."
+    "delivery_text": "Que ce soit en Turquie ou partout en Europe, les commandes sont livrées à la porte du revendeur sous 10 jours au plus tard.",
+    "countries_label": "Pays que nous livrons régulièrement",
+    "country_nl": "Pays-Bas",
+    "country_fr": "France",
+    "country_be": "Belgique",
+    "country_de": "Allemagne"
   },
   "products": {
     "title": "Produits",

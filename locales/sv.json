@@ -71,7 +71,12 @@
     "delivery_days": "7–10 dagar",
     "delivery_caption": "till dörren",
     "delivery_title": "Leverans i Turkiet och hela Europa",
-    "delivery_text": "Oavsett om det gäller Turkiet eller någon annanstans i Europa levereras beställningar till återförsäljarens dörr inom högst 10 dagar."
+    "delivery_text": "Oavsett om det gäller Turkiet eller någon annanstans i Europa levereras beställningar till återförsäljarens dörr inom högst 10 dagar.",
+    "countries_label": "Länder vi levererar till regelbundet",
+    "country_nl": "Nederländerna",
+    "country_fr": "Frankrike",
+    "country_be": "Belgien",
+    "country_de": "Tyskland"
   },
   "products": {
     "title": "Produkter",

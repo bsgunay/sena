@@ -71,7 +71,12 @@
     "delivery_days": "7–10 dagen",
     "delivery_caption": "tot aan de deur",
     "delivery_title": "Levering in Turkije en heel Europa",
-    "delivery_text": "Zowel binnen Turkije als overal in Europa worden bestellingen uiterlijk binnen 10 dagen tot aan de deur van de dealer geleverd."
+    "delivery_text": "Zowel binnen Turkije als overal in Europa worden bestellingen uiterlijk binnen 10 dagen tot aan de deur van de dealer geleverd.",
+    "countries_label": "Landen waar wij regelmatig leveren",
+    "country_nl": "Nederland",
+    "country_fr": "Frankrijk",
+    "country_be": "België",
+    "country_de": "Duitsland"
   },
   "products": {
     "title": "Producten",
