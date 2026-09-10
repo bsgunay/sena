@@ -54,8 +54,9 @@ NOTLAR-nerede-kaldik.md       → işin nerede kaldığı, kararlar, açık soru
    ⚠️ `logo-full.jpg` ve `logo-icon.png` **artık `site/` içinde değil** (10.09):
    hiçbir yerden çağrılmıyorlardı. `logo-full.jpg` sekme simgesinin kesildiği
    kaynak dosya, proje köküne taşındı; `logo-icon.png` silindi.
-   `js/site-config.js` içindeki `logoPath` hâlâ `null` ve **onu okuyan kod yok** —
-   ya bağlanmalı ya silinmeli.
+   ✅ `js/site-config.js` içindeki ölü `logoPath` ayarı **silindi** (10.09):
+   hiçbir kod okumuyordu. Yeni logo geldiğinde `images/logo-header.png`
+   dosyasının üzerine aynı adla yazmak yeterli, kod değişmiyor.
 3. ~~**Adres**~~ ✅ **YAPILDI (25.08).** Altı dilde de `contact.address`
    güncellendi (**Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul**),
    `contact.form_note` anahtarı altı dilden de kaldırıldı, harita Pendik'e alındı.

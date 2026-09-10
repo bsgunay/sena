@@ -11,12 +11,15 @@ const SITE_CONFIG = {
   instagram: "https://www.instagram.com/velora_turkey",
   instagramHandle: "@velora_turkey",
 
-  // ⚠️ ŞU AN BAĞLI DEĞİL. Bu değeri okuyan hiçbir kod yok (ölçüldü 06.09.2026) —
-  // buraya bir dosya adı yazmak tek başına hiçbir şey yapmaz. Üst bilgideki logo
-  // doğrudan index.html'de `images/logo-header.png` olarak duruyor.
-  // Bayilik logosu geldiğinde: ya bu anahtarı okuyan kodu yazın, ya da logoyu
-  // doğrudan sayfaya koyup bu satırı silin.
-  logoPath: null,
+  // 📌 LOGO BURADA DEĞİL — bilerek (10.09.2026'da `logoPath: null` silindi).
+  // Logo altı sayfanın da 25. satırında doğrudan duruyor:
+  //     <img src="images/logo-header.png" alt="Velora" class="brand-logo">
+  // Buraya taşınmadı çünkü kazancı yok: yeni logo geldiğinde dosyayı aynı adla
+  // (`images/logo-header.png`) üzerine yazmak yeterli, hiçbir kod değişmez.
+  // Ayara bağlansaydı logo ancak JavaScript çalıştıktan sonra görünürdü —
+  // sayfa açılırken üst bilgide bir an boşluk kalırdı.
+  // Bu dosyadaki ayarlar, METİN olarak birçok yerde geçen ve değişebilen
+  // şeyler içindir (telefon, e-posta, Instagram); bir görsel dosyası için değil.
 
   // Desteklenen diller ve görünecek etiketleri.
   // Yeni bir dil eklemek için: /locales/xx.json dosyası oluşturun,
