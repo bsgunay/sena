@@ -48,15 +48,23 @@ NOTLAR-nerede-kaldik.md       → işin nerede kaldığı, kararlar, açık soru
 ## Şu an placeholder / doldurulması gerekenler
 
 1. ~~**Firma adı**~~ ✅ Velora.
-2. **Logo** — `images/logo-header.png`, `logo-full.jpg`, `logo-icon.png` eklendi;
-   `js/site-config.js` içindeki `logoPath` hâlâ `null`, kontrol edilmeli.
-3. **Adres** — kesinleşti: **Yeşilbağlar Mahallesi 100 BLV. No:20 Pendik / İstanbul**.
-   Altı dil dosyasında da `contact.address` güncellenecek ve
-   `contact.form_note` içindeki "adres geçicidir" notu kaldırılacak. *(Henüz yapılmadı.)*
-6. **Güven & Sertifikalar bölümü** — şimdilik placeholder. Belge yok; referans
-   sitedeki ISO/CE/TSE rozetleri **kopyalanamaz**, onlar başka firmanın belgeleri.
-7. **Kargo / teslimat süreleri** — firma yeni kurulduğu için henüz belli değil.
-   Belli olana kadar **uydurulmayacak**, bölüm boş kalacak.
+2. **Logo** — kullanımdaki tek logo `images/logo-header.png`. Simgeler:
+   `favicon.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`
+   (son ikisi `site.webmanifest` üzerinden).
+   ⚠️ `logo-full.jpg` ve `logo-icon.png` **artık `site/` içinde değil** (10.09):
+   hiçbir yerden çağrılmıyorlardı. `logo-full.jpg` sekme simgesinin kesildiği
+   kaynak dosya, proje köküne taşındı; `logo-icon.png` silindi.
+   `js/site-config.js` içindeki `logoPath` hâlâ `null` ve **onu okuyan kod yok** —
+   ya bağlanmalı ya silinmeli.
+3. ~~**Adres**~~ ✅ **YAPILDI (25.08).** Altı dilde de `contact.address`
+   güncellendi (**Yeşilbağlar Mahallesi, 100. Blv. No:20, Pendik / İstanbul**),
+   `contact.form_note` anahtarı altı dilden de kaldırıldı, harita Pendik'e alındı.
+6. ~~**Güven & Sertifikalar bölümü**~~ ❌ **İPTAL (25.08).** Kardeşinin kararı:
+   *"belge koyulmayacak."* Bölüm sitede hiç olmayacak; belge de beklenmiyor.
+7. **Kargo / teslimat süreleri** — hangi ülkeye kaç günde teslimat bilgisi hâlâ
+   kardeşinden bekleniyor. **Kardeşinde bekleyen tek şey bu.**
+   Gelene kadar **uydurulmayacak**. (Ana sayfada genel "7–10 gün" şeridi var;
+   eksik olan ülke ülke kapsama listesi.)
 8. **Blackout Plise Perde** — 36 görseli var ama dosya adlarında kumaş/çerçeve
    bilgisi yok (`whatsapp-image-...`). Varyant seçici kurulamıyor; kumaş listesi
    gelince elle eşlenecek. O zamana kadar kenarda.
